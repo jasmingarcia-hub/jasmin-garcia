@@ -1,0 +1,14 @@
+# macOS system files
+.DS_Store
+
+# Microsoft Office temporary files
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment and secret files
+.env
