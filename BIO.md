@@ -7,3 +7,5 @@ I am pursuing an Executive MBA to expand my expertise beyond clinical dentistry 
 My current interests include artificial intelligence in dentistry, dental workforce shortages and access to specialty care, private equity and DSO consolidation, globalization of dental services, dental tourism, and the effects of geopolitical events on healthcare supply chains. I am especially interested in understanding how these trends affect independent practitioners, patients, and the future delivery of specialty dental care.
 
 My goal is to combine my clinical expertise and leadership experience with business knowledge to identify opportunities for innovation, entrepreneurship, and meaningful improvement in healthcare delivery.
+
+Drafted with help from ChatGPT (OpenAI, 2026); reviewed and edited by me.
