@@ -1,4 +1,4 @@
-# Jasmin Garcia, DMD
+# Jasmin Garcia, DMD, FICD
 
 **Board-Certified Endodontist | U.S. Army Veteran | Executive MBA Candidate | Healthcare Leader**
 
@@ -30,13 +30,16 @@ Board-certified endodontist, U.S. Army veteran, and Executive MBA candidate at t
 
 Focus: Economics • Finance • Strategy • Entrepreneurship • Leadership • Data-Driven Decision-Making
 
+ 
+### U.S. Army Fort Bragg Endodontic Residency Program
+Advanced specialty training in **Endodontics** 
 
-### Advanced specialty training in **Endodontics** from U.S. Army Fort Bragg Endodontic Residency Program
+### University of Pittsburgh School of Dental Medicine 
+**Doctor of Dental Medicine (DMD)**   
 
-### Doctor of Dental Medicine (DMD) from the University of Pittsburgh School of Dental Medicine
-
-### Bachelor of Arts (BA) from Cornell University in Psychology
-**Undergraduate Education**
+ 
+### Cornell University in Psychology
+**Bachelor of Arts (BA) in Psychology**
 
 ## Professional Credentials & Leadership
 
