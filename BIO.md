@@ -8,4 +8,6 @@ My current interests include artificial intelligence in dentistry, dental workfo
 
 My goal is to combine my clinical expertise and leadership experience with business knowledge to identify opportunities for innovation, entrepreneurship, and meaningful improvement in healthcare delivery.
 
-Drafted with help from ChatGPT (OpenAI, 2026); reviewed and edited by me.
+---
+
+*Drafted with help from ChatGPT (OpenAI, 2026); reviewed and edited by me.*
