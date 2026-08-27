@@ -41,3 +41,7 @@ When assisting with an assignment:
 - When providing code or formulas, explain what they do.
 - Use descriptive file names and maintain an organized repository.
 - Preserve reproducibility so that another person can understand how an analysis was performed.
+
+---
+
+*Drafted with help from ChatGPT (OpenAI, 2026); reviewed and edited by me.*
