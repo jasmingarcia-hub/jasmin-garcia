@@ -1,61 +1,92 @@
-# Jasmin Garcia, DMD
+# Jasmin Garcia, DMD, FDIC
 
 **Board-Certified Endodontist | U.S. Army Veteran | Executive MBA Candidate**
 
-Mililani, Hawaiʻi
+jasmin.garcia.dmd@gmail.com Mililani, Hawaiʻi
 
-## Professional Experience
+---
+## EDUCATION
 
-### U.S. Army Dental Corps
-**Endodontist / Dental Officer (Lieutenant Colonel)**  
-Fort Shafter, Hawai'i |
-Schofield Barracks, Hawaiʻi |
-Pulaski Barracks, Germany |
-Fort Sill, Oklahoma |
-Fort Bragg, North Carolina |
-Fort Meade, Maryland | 2007-2026
-
-- Provided advanced endodontic specialty care while serving in clinical, academic, and organizational leadership roles within the U.S. Army Dental Corps.
-- Led complex dental healthcare operations, including serving as Officer in Charge of a 42-chair dental clinic during the COVID-19 pandemic, with responsibility for personnel, resources, readiness, and patient care.
-- Educated and mentored military dentists through postgraduate dental education, professional lectures, and clinical mentorship, including six years as an endodontic mentor for different U.S. Army Advanced Education in General Dentistry residency programs.
-
-## Education
-
-### University of Hawaiʻi at Mānoa
+### University of Hawaiʻi at Mānoa, Shidler College of Business 
 **Executive MBA Candidate**
-
-Honolulu, Hawaiʻi | 2026–Present
-
+- Distance Learning Executive MBA (DLEMBA) - 2026–Present
+- Graduate study in economics, accounting, finance, strategy, leadership, entrepreneurship, and data-driven decision-making
 - Developing advanced business expertise in economics, finance, strategy, leadership, entrepreneurship, and data-driven decision-making.
 - Applying business concepts to healthcare delivery, dental practice ownership, innovation, and the changing economics of dentistry.
 
 ### U.S. Army Fort Bragg Endodontic Residency Program
-Advanced specialty training in **Endodontics** 
+Advanced specialty training in **Endodontics** - Fort Bragg, NC
 
 - Completed advanced postgraduate training in the diagnosis and treatment of pulpal and periapical disease and complex endodontic care.
 - Subsequently achieved board certification through the American Board of Endodontics.
 
 ### University of Pittsburgh School of Dental Medicine 
-**Doctor of Dental Medicine (DMD)**   
-
-- Completed professional dental education followed by advanced specialty training in endodontics.
-- American Student Dental Association Class Secretary
+**Doctor of Dental Medicine (DMD)** — Pittsburgh, PA  
 
 ### Cornell University
-**Bachelor of Arts (BA) in Psychology**
-Ithaca, New York
+**Bachelor of Arts (BA) in Psychology** - Ithaca, New York
 
+## PROFESSIONAL EXPERIENCE
 
-## Board Certification & Professional Recognition
+**United States Army Dental Corps**, *Endodontist & Dental Officer* — Various Locations — 2007–2026  
+- Served nearly 19 years on active duty as a U.S. Army Dental Corps officer, culminating at the rank of Lieutenant Colonel (O-5)
+- Provided advanced endodontic specialty care while serving in clinical, operational, academic, and organizational leadership roles
+- Led and managed personnel, resources, clinical operations, and patient care within complex military healthcare environments
+- Served as Officer in Charge of a 42-chair dental clinic during the COVID-19 pandemic, overseeing clinical operations and organizational readiness
 
-- **Diplomate, American Board of Endodontics**
-- **Fellow, International College of Dentists**
-- Retired U.S. Army Dental Corps Officer, **Lieutenant Colonel**
-- Clinical educator and mentor in postgraduate dental education
+- Delivered professional education through Tri-Service lectures and other military dental training activities internationally to include Germany and Thailand
+- Supported global health engagement activities
+- Served approximately 15 years in recruiting and professional outreach roles supporting Army dentistry
 
-## Professional Interests
+**United States Army Dental Corps**, *Endodontic Mentor / Educator* — Hawaiʻi  
+- Mentored general dentists and residents in endodontic diagnosis, treatment planning, clinical decision-making, and specialty procedures
+- Mentored and trained dentists as an Endodontic Mentor for the Army's two-year Advanced Education in General Dentistry (AEGD-2) residency program (Schofield Barracks, HI) and as the Assistant Program Director and Endodontic Mentor for the Comanche AEGD-1 residency program (Fort Sill, OK)
+- Contributed to professional education across military dental services through lectures, mentorship, and interdisciplinary collaboration
 
-Healthcare Strategy • Dental Practice Ownership • Entrepreneurship • Artificial Intelligence in Dentistry • Healthcare Economics • Dental Workforce & Access to Care • DSO and Private Equity Consolidation • Global Healthcare Supply Chains
+## LEADERSHIP EXPERIENCE
+
+**U.S. Army Dental Clinic**, *Officer in Charge* — Hawaiʻi and Germany  
+- Led operations of a 42-chair military dental clinic during the COVID-19 pandemic
+- Managed personnel, clinical resources, operational requirements, and continuity of patient care during a period of significant healthcare disruption
+- Balanced organizational readiness, workforce needs, patient access, and changing public-health requirements
+
+**U.S. Army Dental Corps**, *Clinical Leader, Educator & Mentor* — Various Locations  
+- Mentored military dentists and contributed to the professional development of dental officers and residents
+- Served in leadership roles spanning clinical dentistry, education, recruiting, and healthcare operations
+- Participated in global health engagement and collaborative military healthcare initiatives
+
+**Area of Operations O'ahu**, *Military Liaison*  
+- Served as a liaison supporting professional collaboration and education within the military medical and dental communities on the island
+- Facilitated connections between military clinicians and continuing professional education
+
+---
+
+## PROFESSIONAL CREDENTIALS, HONORS AND AWARDS
+
+**American Board of Endodontics**, *Board-Certified Endodontist*  
+- Achieved board certification in endodontics, demonstrating advanced specialty knowledge, clinical expertise, and commitment to professional standards
+
+**International College of Dentists**, *Fellow (FICD)*  
+- Recognized as a Fellow of the International College of Dentists
+
+**United States Army**, *Lieutenant Colonel (O-5)*  
+- Served as a U.S. Army Dental Corps officer and board-certified endodontist, culminating at the rank of Lieutenant Colonel (O-5)
+
+---
+
+## SKILLS AND INTERESTS
+
+**Clinical Expertise:** Endodontics | Dental Diagnosis | Treatment Planning | Microscope-Assisted Dentistry | Specialty Dental Care
+
+**Leadership:** Healthcare Operations | Team Leadership | Personnel Management | Mentoring | Professional Education | Military Leadership
+
+**Business:** Economics | Strategy | Healthcare Management | Entrepreneurship | Practice Ownership | Financial Analysis
+
+**Technology & Research Interests:** Artificial Intelligence in Dentistry | Data-Driven Decision-Making | Healthcare Technology | GitHub | AI-Assisted Research
+
+**Industry Interests:** Healthcare Strategy | Healthcare Economics | Dental Practice Ownership | Dental Workforce & Access to Care | Dental Service Organizations (DSOs) | Private Equity in Dentistry | Artificial Intelligence in DentistryDental Tourism | Global Healthcare Supply Chains | Geopolitical Risk | Entrepreneurship  
+
+**Personal Interests:** Health and Fitness | International Travel | Food Tasting | Family Time
 
 ---
 
