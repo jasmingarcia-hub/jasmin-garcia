@@ -17,14 +17,14 @@ The market is the one that sets the price and the only decision the farmer gets 
 What is fixed:
 - Season: 36 weeks
 - Fixed costs: $20,000 for the season
-- Number of plots: 64 beds (16 x 4 plots) or fewer
+- Number of plots: 64 beds (4 plots each with 16 available beds)
 - Max number of crop beds: Tomatoes 20, Carrots 20, Mesclun 30
 - Price per bed for each crop ($8800, $2094, $2700)
 - Labor hours per bed per week for each crop (2.5, 0.833, 1.25)
 - Fertilizer cost per bed for each crop ($880, $440, $880)
 - Diminishing returns rate per crop (10%, 2.5%, 1.25%)
 - Farmer's labor: 720 field hours, part of her fixed $50,000 salary
-- Temporary worker labor: $25,000 per worker for less than or equal to 1,440 hours, up to 4 workers, after using all labor hours allowed
+- Temporary worker labor: $25,000 per worker for less than or equal to 1,440 hours, up to 4 workers, after using the farmer's 720 field hours
 
 What is chosen:
 - How many beds of tomatoes to plant
@@ -33,9 +33,9 @@ What is chosen:
 - How many temporary workers to hire (0-4)
 
 What limits the choice:
-- Bed totals: 64 total
+- Bed totals: 64 or fewer
 - Maximum crop beds: Tomatoes 20, Carrots 20, Mesclun 30
-- Labor: total hours required must be less than the total number of hours available
+- Labor: total hours required must be less than or equal to available hours
 - Cannot plant a negative number of beds and must be whole numbers
 - Farmer pays the full $25,000 for temporary work labor regardless of number of hours (up to 1,440), the number of workers is related to the bed-mix choice
 
