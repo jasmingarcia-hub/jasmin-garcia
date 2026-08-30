@@ -38,7 +38,11 @@ Every input gets a name, a value, a unit, and a source. You choose the names.
 The requirement is that they exist and are used consistently below.
 
 ## Structure
-Each sheet or region, and what it is for.
+Each region
+Inputs, Cost Structure
+Marginal-Cost Schedules
+Optimization 
+Checks
 
 ## Calculation logic
 In named-range notation, never cell addresses:
@@ -48,18 +52,34 @@ In named-range notation, never cell addresses:
 "Column D times column E" is not a specification — it describes a spreadsheet
 that does not exist yet.
 
+The supplied labor formula means that the diminishing-return multiplier applies to all beds of that crop at quantity q. Marginal cost means the change in total cost when production increases from q − 1 to q. Specify the revenue, labor, fertilizer, total-cost, and profit calculations without cell addresses.
+
 ## Conventions
 The rules that are not visible in the formulas: costing order, allocation basis,
 rounding, what happens at the boundaries. State all of them. A convention you
 leave out is a convention the builder invents.
+
+64 beds is a maximum, not a requirement to plant all 64.
+Bed counts must be nonnegative whole numbers.
+The farmer’s 720 field hours are used before temporary-worker hours.
+The case requires labor allocation at a blended rate.
+Explain rounding and how zero production is handled.
+
+Your brief also assumes whole temporary-worker salaries are paid. Make sure that treatment matches the detailed Stage 2 instructions; it affects profit materially.
 
 ## Validation rules
 The conditions the finished artifact must satisfy — check figures as acceptance
 criteria, hand calculations, and structural rules ("every calculated cell
 contains a formula", "no error cells").
 
+TOM_LABOR_HRS(1) = 1 × 2.5 × 36 × 1.10 = 99 hours
+
+Also require every calculated cell to contain a formula, no spreadsheet error cells, and compliance with all capacity limits. Add the instructor’s complete Stage 2 check figures—the section referenced as “below” was missing from your paste.
+
 ## Outputs
 Each result the model reports, by name.
+
+Identify the results needed: crop quantities, workers required, labor usage, revenue, costs, profit, marginal costs, and unused capacity. Leave Audit findings empty until you actually build and check the workbook.
 
 ## Audit findings
 Added AFTER the build. For each check: what you checked, what you found, what
