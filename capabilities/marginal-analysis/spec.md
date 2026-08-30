@@ -7,32 +7,37 @@ status: draft            # draft | built | audited
 built_with: "not built yet"
 ---
 
-# <Capability> — model specification
+# <Marginal Analysis> — model specification
 
 ## Purpose
-Farmer decided to plant 20 beds of tomatoes, 30 beds of carrots and 20 beds of mesclun for the season. We are trying to determine if this is the best or optimal number of beds of each produce given a number of constraints. These constraints include diminishing-returns % compounds and how many hours are worked by temporary workers.
+Farmer decided to plant 14 beds of tomatoes, 20 beds of carrots and 30 beds of mesclun for the season. We are trying to determine if this is the best or optimal number of beds of each produce given a number of constraints. These constraints include diminishing-returns % compounds and how many hours are worked by temporary workers.
 
 ## Inputs — the named contract
 | Name | Value | Unit | Source |
 |---|---|---|---|
 | `TOM_MAX_BEDS`   | 20  | tomato beds  | Case scenario, crop table |
-| `TOM_PRICE` | 8800 | USD per bed | Case scenario, crop table |
+| `TOM_PRICE` | $8800 | USD per bed | Case scenario, crop table |
 | `TOM_HRS_PER_BED`   | 2.5  | hours per week per bed | Case scenario, crop table |
 | `TOM_FERT`   | 880  | USD per bed  | Case scenario, crop table |
-| `TOM_DIM_RET`   | 10  | Labor-increase rate per additional tomato bed  | Case scenario, crop table |
-| `WEEKS`   | 36  | weeks per season | Case scenario, crop table |
+| `TOM_DIM_RET`   | 10%  | Labor-increase rate per additional tomato bed  | Case scenario, crop table |
 | `CAR_MAX_BEDS`   | 20  | tomato beds  | Case scenario, crop table |
-| `CAR_PRICE` | 2094 | USD per bed | Case scenario, crop table |
+| `CAR_PRICE` | $2094 | USD per bed | Case scenario, crop table |
 | `CAR_HRS_PER_BED`   | 0.833  | hours per week per bed | Case scenario, crop table |
 | `CAR_FERT`   | 440  | USD per bed  | Case scenario, crop table |
-| `CAR_DIM_RET`   | 2.5  | Labor-increase rate per additional tomato bed  | Case scenario, crop table |
-| `WEEKS`   | 36  | weeks per season | Case scenario, crop table |
+| `CAR_DIM_RET`   | 2.5%  | Labor-increase rate per additional tomato bed  | Case scenario, crop table |
 | `MES_MAX_BEDS`   | 30  | tomato beds  | Case scenario, crop table |
-| `MES_PRICE` | 2700 | USD per bed | Case scenario, crop table |
+| `MES_PRICE` | $2700 | USD per bed | Case scenario, crop table |
 | `MES_HRS_PER_BED`   | 1.25  | hours per week per bed | Case scenario, crop table |
-| `MES_FERT`   | 880  | USD per bed  | Case scenario, crop table |
-| `MES_DIM_RET`   | 1.25  | Labor-increase rate per additional tomato bed  | Case scenario, crop table |
+| `MES_FERT`   | $880  | USD per bed  | Case scenario, crop table |
+| `MES_DIM_RET`   | 1.25%  | Labor-increase rate per additional tomato bed  | Case scenario, crop table |
 | `WEEKS`   | 36  | weeks per season | Case scenario, crop table |
+| `TOT_BED_CAP`   | 64  | beds | Case scenario, crop table |
+| `FIX_SEAS_COST`   | $20,000  | US dollars | Case scenario, crop table |
+| `FARM_SEAS_SAL`   | $50, 000  | US dollars | Case scenario, crop table |
+| `FARM_AVAIL_HRS`   | 720  | hours | Case scenario, crop table |
+| `TEMP_WORK_SEAS_SAL`   | $25,000  | US dollars per worker | Case scenario, crop table |
+| `TEMP_WORK CAP`   | 1,400  | hours per worker | Case scenario, crop table |
+| `MAX_TEMP_WORK`   | 4  | persons | Case scenario, crop table |
 
 Every input gets a name, a value, a unit, and a source. You choose the names.
 The requirement is that they exist and are used consistently below.
@@ -47,7 +52,7 @@ Checks
 ## Calculation logic
 In named-range notation, never cell addresses:
 
-  LABOR_HRS(q) = q x HRS_PER_BED x WEEKS x (1 + DIM_PCT)^q
+TOM_LABOR_HRS(q) = q × TOM_HRS_PER_BED × WEEKS × (1 + TOM_DIM_RET)^q
 
 "Column D times column E" is not a specification — it describes a spreadsheet
 that does not exist yet.
