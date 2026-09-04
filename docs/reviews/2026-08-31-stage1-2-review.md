@@ -1,19 +1,16 @@
-<!-- PR TARGET: https://github.com/jasmingarcia-hub/jasmin-garcia | Stage 1.2 (8 pts) -->
+<!-- PR TARGET: https://github.com/jasmingarcia-hub/jasmin-garcia | Stage 1.2 -->
 # Stage 1.2 review — spec, build, audit
-
-**Spec-side 34 out of 62.5 — held, not entered. The stage is not due until 6 September and this is a first draft, which is the right thing to have right now.**
 
 **Spec:** [`capabilities/marginal-analysis/spec.md`](https://github.com/jasmingarcia-hub/jasmin-garcia/blob/main/capabilities/marginal-analysis/spec.md)
 
 > Graded 2026-08-31, first pass. There is a real specification started here with the right bones in it. You also flagged one thing as unresolved rather than guessing at it, which was the correct call — the answer is in the second section below.
 
-| Criterion | Earned | Notes |
-|---|---|---|
-| Spec completeness — inputs, structure, calculation flow | 22 / 37.5 | The input contract is nearly complete — 24 named inputs with values, units, and sources, which is more than most first drafts carry — and the structure table names each region and what it is for. The labor function is written in named-range notation with the exponent on q, correctly, and the conventions section states the three rules that matter: 64 beds is a maximum rather than a requirement, bed counts are non-negative whole numbers, and the farmer's 720 field hours are used before temporary-worker hours. The deductions are for what is still template text and three errors — details below. |
-| Spec validation rules | 12 / 25 | The q = 1 tomato anchor is there and correct at 99 hours, and you require every calculated cell to contain a formula, no error cells, and compliance with all capacity limits. What is missing is the acceptance criteria as testable rows: the published check figures are referred to rather than written down, none of them carries a tolerance, there is no second labor anchor, and the two Solver starting points are not specified. A validation rule a builder cannot mechanically check is a hope. |
-| Workbook satisfies the contract | 0 / 25 | No workbook yet, and none was due at this point in the stage. |
-| Audit note | 0 / 12.5 | Correctly marked "Pending — workbook has not been built or audited." That is the right state and the right way to say so. |
-| **Spec-side subtotal** | **34 / 62.5** | the part that can be earned before a workbook exists |
+| Criterion | Where it stands |
+|---|---|
+| Spec completeness — inputs, structure, calculation flow | The input contract is nearly complete — 24 named inputs with values, units, and sources, which is more than most first drafts carry — and the structure table names each region and what it is for. The labor function is written in named-range notation with the exponent on q, correctly, and the conventions section states the three rules that matter: 64 beds is a maximum rather than a requirement, bed counts are non-negative whole numbers, and the farmer's 720 field hours are used before temporary-worker hours. The deductions are for what is still template text and three errors — details below. |
+| Spec validation rules | The q = 1 tomato anchor is there and correct at 99 hours, and you require every calculated cell to contain a formula, no error cells, and compliance with all capacity limits. What is missing is the acceptance criteria as testable rows: the published check figures are referred to rather than written down, none of them carries a tolerance, there is no second labor anchor, and the two Solver starting points are not specified. A validation rule a builder cannot mechanically check is a hope. |
+| Workbook satisfies the contract | No workbook yet, and none was due at this point in the stage. |
+| Audit note | Correctly marked "Pending — workbook has not been built or audited." That is the right state and the right way to say so. |
 
 ### The answer to what you flagged
 
@@ -55,11 +52,11 @@ Rewrite it as the question: determine the profit-maximizing number of beds of ea
 
 ### A note on the point value, new as of today
 
-This stage is now worth **15 points** rather than the 8 in the stage brief, and **Stage 1.3** — the analysis, the memo, and the prompt log — is now worth **15** as well. Cases 2 and 3 have been dropped for this cohort, so Case 1 *is* the case.
+This stage is now worth real marks rather than the 8 in the stage brief, and Stage 1.3 — the analysis, the memo, and the prompt log — is now worth 15 as well. That is because Cases 2 and 3 have been dropped for this cohort, so Case 1 is the case.
 
-In practice: this stage and the next one are together worth **30 of the 35 points** on the case. Stage 0 and Stage 1.1 are 2.5 each. The weight has moved onto the build and the analysis, which is where the work actually is.
+What that means in practice: this stage and the next one are together worth 30 of the 35 points on the case. Stage 0 and Stage 1.1 are 2.5 each. The weight has moved onto the build and the analysis, which is where the work actually is.
 
-Nothing about the grading changes — the score is still out of 100 and converted at the end. The stage brief and the case page still show the old numbers; they have not been updated yet.
+Nothing about the grading changes — the scoring is unchanged and is converted at the end. The stage brief and the case page still show the old numbers; they have not been updated yet.
 
 ---
 
@@ -68,10 +65,10 @@ Nothing about the grading changes — the score is still out of 100 and converte
 Treat this PR the way an analyst treats feedback from a senior reviewer — a review is a proposal to engage with, not a checklist to rubber-stamp.
 
 1. **Read it yourself first.** Form your own view before you change anything. Disagreeing *with a documented reason* is a legitimate, senior response.
-2. **Stress-test it with an LLM.** Paste this review and your spec into your assistant and ask it to (a) explain anything you are unsure of, and (b) argue the *other side* — where might the reviewer be wrong, and what would you give up by making each change.
-3. **Then correct the spec, not the workbook.** This is the rule that makes the stage work: when a check fails, you fix the specification and regenerate, so the document keeps describing what was actually built.
+2. **Stress-test it with an LLM.** Paste this review and your spec into your assistant and ask it to (a) explain anything you are unsure of, and (b) argue the *other side*.
+3. **Then correct the spec, not the workbook.** When a check fails, you fix the specification and regenerate, so the document keeps describing what was actually built.
 4. **Close the loop.** Reply in this thread with what you changed and what you pushed back on, then commit and push.
 
-*Nothing here is final. Stage 1.2 is not due until 6 September, and the stage is re-graded from scratch at the deadline.*
+*Your score and the per-criterion breakdown are in your Lamaku comment, not here — this repository is public.*
 
 — Adam
