@@ -53,6 +53,8 @@ If I had more time and information, I would want to evaluate how the optimal cro
 
 I expect the optimal crop mix to be 14 tomato beds, 20 carrot beds, and 30 mesclun beds. I expect carrots and mesclun to reach their maximum number of beds because they have lower labor requirements and lower diminishing-returns rates than tomatoes. I expect tomatoes to make up the remaining 14 beds because their much higher revenue per bed will outweigh their higher labor requirements and faster diminishing returns up to that point.
 
+Checking this arithmetically: bed 14's marginal labor requirement is approximately 746 hours (using the case's labor formula, Total(q) = q × hrs/week/bed × 36 weeks × (1 + dim%)^q), which costs between $12,950 and $25,890 depending on which labor rate applies at that margin — well above the $8,800 price even before fertilizer cost. This suggests my stated cutoff of bed 14 may be too high, and the true crossover point is likely lower. I'm leaving my Stage 1 hypothesis unchanged per the standing rule against revising it before the model runs, but flagging this tension is more honest than leaving the argument purely comparative.
+
 ## How I would know I was wrong
 
 My hypothesis rests on three separable claims, each with its own falsification condition:
