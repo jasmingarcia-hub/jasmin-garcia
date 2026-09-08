@@ -55,4 +55,10 @@ I expect the optimal crop mix to be 14 tomato beds, 20 carrot beds, and 30 mescl
 
 ## How I would know I was wrong
 
-My hypothesis would be falsified if the analysis shows that a different combination of tomato, carrot, and mesclun beds produces a higher profit than my predicted mix of 14 tomato beds, 20 carrot beds, and 30 mesclun beds.
+My hypothesis rests on three separable claims, each with its own falsification condition:
+
+Claim 1 — carrots and mesclun run to their caps. If the model returns fewer than 20 carrot beds or fewer than 30 mesclun beds, this is falsified: something other than the stated cap is binding, and my labor-penalty reasoning for these two crops is wrong.
+
+Claim 2 — tomatoes settle at roughly 14 beds because that is where the revenue advantage stops outweighing the compounding labor penalty. If the model returns tomato beds outside the range 9–18, this is falsified. Below 9, I badly overestimated how long tomatoes' revenue advantage holds against their diminishing returns; above 18, I badly underestimated it. I've set this band wider than a point estimate because the diminishing-returns term compounds exponentially, and the labor-costing convention (farmer's hours vs. temp-worker hours) — which I flagged as unresolved in my Stage 1.2 spec — could shift the true crossover meaningfully in either direction.
+
+Claim 3 — all 64 beds get planted. If any bed is left empty in the optimal solution, this is falsified: it means leaving that bed idle beats planting anything in it, a qualitatively different result than a mix among the three crops.
