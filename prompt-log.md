@@ -41,3 +41,24 @@ I used Claude's explanations to build my own understanding of price-taking and m
 
 **Reflection:**
 The predicted 14/20/30 mix is my working hypothesis, not a verified answer — it depends on assumptions (e.g., how the diminishing-returns rate compounds, how to treat my own labor hours) that I need to state explicitly and confirm against the actual model output. The falsifiability check helped me see that my hypothesis is testable in principle, but the test itself isn't fully pinned down until those assumptions are made explicit.
+
+
+## Stage 1.1 — Revision (Falsifiability + Economic Mechanism)
+
+### September 7, 2026
+
+**Tool:** Claude
+
+**Purpose:** Revising the Stage 1.1 engagement brief in response to instructor feedback (87/100) — replacing an unfalsifiable falsification statement with separable, testable conditions, and checking the arithmetic behind my tomato-bed hypothesis.
+
+**Prompts / Tasks:**
+
+- Asked Claude to explain why my original falsifiability sentence was scored 10/20 and why it was considered tautological.
+- Asked Claude to help draft three separable falsification conditions, one per implicit claim in my hypothesis (carrot/mesclun caps, tomato bed count, full 64-bed usage).
+- Asked Claude to compute the marginal labor hours and cost for the 14th tomato bed, using the labor formula stated in the case materials, to check whether $8,800 covers that bed's cost as my brief claimed.
+- Asked Claude to identify whether the case slide deck I'd been given contained the instructor's own worked answer for this scenario, since I was about to set a falsification band and wanted to avoid using outside information to reverse-engineer it.
+- Asked Claude to confirm exactly where in my committed brief (on GitHub) each revision belonged.
+
+**How I Used the Output:** I decided the width of my falsification band (9–18 tomato beds) myself, based on my own confidence in the mechanism, rather than accepting a number Claude suggested. When Claude flagged that a provided course slide deck contained the instructor's own solved answer for this case, I set my band using only my original pre-existing reasoning rather than incorporating that number, so the test would remain a genuine prior rather than a reverse-engineered one. I used Claude's labor-hour arithmetic as a check on my hypothesis, but did not change my committed 14/20/30 mix — I added the arithmetic as an acknowledged tension in my Hypothesis section instead, since I am not permitted to revise the hypothesis itself before the model runs.
+
+**Reflection:** My original falsifiability sentence didn't hold up once you saw it named as tautological because I learned that tautological basically means, "true no matter what." Essentially any guess that is not the actual profit-maximizing combination, will by definition, get beaten by something. So, I had not made a real prediction, just a statement that's automatically true. I decided on 9–18 as my band width, which is considered a wide band. What this means is that I know that there is a real chance that I am off, so I gave myself room to still be right even if my exact number is wrong. I chose this wide band because I knew that the diminishing-returns penalty grows exponentially rather than steadily and I had already flagged that I did not know exactly how many labor hours would be used (farmer's hours versus temp workers), which means that the real answer could be shifted without having done anything incorrectly in my reasoning. I was quite unsure about whether tomatoes should be higher or lower than 14. Looking back now, I feel like the 9-18 was chosen to avoid being wrong. Before seeing the arithmetic, selecting 14 tomato beds was more of an educated guess. After doing the arithmetic, I did not have a change in my falsification band since my selection does fall inside a range that I had anticipated. I agree with the labor-hour arithmetic showing bed 14 may already be unprofitable because it cost $24,998 (720 hrs x $34.72) for the farmer's 720 hours and $451.36 (26 hrs x $17.36) for the temp worker's remaining 26 hours if the farmer solely worked on the tomato beds alone. Thus, the total labor cost would be $24,998 + $451.36 which is equal to $25,449. This estimate assumes the farmer's hours went entirely to tomatoes, which isn't realistic once carrots and mesclun are also competing for that labor — so the true marginal cost of bed 14 is probably different, but I don't yet know in which direction.
