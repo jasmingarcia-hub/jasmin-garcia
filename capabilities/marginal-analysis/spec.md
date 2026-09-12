@@ -162,12 +162,15 @@ criteria, hand calculations, and structural rules.
 - Both runs must converge to the same optimal bed counts; note any
   path-dependence if they do not.
 
-**Overall result checks:**
-- Solver output matches the instructor's published check figures
-  (to be confirmed against the course's official check-figure page — the
-  values above come from case orientation materials and should be verified
-  against whatever Kumu/stage-page figures Adam references directly, in case
-  they differ or are more precise).
+**Acceptance criteria (published check figures):**
+
+| Check | Value | Tolerance |
+|---|---|---|
+| Optimal mix | 10 tomato / 20 carrot / 30 mesclun beds (60 total) | exact |
+| Season profit | $42,762 | ± $5 |
+| Standalone P ≈ MC crossing — tomatoes | ≈ 10 beds | ± 1 bed |
+| Standalone P ≈ MC crossing — carrots | ≈ 10 beds | ± 1 bed |
+| Standalone P ≈ MC crossing — mesclun | ≈ 6 beds | ± 1 bed |
 
 ## Outputs
 Each result the model reports, by name.
