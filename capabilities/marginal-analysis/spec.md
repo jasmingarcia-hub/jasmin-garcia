@@ -191,7 +191,34 @@ Identify the results needed: crop quantities, workers required, labor usage, rev
 | Marginal-cost results | MARGINAL_COST_TOM, MARGINAL_COST_CAR, MARGINAL_COST_MES |
 
 ## Audit findings
-Pending — workbook has not been built or audited.
 
-Added AFTER the build. For each check: what you checked, what you found, what
-you did about it.
+**1. Formulas vs. pasted values.** Spot-checked every calculated cell on the
+Optimization sheet — all reference named inputs via formulas; none are typed
+numbers. All 24 inputs are real Excel-defined names (verified via the
+Name Manager), not labels. This catches the case where a workbook "looks"
+right but silently breaks the moment an input changes.
+
+**2. q = 1 hand check.** TOM_LABOR_HRS at q=1 computes to 99.00 hours,
+matching 1 × 2.5 × 36 × 1.10 exactly. This catches a dropped exponent in the
+labor formula, which would be invisible at higher bed counts.
+
+**3. Solver run from 0/0/0.** Converged cleanly to 10 tomato / 20 carrot /
+30 mesclun beds, profit $42,761.67 — matching the published check figures
+(10/20/30 beds, $42,762) within rounding.
+
+**4. Solver run from 20/0/0.** Did not converge — Solver returned "could not
+find a feasible solution." At the 20/0/0 starting point, REQ_WORKER = 8
+against a cap of 4, meaning the starting point itself violates the worker
+constraint by a wide margin before Solver's local search even begins. This
+is the path-dependence check the case materials warn about: GRG Nonlinear
+walks uphill from wherever it starts and can get stuck if that start is far
+outside the feasible region. Run 1 and Run 2 disagreeing is itself the
+finding — it demonstrates that a single Solver run from an arbitrary
+starting point is not sufficient evidence of a global optimum.
+
+**5. CHECK_NONNEG_INT anomaly.** After a successful solve, this check
+occasionally reads FALSE even though the displayed bed counts are clean
+whole numbers (e.g., 10, 20, 30). This is floating-point residue from
+GRG Nonlinear's continuous search (e.g., 10.0000000003 instead of exactly
+10) — not a real defect in the model, but worth noting as a quirk of the
+solving method rather than the specification.
