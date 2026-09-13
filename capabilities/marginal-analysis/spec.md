@@ -3,8 +3,8 @@ type: spec
 capability: marginal-analysis
 engagement: perfect-competition
 date: 2026-08-29
-status: draft            # draft | built | audited
-built_with: "not built yet"
+status: audited            # draft | built | audited
+built_with: "Excel Solver (GRG Nonlinear)"
 ---
 
 # Marginal Analysis — model specification
@@ -204,7 +204,7 @@ matching 1 × 2.5 × 36 × 1.10 exactly. This catches a dropped exponent in the
 labor formula, which would be invisible at higher bed counts.
 
 **3. Solver run from 0/0/0.** Converged cleanly to 10 tomato / 20 carrot /
-30 mesclun beds, profit $42,761.67 — matching the published check figures
+30 mesclun beds, profit $42,761.66 — matching the published check figures
 (10/20/30 beds, $42,762) within rounding.
 
 **4. Solver run from 20/0/0.** Did not converge, even after enabling
