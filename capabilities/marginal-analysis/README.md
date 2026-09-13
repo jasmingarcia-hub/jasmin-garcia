@@ -15,5 +15,5 @@ labor-hour constraint.
   crop mix found via Excel Solver (GRG Nonlinear).
 
 **Result:** 10 tomato beds, 20 carrot beds, 30 mesclun beds; season profit
-$42,761.67, matching the case's published check figures ($42,762) within
+$42,761.66, matching the case's published check figures ($42,762) within
 rounding.
