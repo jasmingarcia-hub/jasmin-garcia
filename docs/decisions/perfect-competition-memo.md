@@ -1,59 +1,33 @@
-# Decision Memo — Perfect Competition Crop Mix
+---
+type: memo
+engagement: perfect-competition
+capability: marginal-analysis
+date: 2026-09-19
+audience: "The owner-operator"
+recommendation: "Plant 10 tomato, 20 carrot, and 30 mesclun beds"
+evidence: analysis/perfect-competition-analysis.md
+---
 
-**To:** Farm Owner  
-**From:** Jasmin Garcia  
-**Subject:** Recommended Seasonal Crop Mix  
-**Date:** September 2026
+# Perfect Competition — Recommendation
 
-## Recommendation
-
-I recommend planting:
-
-- 10 tomato beds
-- 20 carrot beds
-- 30 mesclun beds
-
-This mix uses 60 of the farm's 64 available beds and is expected to generate approximately **$42,762 in seasonal profit**.
-
-The remaining four beds should be left unused rather than planted simply to use all available capacity.
+**Recommendation.** Plant **10 tomato beds, 20 carrot beds, and 30 mesclun beds**. This mix is expected to produce approximately **$42,762 in seasonal profit** while leaving four beds unused.
 
 ## Why
 
-Because the farm is operating in a perfectly competitive market, the market determines the price. The main decision for the farmer is therefore how much of each crop to produce.
+The recommendation is based on the cost of producing the next bed, not simply on using all available capacity. Tomato marginal cost is approximately **$8,249 at bed 10**, below the $8,800 selling price, but rises to approximately **$9,391 at bed 11**. Producing the 11th tomato bed would therefore reduce profit.
 
-The model compares the additional revenue from another bed with the additional cost required to produce it, including the increasing labor requirements caused by diminishing returns.
+Carrots and mesclun both reach their crop-specific limits of 20 and 30 beds, while the farm still has four unused beds. This shows that the individual crop limits, rather than the total 64-bed capacity, restrict the more profitable expansion opportunities.
 
-Tomatoes show this most clearly.
+## The Judgment Call
 
-At 10 tomato beds, the marginal cost is approximately **$8,249**, which is still below the **$8,800 market price**.
+If one crop-specific limit can be relaxed, I would prioritize **carrot capacity**. Allowing one additional carrot bed increases seasonal profit by approximately **$352**, compared with approximately **$246** for one additional mesclun bed.
 
-At 11 tomato beds, the marginal cost rises to approximately **$9,391**, which is higher than the market price.
+Because four total beds are already unused, I would not pay simply to increase total acreage. I would pay to increase the farm's ability to use existing capacity for carrots first.
 
-This means that adding the 11th tomato bed would reduce profit rather than increase it.
+## What Would Change My Answer
 
-Carrots and mesclun reach their maximum allowable quantities of 20 and 30 beds in the optimized crop mix.
-
-## Expected Operating Result
-
-The recommended crop mix produces approximately:
-
-- Revenue: **$210,880**
-- Total cost: **$168,118**
-- Seasonal profit: **$42,762**
-- Total labor requirement: **5,277 hours**
-- Temporary workers required: **4**
-- Unused beds: **4**
-
-## Decision Implication
-
-One of the most important results is that the farm should not automatically use all 64 available beds.
-
-Four beds remain unplanted because additional production would not improve profit under the current prices, labor costs, and diminishing-return assumptions.
-
-The recommended crop mix is therefore **10 tomato beds, 20 carrot beds, and 30 mesclun beds**.
+The recommendation is especially sensitive to the **tomato market price** because tomato production stops where price and marginal cost cross. A meaningful decline in tomato price, such as 20%, would move that cutoff lower and would require the crop mix to be re-optimized.
 
 ## AI Use Disclosure
 
-I used AI tools to help troubleshoot the model, organize the memo, and review the writing for clarity. I checked the model results myself and made the final recommendation and conclusions.
-
-Additional details are documented in `prompt-log.md`.
+I used AI tools to help troubleshoot the model, organize and draft the memo, and review the writing for clarity. I checked the model results myself and made the final recommendation and conclusions. Additional details are documented in `prompt-log.md`.
