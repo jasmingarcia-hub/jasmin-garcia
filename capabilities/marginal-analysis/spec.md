@@ -228,3 +228,7 @@ whole numbers (e.g., 10, 20, 30). This is floating-point residue from GRG
 Nonlinear's continuous search (e.g., 10.0000000003 instead of exactly 10) —
 not a real defect in the model, but worth noting as a quirk of the solving
 method rather than the specification.
+
+**Update:** `CHECK_NONNEG_INT` has been revised to use a tolerance-based comparison
+(`ABS(x-ROUND(x,0))<1e-6`) instead of exact equality, per reviewer suggestion. This
+closes the finding rather than leaving it as a documented quirk.
