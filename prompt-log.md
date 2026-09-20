@@ -114,3 +114,44 @@ This actually increased my confidence in the model rather than reducing it. The 
 I also learned that an AI-generated audit summary should not substitute for verifying the workbook itself. Rather than simply accepting Claude's statement that the model was correctly constructed, I checked the workbook directly. I used Excel's Name Manager to confirm that the required named ranges actually existed and pointed to the appropriate input cells. I also selected calculated cells and reviewed the formula bar to confirm that they contained formulas referencing the model inputs rather than hard-coded answers. Finally, I checked key calculations against the specification and its acceptance figures. This gave me greater confidence that the workbook was not merely producing plausible-looking outputs, but was actually implementing the economic model as specified.
 
 Overall, the exercise changed how I think about model reliability. Reliability does not mean that every attempted solution must succeed. A reliable model should also reject infeasible solutions for the right reasons, make those reasons understandable, and allow its underlying assumptions and calculations to be independently verified.
+
+## Stage 1.3 — Report the Findings
+
+### September 19, 2026
+
+**Tool:** ChatGPT
+
+**Purpose:** Reporting the findings from the Perfect Competition model by completing the analysis, creating supporting figures, and preparing the decision memo.
+
+**Prompts / Tasks:**
+
+- Asked ChatGPT to review my completed Excel model and GitHub repository and help me identify the findings that needed to be reported in Stage 1.3.
+- Asked for help comparing the model's optimal solution of 10 tomato beds, 20 carrot beds, and 30 mesclun beds with my original Stage 1 hypothesis of 14 tomato beds, 20 carrot beds, and 30 mesclun beds.
+- Asked ChatGPT to help me interpret the marginal-cost results, including why tomato production stops at 10 beds when marginal cost moves from below the $8,800 market price at bed 10 to above the market price at bed 11.
+- Asked for help explaining why the carrot and mesclun crop-specific caps are binding even though four of the farm's 64 total beds remain unused.
+- Worked through the value of relaxing the carrot and mesclun caps by one bed and how those results should be translated into a business recommendation.
+- Asked ChatGPT to help organize and revise `analysis/perfect-competition-analysis.md` so that it answered the assignment questions, referenced specific workbook cells, and compared the final result with my Stage 1 hypothesis.
+- Asked for step-by-step help creating two Excel figures showing marginal cost versus market price for tomatoes and carrots.
+- Created the figures myself in Excel, exported them as PNG files, and uploaded them to `analysis/figures/`.
+- Asked for help adding the figure links and captions to the analysis so that each figure was directly discussed in the text.
+- Asked ChatGPT to help draft and revise `docs/decisions/perfect-competition-memo.md` using the required structure of recommendation, reasoning, judgment call, and what would change the recommendation.
+- Asked for help making the writing sound more like my own voice while keeping the economic reasoning and model evidence clear.
+- Updated `model.xlsx` to include the figures and replaced the earlier workbook in GitHub with the updated version.
+
+**How I Used the Output:**
+
+I used ChatGPT to help me organize the findings, interpret the model results, and improve the clarity of the analysis and memo. I checked the relevant values and formulas in Excel myself and used the workbook results as the basis for the conclusions.
+
+I created the charts myself in Excel and uploaded them to GitHub. I also reviewed and revised the written analysis so that it reflected my own understanding of the results rather than simply copying an AI-generated explanation. The final recommendations and conclusions are based on my review of the model and my interpretation of the economic reasoning.
+
+**Reflection:**
+
+This stage helped me understand that reporting model results requires more than stating the optimal answer. I needed to explain why the model selected 10 tomato beds, 20 carrot beds, and 30 mesclun beds and connect that result to the economic concepts behind the model.
+
+The tomato marginal-cost chart made the P ≈ MC rule much easier for me to understand. At 10 tomato beds, marginal cost is still below the $8,800 market price, but at 11 beds it rises above the market price. Seeing the two lines cross on the chart made it clear why tomato production should stop at approximately 10 beds.
+
+I also learned that having unused capacity does not necessarily mean the farm should produce more. My Stage 1 hypothesis assumed that all 64 beds would be planted, but the model leaves four beds unused because additional production would reduce profit. At the same time, carrots and mesclun reach their individual crop limits. This helped me understand the difference between the overall bed constraint and the crop-specific constraints.
+
+The cap-relaxation analysis also helped turn the spreadsheet result into an actual management decision. An additional carrot bed provides more value than an additional mesclun bed, so if one crop-specific limit could be relaxed, carrot capacity would be the better place to start.
+
+Finally, I learned that the analysis and the decision memo serve different purposes. The analysis explains the evidence and reasoning in detail, while the memo needs to communicate the recommendation and its most important supporting evidence quickly enough for someone making the decision.
