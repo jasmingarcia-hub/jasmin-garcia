@@ -10,11 +10,11 @@ evidence: analysis/perfect-competition-analysis.md
 
 # Perfect Competition — Recommendation
 
-**Recommendation.** Plant **10 tomato beds, 20 carrot beds, and 30 mesclun beds**. This mix is expected to produce approximately **$42,762 in seasonal profit** while leaving four beds unused.
+**Recommendation.** is to plant **10 tomato beds, 20 carrot beds, and 30 mesclun beds**. This mix is expected to produce approximately **$42,762 in seasonal profit** while leaving four beds unused.
 
 ## Why
 
-The recommendation is based on the cost of producing the next bed, not simply on using all available capacity. Tomato marginal cost is approximately **$8,249 at bed 10**, below the $8,800 selling price, but rises to approximately **$9,391 at bed 11**. Producing the 11th tomato bed would therefore reduce profit.
+The recommendation is based on the cost of producing the next bed, not simply on using all available beds. Tomato marginal cost is approximately **$8,249 at bed 10**, below the $8,800 selling price, but rises to approximately **$9,391 at bed 11**. Therefore, an 11th tomato bed would reduce profit.
 
 Carrots and mesclun both reach their crop-specific limits of 20 and 30 beds, while the farm still has four unused beds. This shows that the individual crop limits, rather than the total 64-bed capacity, restrict the more profitable expansion opportunities.
 
@@ -26,7 +26,7 @@ Because four total beds are already unused, I would not pay simply to increase t
 
 ## What Would Change My Answer
 
-The recommendation is especially sensitive to the **tomato market price** because tomato production stops where price and marginal cost cross. A meaningful decline in tomato price, such as 20%, would move that cutoff lower and would require the crop mix to be re-optimized.
+The recommendation is especially sensitive to the **tomato market price** because tomato production will stop where price and marginal cost cross. When there is a reduction in tomato prices, such as by 20%, this would move that cutoff lower and would require the crop mix to be re-optimized.
 
 ## AI Use Disclosure
 
