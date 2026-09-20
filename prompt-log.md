@@ -155,3 +155,4 @@ I also learned that having unused capacity does not necessarily mean the farm sh
 The cap-relaxation analysis also helped turn the spreadsheet result into an actual management decision. An additional carrot bed provides more value than an additional mesclun bed, so if one crop-specific limit could be relaxed, carrot capacity would be the better place to start.
 
 Finally, I learned that the analysis and the decision memo serve different purposes. The analysis explains the evidence and reasoning in detail, while the memo needs to communicate the recommendation and its most important supporting evidence quickly enough for someone making the decision.
+
