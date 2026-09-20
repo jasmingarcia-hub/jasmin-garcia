@@ -2,39 +2,41 @@
 
 ## What the Model Found
 
-The profit-maximizing crop mix is **10 tomato beds, 20 carrot beds, and 30 mesclun beds** (`Optimization!B4:B6`). This produces an estimated seasonal profit of **$42,761.66** (`Optimization!B33`), which matches the published check figure of approximately $42,762.
+The profit-maximizing crop mix is **10 tomato beds, 20 carrot beds, and 30 mesclun beds**, producing an estimated seasonal profit of **$42,761.66**. The result matches the published check figure of approximately $42,762. (Optimization!B4:B6; Optimization!B33)
 
-The farm uses only 60 of its 64 available beds, leaving **four beds unused** (`Optimization!B34`). This was important because it showed me that maximizing profit does not necessarily mean using all available capacity. If another bed costs more to produce than the revenue it brings in, leaving it empty can be the better decision.
+The farm uses only 60 of its 64 available beds, leaving **four beds unused**. This was important because it showed me that maximizing profit does not necessarily mean using all available capacity. If another bed costs more to produce than the revenue it brings in, leaving it empty can be the better decision. (Optimization!B34)
 
-Total labor demand at the recommended mix is approximately **5,277.22 hours** (`Optimization!B14`), and the model requires the maximum of **four temporary workers** (`Optimization!B17`).
+Total labor demand at the recommended mix is approximately **5,277.22 hours**, and the model requires the maximum of **four temporary workers**. (Optimization!B14; Optimization!B17)
 
 ## Why Tomato Production Stops at 10 Beds
 
-The tomato marginal-cost schedule gives the clearest example of the P = MC decision rule.
+The tomato marginal-cost schedule gives the clearest example of the **P ≈ MC** decision rule for this model.
 
-At 10 tomato beds, marginal cost is approximately **$8,248.59** (`Marginal-Cost Schedules!H16`), which is still below the tomato market price of **$8,800 per bed** (`Marginal-Cost Schedules!B27`). At 11 beds, marginal cost rises to approximately **$9,390.72** (`Marginal-Cost Schedules!H17`), which is above the market price.
+At 10 tomato beds, marginal cost is approximately **$8,248.59**, which is still below the market price of **$8,800 per bed**. At 11 beds, marginal cost rises to approximately **$9,390.72**, which is above the market price. (Marginal-Cost Schedules!H16:H17; Marginal-Cost Schedules!B27)
 
 Figure 1 shows this crossing. The farmer benefits from producing the 10th tomato bed because the additional revenue is greater than the additional cost. The 11th bed would cost more than it brings in, so tomato production should stop at 10 beds.
 
 ![Figure 1. Tomato marginal cost versus market price.](figures/tomato-mc-vs-price.png)
 
-*Figure 1. Tomato marginal cost versus the $8,800 market price. Source: `Marginal-Cost Schedules!A6:H27`.*
+*Figure 1. Tomato marginal cost versus the $8,800 market price. Source: Marginal-Cost Schedules!A6:H27.*
 
-One thing I did not expect was that the tomato marginal-cost curve does not rise smoothly. Marginal cost falls between some bed quantities even though the physical labor requirement continues to increase. This happens because the farmer's field labor is valued at approximately **$34.72 per hour** (`Optimization!B18`), while temporary labor is valued at approximately **$17.36 per hour** (`Optimization!B19`). Once the farmer's 720 available field hours are exhausted, additional labor is valued at the lower temporary-worker rate.
+One thing I did not expect was that the tomato marginal-cost curve does not rise smoothly. Marginal cost falls between some bed quantities even though the physical labor requirement continues to increase.
+
+This happens because the farmer's field labor is valued at approximately **$34.72 per hour**, while temporary labor is valued at approximately **$17.36 per hour**. Once the farmer's 720 available field hours are exhausted, additional labor is valued at the lower temporary-worker rate. (Optimization!B18:B19)
 
 This helped me understand that marginal cost is influenced not only by the physical labor needed to produce another bed, but also by how that labor is valued in the model.
 
 ## Why the Carrot and Mesclun Caps Matter
 
-Carrots reach their maximum of **20 beds** (`Inputs!B9`, `Optimization!B5`). At bed 20, standalone carrot marginal cost is approximately **$1,688.95** (`Marginal-Cost Schedules!H51`), while the market price is **$2,094** (`Marginal-Cost Schedules!B52`).
+Carrots reach their maximum of **20 beds**. At bed 20, standalone carrot marginal cost is approximately **$1,688.95**, while the market price is **$2,094**. (Inputs!B9; Optimization!B5; Marginal-Cost Schedules!H51; Marginal-Cost Schedules!B52)
 
-Figure 2 shows that carrots are still economically attractive when the 20-bed cap is reached. The marginal cost of the 20th bed remains below the market price, which suggests the farmer would want to plant more carrots if the crop-specific limit were relaxed.
+Figure 2 shows that carrots are still economically attractive when the 20-bed cap is reached. The marginal cost of the 20th bed remains below the market price, which suggests that the farmer would want to plant more carrots if the crop-specific limit were relaxed.
 
 ![Figure 2. Carrot marginal cost versus market price.](figures/carrot-mc-vs-price.png)
 
-*Figure 2. Carrot marginal cost versus the $2,094 market price. Source: `Marginal-Cost Schedules!A31:H52`.*
+*Figure 2. Carrot marginal cost versus the $2,094 market price. Source: Marginal-Cost Schedules!A31:H52.*
 
-Mesclun shows the same general pattern. The model reaches the maximum of **30 mesclun beds** (`Inputs!B14`, `Optimization!B6`). At bed 30, standalone marginal cost is approximately **$2,420.10** (`Marginal-Cost Schedules!H86`), which remains below the **$2,700 market price** (`Marginal-Cost Schedules!B87`).
+Mesclun shows the same general pattern. The model reaches the maximum of **30 mesclun beds**. At bed 30, standalone marginal cost is approximately **$2,420.10**, which remains below the **$2,700 market price**. (Inputs!B14; Optimization!B6; Marginal-Cost Schedules!H86; Marginal-Cost Schedules!B87)
 
 This means the carrot and mesclun crop limits are binding, while the overall 64-bed limit is not. The farm already has four unused beds, so simply adding more general acreage would not improve the result. The more useful change would be relaxing one of the crop-specific limits.
 
