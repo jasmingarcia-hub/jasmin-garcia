@@ -62,6 +62,16 @@ If only one crop-specific limit could be relaxed, I would prioritize **carrot ca
 
 The model helped me see that the better question is not simply whether capacity, meaning the number of beds, is available. The more important question is whether producing the next unit adds more revenue than cost.
 
+## Why Carrots and Mesclun Are Worth Planting Despite Their Apparent Losses
+
+At first glance, carrots and mesclun might appear unprofitable when the farm's entire $20,000 fixed cost is allocated to each crop individually. However, the short-run shutdown rule explains why both crops should remain in the production plan. As long as the market price covers average variable cost (AVC), producing the crop contributes toward fixed costs that the farmer must pay regardless of whether the crop is planted.
+
+At the recommended quantity of **20 carrot beds**, average variable cost is **$1,918.45 per bed**, which is below the market price of **$2,094**. Similarly, at **30 mesclun beds**, average variable cost is **$2,430.74 per bed**, compared with a market price of **$2,700**. Both crops therefore generate revenue beyond their variable production costs and make a contribution toward the farm's fixed expenses.
+
+It is important to distinguish average variable cost from average total cost. A crop can appear unprofitable after being assigned the farm's entire fixed cost while still making a positive contribution to the farm's overall profit. Eliminating that crop would not eliminate the existing fixed costs, but it would eliminate the revenue available to help pay them.
+
+This conclusion applies at the quantities in the recommended plan, not necessarily at every production level. For example, mesclun's average variable cost exceeds its market price at beds 13 and 14. At the recommended 30 beds, however, price exceeds AVC. This supports keeping both carrots and mesclun in the final crop mix.
+
 ## Modeling Convention and Limitation
 
 The model follows the labor-costing convention used in the specification and published check figures by converting temporary-worker compensation to an hourly rate of approximately **$17.36**.
