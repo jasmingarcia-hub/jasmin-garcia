@@ -12,7 +12,7 @@ At 10 tomato beds, marginal cost is approximately **$8,248.59**, which is still 
 
 Beyond 10 beds, the next tomato bed would no longer be profitable to the farmer.
 
-Figure 1 shows where the marginal-cost curve crosses the market-price line. The farmer benefits from producing the 10th tomato bed because the additional revenue is greater than the additional cost. The 11th bed would cost more than it brings in at the market price of $8,800, so tomato production should stop at 10 beds.
+Figure 1 shows that the marginal-cost curve crosses the market-price line between beds 10 and 11. The farmer benefits from producing the 10th tomato bed because the additional revenue is greater than the additional cost. The 11th bed would cost more than it brings in at the market price of $8,800, so tomato production should stop at 10 beds.
 
 The tomato marginal-cost schedule gives the clearest example of the **P ≈ MC** decision rule for this model.
 
@@ -20,13 +20,11 @@ The tomato marginal-cost schedule gives the clearest example of the **P ≈ MC**
 
 *Figure 1. Tomato marginal cost versus the $8,800 market price. Source: Marginal-Cost Schedules!A6:H27.*
 
-An interesting finding was that the tomato marginal-cost curve does not rise smoothly. Marginal cost falls between some bed quantities, particularly between beds 5 and 6, even though the physical labor requirement continues to increase.
+An interesting finding was that tomato marginal cost does not rise smoothly. It decreases from **$7,660.86 at bed 5 to $4,906.28 at bed 6**, even though the total labor requirement increases. Cumulative labor reaches **724.73 hours at bed 5 and 956.64 hours at bed 6**, exceeding the farmer's 720 available hours. At bed 5, approximately 4.73 hours of temporary labor are already required, increasing to 236.64 hours at bed 6. (Marginal-Cost Schedules!B11:D12; H11:H12)
 
-The reason for this is that the farmer's field labor is valued at **$34.72 per hour**, while temporary labor is valued at **$17.36 per hour**. Once the farmer's 720 available field hours are exhausted, additional labor is valued at the lower temporary-worker rate. (Optimization!B18:B19)
+The decrease occurs because the farmer's labor is valued at **$34.72 per hour**, while temporary labor costs approximately **$17.36 per hour**. Once the farmer's 720-hour limit is reached, additional labor is charged at the lower temporary-worker rate. This helped me understand that marginal cost is influenced not only by the physical labor required for another bed but also by the cost of that labor. (Optimization!B18:B19)
 
-Total labor demand at the recommended mix is approximately **5,277.22 hours**, and the model requires the maximum of **four temporary workers**. (Optimization!B14; Optimization!B17) This was different from what I originally predicted.
-
-This helped me understand that marginal cost is influenced not only by the physical labor needed to produce another bed, but also by how that labor is valued in the model. The broader lesson is that marginal cost reflects input prices as well as physical production requirements.
+Total labor demand at the recommended crop mix is approximately **5,277.22 hours**. After the farmer's 720 available hours, the plan uses **4,557.22 temporary-labor hours** out of the maximum 5,760 available. Although the workbook rounds the staffing requirement up to **four temporary workers**, only about 3.16 worker-equivalents are used. Therefore, the temporary-labor-hour constraint is slack rather than binding. (Optimization!B14:B17; Inputs!B26:B27)
 
 The farm also uses only 60 of its 64 available beds, leaving **four beds unused**. This was important because it showed that maximizing profit does not necessarily mean using all available capacity. If another bed costs more to produce than the revenue it brings in, leaving it empty can be the better decision. (Optimization!B34)
 
@@ -54,9 +52,11 @@ This means the carrot and mesclun crop limits are binding, while the overall 64-
 
 I tested this by relaxing each cap by one bed and comparing the change in profit.
 
-Increasing the carrot cap from 20 to 21 raises profit from **$42,761.66 to approximately $43,114.16**, which is an increase of about **$352.49**.
+Increasing the carrot cap from 20 to 21 raises seasonal profit from approximately **$42,761.66 to $43,114.16**. Using the underlying, unrounded model results, the marginal value of relaxing the carrot cap by one bed is approximately **$352.49**.
 
-Increasing the mesclun cap from 30 to 31 raises profit to approximately **$43,008.14**, which is an increase of about **$246.47**.
+Increasing the mesclun cap from 30 to 31 raises seasonal profit to approximately **$43,008.14**. Using the unrounded model results, the marginal value of relaxing the mesclun cap by one bed is approximately **$246.47**.
+
+*The re-solved profits are displayed to two decimal places. The one-cent differences between the displayed profit changes and the reported shadow prices are due to rounding.*
 
 If only one crop-specific limit could be relaxed, I would prioritize **carrot capacity first** because the increase in profit is greater than it is for mesclun. One additional carrot bed is worth about $352 in seasonal profit compared with about $246 for one additional mesclun bed.
 
@@ -64,13 +64,15 @@ The model helped me see that the better question is not simply whether capacity,
 
 ## Why Carrots and Mesclun Are Worth Planting Despite Their Apparent Losses
 
-At first glance, carrots and mesclun might appear unprofitable when the farm's entire $20,000 fixed cost is allocated to each crop individually. However, the short-run shutdown rule explains why both crops should remain in the production plan. As long as the market price covers average variable cost (AVC), producing the crop contributes toward fixed costs that the farmer must pay regardless of whether the crop is planted.
+At first glance, carrots and mesclun might appear unprofitable when the farm's entire $20,000 fixed cost is allocated to each crop individually. However, the short-run shutdown rule explains why both crops should remain in the production plan. As long as the market price covers average variable cost (AVC), producing a crop contributes toward fixed costs that the farmer must pay regardless of whether anything is planted.
 
-At the recommended quantity of **20 carrot beds**, average variable cost is **$1,918.45 per bed**, which is below the market price of **$2,094**. Similarly, at **30 mesclun beds**, average variable cost is **$2,430.74 per bed**, compared with a market price of **$2,700**. Both crops therefore generate revenue beyond their variable production costs and make a contribution toward the farm's fixed expenses.
+At the recommended quantity of **20 carrot beds**, total variable cost is approximately **$38,368.92**, giving an AVC of **$1,918.45 per bed**. This is below the market price of **$2,094 per bed**. (Optimization!B5; Marginal-Cost Schedules!G51; Inputs!B10)
 
-It is important to distinguish average variable cost from average total cost. A crop can appear unprofitable after being assigned the farm's entire fixed cost while still making a positive contribution to the farm's overall profit. Eliminating that crop would not eliminate the existing fixed costs, but it would eliminate the revenue available to help pay them.
+Similarly, at **30 mesclun beds**, total variable cost is approximately **$72,922.19**, giving an AVC of **$2,430.74 per bed**, compared with the market price of **$2,700**. At the recommended quantities, both carrots and mesclun satisfy the short-run shutdown rule because their market prices exceed their average variable costs. Although neither crop appears profitable when charged with the farm's entire fixed cost, both make a positive contribution toward covering those costs and should remain in the production plan. (Optimization!B6; Marginal-Cost Schedules!G86; Inputs!B15)
 
-This conclusion applies at the quantities in the recommended plan, not necessarily at every production level. For example, mesclun's average variable cost exceeds its market price at beds 13 and 14. At the recommended 30 beds, however, price exceeds AVC. This supports keeping both carrots and mesclun in the final crop mix.
+The distinction between average variable cost and average total cost is important. Charging the entire **$20,000 farm fixed cost** against either crop individually can make it appear unprofitable. However, eliminating a crop would not eliminate the farm's fixed expenses. As long as its revenue exceeds its variable costs, keeping it in production helps cover those expenses. (Inputs!B21)
+
+This conclusion applies at the quantities in the recommended plan, not necessarily at every production level. For example, mesclun's AVC exceeds its market price at beds 13 and 14. At the recommended 30 beds, however, price exceeds AVC. This supports keeping both carrots and mesclun in the final crop mix. (Marginal-Cost Schedules!A69:A70; G69:G70; G86; Inputs!B15)
 
 ## Modeling Convention and Limitation
 
