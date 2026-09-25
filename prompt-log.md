@@ -172,7 +172,7 @@ This experience reinforced the importance of checking AI explanations against fo
 
 **How I discovered and checked the error:** My instructor identified this mistake in the Stage 1.3 feedback. I then checked the workbook's labor calculations. The optimized crop mix requires approximately 5,277.22 total labor hours (`Optimization!B14`). After accounting for the farmer's 720 hours (`Optimization!B15`), temporary labor totals approximately 4,557.22 hours (`Optimization!B16`). With four workers providing up to 5,760 hours (`Inputs!B26:B27`), approximately 1,202.78 hours remain unused.
 
-**Correction:** I revised my analysis to explain that the plan requires approximately 3.16 temporary-worker equivalents, rounded up to four workers for staffing. However, because actual temporary-labor usage is below the maximum available hours, the temporary-labor-hour constraint is **slack, not binding**.
+**Correction:** I revised my analysis to explain that the plan requires approximately 3.1647 temporary-worker equivalents, rounded up to four workers for staffing. However, because actual temporary-labor usage is below the maximum available hours, the temporary-labor-hour constraint is **slack, not binding**.
 
 **What I learned:** An AI-generated explanation can sound reasonable while misinterpreting what a spreadsheet cell actually represents. In this case, the rounded worker count and the labor-hour constraint answered different questions. I learned to examine the underlying formulas, units, and available capacity before interpreting a constraint as binding. I also learned the importance of checking AI-generated conclusions against my own model and correcting them when the evidence does not support them.
 
