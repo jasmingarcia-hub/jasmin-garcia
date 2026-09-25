@@ -62,6 +62,8 @@ If only one crop-specific limit could be relaxed, I would prioritize **carrot ca
 
 The model helped me see that the better question is not simply whether capacity, meaning the number of beds, is available. The more important question is whether producing the next unit adds more revenue than cost.
 
+The estimated shadow prices of $352.49 for carrots and $246.47 for mesclun apply to relaxing each crop-specific cap by one bed. They should not be treated as constant returns from unlimited expansion, because the marginal cost of additional beds increases; for example, the estimated value of carrot bed 22 falls to approximately $298.
+
 ## Why Carrots and Mesclun Are Worth Planting Despite Their Apparent Losses
 
 At first glance, carrots and mesclun might appear unprofitable when the farm's entire $20,000 fixed cost is allocated to each crop individually. However, the short-run shutdown rule explains why both crops should remain in the production plan. As long as the market price covers average variable cost (AVC), producing a crop contributes toward fixed costs that the farmer must pay regardless of whether anything is planted.
