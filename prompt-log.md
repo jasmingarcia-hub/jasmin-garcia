@@ -131,7 +131,7 @@ Overall, the exercise changed how I think about model reliability. Reliability d
 - Asked for help explaining why the carrot and mesclun crop-specific caps are binding even though four of the farm's 64 total beds remain unused.
 - Worked through the value of relaxing the carrot and mesclun caps by one bed and how those results should be translated into a business recommendation.
 - Asked ChatGPT to help organize and revise `analysis/perfect-competition-analysis.md` so that it answered the assignment questions, referenced specific workbook cells, and compared the final result with my Stage 1 hypothesis.
-- Asked for step-by-step help creating two Excel figures showing marginal cost versus market price for tomatoes and carrots.
+- Asked for step-by-step help creating three Excel figures showing marginal cost versus market price for tomatoes, carrots, and mesclun.
 - Created the figures myself in Excel, exported them as PNG files, and uploaded them to `analysis/figures/`.
 - Asked for help adding the figure links and captions to the analysis so that each figure was directly discussed in the text.
 - Asked ChatGPT to help draft and revise `docs/decisions/perfect-competition-memo.md` using the required structure of recommendation, reasoning, judgment call, and what would change the recommendation.
@@ -144,15 +144,17 @@ I used ChatGPT to help me organize the findings, interpret the model results, an
 
 I created the charts myself in Excel and uploaded them to GitHub. I also reviewed and revised the written analysis so that it reflected my own understanding of the results rather than simply copying an AI-generated explanation. The final recommendations and conclusions are based on my review of the model and my interpretation of the economic reasoning.
 
-**Reflection:**
+ ### Stage 1.3 — Reflection
 
-This stage helped me understand that reporting model results requires more than stating the optimal answer. I needed to explain why the model selected 10 tomato beds, 20 carrot beds, and 30 mesclun beds and connect that result to the economic concepts behind the model.
+This stage taught me that reporting model results requires more than identifying the optimal answer. I needed to explain the economic reasoning behind my recommendation and verify my conclusions using the actual workbook.
 
-The tomato marginal-cost chart made the P ≈ MC rule much easier for me to understand. At 10 tomato beds, marginal cost is still below the $8,800 market price, but at 11 beds it rises above the market price. Seeing the two lines cross on the chart made it clear why tomato production should stop at approximately 10 beds.
+I confirmed the optimal mix of 10 tomato, 20 carrot, and 30 mesclun beds, with seasonal profit of $42,761.66, by running Solver from 0/0/0 and checking `Optimization!B4:B6` and `B33`. Comparing the marginal costs of tomato beds 10 and 11 in `Marginal-Cost Schedules!H16:H17` against the $8,800 market price helped me understand why production stops at 10 beds.
 
-I also learned that having unused capacity does not necessarily mean the farm should produce more. My Stage 1 hypothesis assumed that all 64 beds would be planted, but the model leaves four beds unused because additional production would reduce profit. At the same time, carrots and mesclun reach their individual crop limits. This helped me understand the difference between the overall bed constraint and the crop-specific constraints.
+My original hypothesis assumed all 64 beds would be planted, but `Optimization!B34` showed four unused beds. By relaxing the carrot and mesclun caps separately and rerunning Solver, I found that one additional carrot bed increased profit more than one additional mesclun bed.
 
-The cap-relaxation analysis also helped turn the spreadsheet result into an actual management decision. An additional carrot bed provides more value than an additional mesclun bed, so if one crop-specific limit could be relaxed, carrot capacity would be the better place to start.
+I also learned an important lesson about relying on AI. ChatGPT incorrectly interpreted the rounded requirement of four temporary workers as a binding labor constraint. My instructor identified the mistake, and I subsequently verified it by comparing temporary hours used (`Optimization!B16`) with available capacity (`Inputs!B26:B27`). The workbook showed that approximately 1,203 temporary-labor hours remained unused, so the constraint was actually slack.
+
+This experience reinforced the importance of checking AI explanations against formulas, calculations, and independent tests rather than accepting conclusions simply because they sound convincing. Moving forward, I want to identify the evidence behind every claim before including it in my analysis.
 
 ### Stage 1.3 — Identifying and Correcting an AI Error
 
