@@ -22,6 +22,8 @@ Carrots and mesclun both reach their crop-specific limits of 20 and 30 beds, whi
 
 If one crop-specific limit can be relaxed, I would prioritize **carrot capacity**. Allowing one additional carrot bed increases seasonal profit by approximately **$352**, compared with approximately **$246** for one additional mesclun bed.
 
+These gains represent the value of the next bed only, not every additional bed; as marginal costs rise, further expansion produces smaller incremental gains (approximately $298 for carrot bed 22).
+
 Because four total beds are already unused, I would not pay simply to increase total acreage. I would pay to increase the farm's ability to use existing capacity for carrots first.
 
 ## What Would Change My Answer
