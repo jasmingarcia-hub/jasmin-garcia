@@ -175,3 +175,17 @@ This experience reinforced the importance of checking AI explanations against fo
 **Correction:** I revised my analysis to explain that the plan requires approximately 3.1647 temporary-worker equivalents, rounded up to four workers for staffing. However, because actual temporary-labor usage is below the maximum available hours, the temporary-labor-hour constraint is **slack, not binding**.
 
 **What I learned:** An AI-generated explanation can sound reasonable while misinterpreting what a spreadsheet cell actually represents. In this case, the rounded worker count and the labor-hour constraint answered different questions. I learned to examine the underlying formulas, units, and available capacity before interpreting a constraint as binding. I also learned the importance of checking AI-generated conclusions against my own model and correcting them when the evidence does not support them.
+
+### Stage 1.3 — Verifying Solver Instructions and Shadow Prices
+
+**Tool:** ChatGPT
+
+**Purpose:** Independently check the reported shadow prices and investigate why my Solver reruns were returning identical profits.
+
+**What was incorrect:** ChatGPT instructed me to increase the carrot and mesclun limits on the Inputs worksheet without first checking how the constraints were configured in Solver. My Solver model contained fixed numerical limits of 20 carrot beds and 30 mesclun beds. Changing the Inputs worksheet alone did not change those restrictions.
+
+**How I detected and verified the problem:** I noticed that my separate Solver runs kept returning the same profit of $42,761.674038. I inspected the Solver Parameters dialog and shared a screenshot, which helped identify the fixed constraints. I then changed the carrot limit directly in Solver to 21 and reran the model. I restored that limit to 20, increased the mesclun limit to 31, and ran Solver again.
+
+**Results:** The original profit was $42,761.674038. Increasing the carrot cap by one bed produced $43,114.168792, a gain of $352.494754. Increasing the mesclun cap by one bed produced $43,008.147837, a gain of $246.473799. Rounded to cents, these gains confirm the reported shadow prices of $352.49 and $246.47.
+
+**What I learned:** I should not assume that changing an input automatically changes Solver's constraints. When my repeated results did not make sense, I checked the Solver settings rather than accepting the unchanged output. I also learned to verify reported profit differences using full-precision calculations instead of relying only on rounded figures.
