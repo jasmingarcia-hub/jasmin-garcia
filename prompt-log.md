@@ -190,7 +190,7 @@ This experience reinforced the importance of checking AI explanations against fo
 
 **What I learned:** I should not assume that changing an input automatically changes Solver's constraints. When my repeated results did not make sense, I checked the Solver settings rather than accepting the unchanged output. I also learned to verify reported profit differences using full-precision calculations instead of relying only on rounded figures.
 
-## Individual Research Paper (economic-research)
+# Individual Research Paper (economic-research)
 
 | Date | Goal | Exact Prompt | Tool (LLM/Sheet/Code) | Output Link/Location | Notes |
 |------|------|--------------|------------------------|----------------------|-------|
