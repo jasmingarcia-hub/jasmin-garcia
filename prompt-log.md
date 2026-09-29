@@ -189,3 +189,12 @@ This experience reinforced the importance of checking AI explanations against fo
 **Results:** The original profit was $42,761.674038. Increasing the carrot cap by one bed produced $43,114.168792, a gain of $352.494754. Increasing the mesclun cap by one bed produced $43,008.147837, a gain of $246.473799. Rounded to cents, these gains confirm the reported shadow prices of $352.49 and $246.47.
 
 **What I learned:** I should not assume that changing an input automatically changes Solver's constraints. When my repeated results did not make sense, I checked the Solver settings rather than accepting the unchanged output. I also learned to verify reported profit differences using full-precision calculations instead of relying only on rounded figures.
+
+## Individual Research Paper (economic-research)
+
+| Date | Goal | Exact Prompt | Tool (LLM/Sheet/Code) | Output Link/Location | Notes |
+|------|------|--------------|------------------------|----------------------|-------|
+| 2026-09-28 | Begin the research paper and plan the GitHub setup | Please help me begin my Individual Research Paper step by step. Maybe at least setting up my Github with the proper repo and folders? | LLM (Claude) | Chat only | Claude first suggested a separate repo before seeing the assignment. Rejected that after reading the instructions, which require the existing portfolio repo. |
+| 2026-09-28 | Align the setup with the assignment instructions and rubric | Here are the instructions and the rubric (attached assignment text) | LLM (Claude) | Chat only | Produced a file and folder list to match the workflow table. Checked it against the assignment and created only what was missing. |
+| 2026-09-28 | Draft the capability README | Draft what should go in the capabilities/economic-research/README.md please | LLM (Claude) | capabilities/economic-research/README.md | Compared headings against my other capability READMEs and adjusted the format to match. |
+| 2026-09-28 | Resolve an error creating prompt-log.md | It's saying I can't creat the prompt-log.md because it already exists | LLM (Claude) | prompt-log.md | The file already existed from earlier work. Edited it instead of creating a new one. |
