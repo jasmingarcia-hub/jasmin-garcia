@@ -24,7 +24,7 @@ Brief → Spec → Drafts → Log → Deliver
 
 ## Exercised in:
 
-- Brief: [`docs/briefs/research-brief.md`](../../docs/briefs/research-brief.md)
+- Brief: [`docs/briefs/geopolitical-research-brief.md`](../../docs/briefs/geopolitical-research-brief.md)
 - Drafts: [`drafts/`](../../drafts/)
 - Paper: [`analysis/research-paper.pdf`](../../analysis/research-paper.pdf)
 - Figures: [`figures/`](../../figures/)
@@ -32,4 +32,4 @@ Brief → Spec → Drafts → Log → Deliver
 
 ## Status
 
-Not started. Topic not yet chosen.
+In progress. Topic selected: global dental workforce density and access to oral health care across countries with different income levels.
