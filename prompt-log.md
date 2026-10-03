@@ -198,3 +198,24 @@ This experience reinforced the importance of checking AI explanations against fo
 | 2026-09-28 | Align the setup with the assignment instructions and rubric | Here are the instructions and the rubric (attached assignment text) | LLM (Claude) | Chat only | Produced a file and folder list to match the workflow table. Checked it against the assignment and created only what was missing. |
 | 2026-09-28 | Draft the capability README | Draft what should go in the capabilities/economic-research/README.md please | LLM (Claude) | capabilities/economic-research/README.md | Compared headings against my other capability READMEs and adjusted the format to match. |
 | 2026-09-28 | Resolve an error creating prompt-log.md | It's saying I can't creat the prompt-log.md because it already exists | LLM (Claude) | prompt-log.md | The file already existed from earlier work. Edited it instead of creating a new one. |
+
+
+## Geopolitical Research Project
+
+### October 2026
+
+**Tool:** ChatGPT
+
+**Purpose:** Developing and analyzing my geopolitical research topic.
+
+**Prompts / Tasks:**
+- Asked for help narrowing the research question.
+- Asked for help identifying economic and geopolitical mechanisms.
+- Asked for help organizing sources.
+- Asked for help reviewing the structure of the analysis.
+
+**How I Used the Output:**
+I used AI to help organize my thinking and clarify the structure of the research. I reviewed the sources and evidence myself and made the final analytical conclusions.
+
+**Reflection:**
+I learned to address 4 things when creating the brief, such as stating - 1. the challenge, 2. the economic concepts, 3. the analysis I plan to run and 4. the decision/policy angle.
