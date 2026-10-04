@@ -1,0 +1,38 @@
+name: Build research dataset
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/build_research_dataset.py"
+      - ".github/workflows/build-research-data.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build matched research dataset
+        run: python data/build_research_dataset.py
+
+      - name: Commit generated data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/research_dataset.csv data/research_dataset_summary.md
+          if git diff --cached --quiet; then
+            echo "No generated data changes to commit."
+          else
+            git commit -m "Build matched oral health research dataset"
+            git push
+          fi
