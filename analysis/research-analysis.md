@@ -16,6 +16,8 @@ The results therefore support a more nuanced conclusion than "more dentists auto
 
 ## Dentist Density by Oral-Health Access Category
 
+![Median dentist density by oral-health access category](../figures/dentist-density-by-access.svg)
+
 | WHO access category | Countries | Mean dentists / 10,000 | Median | Interquartile range |
 |---|---:|---:|---:|---:|
 | Not achieved | 23 | 2.41 | 0.76 | 0.13–4.10 |
@@ -39,6 +41,8 @@ Restricting the sample to the 159 countries whose dentist-density observations a
 The Spearman association rises only slightly, from about **0.31 to 0.33**. The main finding is therefore not being driven by the small number of older workforce observations.
 
 ## Dentist Density by World Bank Income Group
+
+![Median dentist density by World Bank income group](../figures/dentist-density-by-income.svg)
 
 | Income group | Countries | Mean dentists / 10,000 | Median | Interquartile range |
 |---|---:|---:|---:|---:|
