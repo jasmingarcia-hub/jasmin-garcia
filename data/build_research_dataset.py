@@ -6,13 +6,15 @@ Sources:
 - World Bank API
 
 Primary outcome:
-- ORALHEALTH_SERVICESPHCFACILITIES (WHO 2023 oral-health service availability)
+- Direct ORALHEALTH_SERVICESPHCFACILITIES if available; otherwise a category
+  derived from three WHO service components. Saved baseline uses 2021 components.
 
 Dentist density:
 - HWF_0010, latest observation on or before 2023
 
 Income:
-- World Bank income group and 2023 GDP per capita (NY.GDP.PCAP.CD)
+- Current World Bank country-API income group (not a historical classification)
+- 2023 GDP per capita (NY.GDP.PCAP.CD)
 
 Outputs:
 - data/research_dataset.csv
@@ -263,7 +265,7 @@ def main() -> None:
     summary = [
         "# Research Dataset Summary",
         "",
-        f"- Target oral-health access year: {TARGET_YEAR} (with WHO component-data fallback where the direct country series is unavailable)",
+        f"- Workforce/GDP target year: {TARGET_YEAR}; access timing is recorded separately in access_data_year",
         f"- World Bank countries/territories retained: {len(rows)}",
         f"- Countries with complete primary analysis fields: {len(matched)}",
         f"- Countries missing at least one primary field: {len(rows) - len(matched)}",
@@ -300,6 +302,14 @@ def main() -> None:
         "## Matching rule",
         "",
         "Primary analysis requires a WHO oral-health access category, a WHO dentist-density observation (latest available on or before 2023), and a World Bank income group. The script first uses the direct WHO 2023 category if exposed through the API; otherwise it applies WHO Core Indicator 4.1 classification rules to the three reported component services. A category is derived only when all three component responses are present. Missing responses are never coded as unavailable. GDP per capita is retained as a continuous supporting variable but is not required for inclusion in the primary categorical analysis.",
+        "",
+        "## Timing and provenance audit",
+        "",
+        f"- Matched access sources: {dict(Counter(row['access_source'] for row in matched))}",
+        f"- Matched access observation years: {dict(Counter(row['access_data_year'] for row in matched))}",
+        "- Income groups are current classifications returned by the World Bank country API during extraction, not historical 2023 classifications. GDP is for 2023.",
+        "- Workforce may postdate the component outcome. The 2018–2023 subset tests workforce recency, not alignment with a 2021 outcome. A latest-on/before-2021 sensitivity check remains pending.",
+        "- Do not equate a derived 2021 sample with WHO's direct 2023 aggregate benchmark.",
         "",
         "## Important interpretation note",
         "",

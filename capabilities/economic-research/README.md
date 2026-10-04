@@ -24,9 +24,11 @@ Brief → Spec → Drafts → Log → Deliver
 
 ## Exercised in:
 
-- Brief: [`docs/briefs/geopolitical-research-brief.md`](../../docs/briefs/geopolitical-research-brief.md)
+- Brief: [`docs/briefs/research-brief.md`](../../docs/briefs/research-brief.md)
 - Drafts: [`drafts/`](../../drafts/)
-- Paper: [`analysis/research-paper.pdf`](../../analysis/research-paper.pdf)
+- Paper (pending): `analysis/research-paper.pdf`
+- October 3 snapshot: [`drafts/2026-10-03-draft.md`](../../drafts/2026-10-03-draft.md)
+- AI research notes (not submitted prose): [`analysis/research-analysis.md`](../../analysis/research-analysis.md)
 - Figures: [`figures/`](../../figures/)
 - AI log: [`prompt-log.md`](../../prompt-log.md)
 

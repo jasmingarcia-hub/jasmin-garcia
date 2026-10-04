@@ -1,6 +1,17 @@
+---
+type: brief
+engagement: global-dental-workforce
+capability: economic-research
+date: 2026-10-01
+status: committed
+hypothesis: "Lower-income countries generally have fewer dentists and potentially weaker oral-health service access"
+---
+
+> Formatting and path correction: October 3, 2026. Existing brief text is preserved; the hypothesis metadata summarizes the existing expected relationship. The two empty sections below are retrospective additions, made after initial results were available. They must not be represented as assumptions or falsification criteria committed before the analysis. Student authorship/review of the existing brief remains to be confirmed.
+
 # Research Brief — Global Dental Workforce and Access to Oral Health Care
 
-## Global Challenge
+## The problem
 
 A global economic concern to explore is how an unequal distribution of dentists across countries can affect access to oral health care. Dentist scarcity can be measured as the number of dentists per 10,000 population. Lower dentist density may be associated with reduced access. The research will test this relationship rather than assume that lower dentist density automatically causes reduced access.
 
@@ -20,6 +31,15 @@ The analysis will compare three variables:
 
 The analysis should help determine which workforce policies or strategies could improve access in countries where dental workforce supply is limited. We will use dentists relative to population rather than raw dentist counts. Based on the relationship between workforce supply and access, we will identify which policies appear most appropriate for countries with limited dentist availability.
 
-## Expected Relationship and Policy Question
+## Hypothesis and Policy Question
 
 I expect lower-income countries to generally have fewer dentists relative to their populations and potentially weaker access to oral health services, but the research will also examine whether there are countries that do not follow this pattern. We will evaluate what workforce policies could improve access, which approaches appear most appropriate where dentist supply is limited, and what might explain why countries perform better or worse than expected.
+
+
+## What I am assuming
+
+[Student to write in her own words. Identify assumptions about national dentist density, WHO service-availability reporting, and cross-country comparability. State which assumption needs the most testing.]
+
+## How I would know I was wrong
+
+[Student to write in her own words. Identify evidence that would contradict the original expectation. Acknowledge that this statement is being added after seeing preliminary findings; do not rewrite the original prediction to fit them.]

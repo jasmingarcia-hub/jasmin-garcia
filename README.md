@@ -16,4 +16,4 @@ This section will serve as an index of my coursework, analyses, decision memos, 
 
 ### Microeconomics and Macroeconomics
 
-- Coursework and portfolio projects will be added here.
+- Global dental workforce and oral-health service availability — in progress: [brief](docs/briefs/research-brief.md), [spec](capabilities/economic-research/spec.md), [dated drafts](drafts/), [AI research notes](analysis/research-analysis.md), and [figures](figures/). Student-authored paper at `analysis/research-paper.pdf` is pending.

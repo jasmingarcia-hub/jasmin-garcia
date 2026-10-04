@@ -1,3 +1,9 @@
+---
+type: prompt-log
+owner: jasmin-garcia
+started: 2026-08-21
+---
+
 # AI Prompt Log
 
 This file documents my use of AI tools for coursework and portfolio development.
@@ -230,3 +236,19 @@ I learned to address 4 things when creating the brief, such as stating - 1. the 
 | 2026-10-03 | Assemble and audit the matched international dataset | Combined WHO dentist-density data, WHO oral-health service-availability data, and World Bank income/GDP data; verified overlap and observation-year freshness. | LLM (ChatGPT) + WHO/World Bank APIs + GitHub Actions | data/research_dataset.csv; data/research_dataset_summary.md; data/build_research_dataset.py; drafts/2026-10-02-draft.md | The primary matched sample contains 171 countries. Because the direct WHO 2023 aggregate category was not exposed as usable country rows through the API, the workflow applies WHO's published classification rule only when all three component indicators are reported. Added a five-year workforce-data sensitivity check. |
 
 | 2026-10-03 | Analyze the matched international dataset | Calculated dentist-density distributions by access and income group, rank correlations, a recent-data sensitivity check, and reviewed counterexamples against WHO country profiles. | LLM (ChatGPT) + Code + WHO source verification | analysis/research-analysis.md; data/research_analysis_summary.md; data/analyze_research_dataset.py; figures/dentist-density-by-access.svg; figures/dentist-density-by-income.svg | Found a modest positive workforce-access association but a much stronger workforce-income relationship. The middle-income within-group results suggest income and health-system structure confound the overall relationship. Analysis and figures are now reproducible through GitHub Actions. |
+
+
+## Research compliance corrections — October 3, 2026
+
+Historical entries above are preserved verbatim. New "What I asked" entries paraphrase the task; no exact user prompts are copied.
+
+| Date | Tool | What I asked | What I got | What I did with it |
+|---|---|---|---|---|
+| 2026-10-03 | ChatGPT / Codex, GitHub connector, Python, official course pages | Mechanical research-project corrections and a step-by-step list of student work remaining. | Updated conventions; canonical brief path and links; frontmatter; empty student reasoning sections; spec audit; October 3 snapshot; AI authorship labels; corrected outcome-year and income-vintage descriptions. | Mechanical changes applied under the student's instruction. Student review, source verification, original prose, and personal reflection remain pending; no student acceptance or learning is asserted. |
+
+## Errors caught in this session
+
+- Earlier advice treated an older filename as necessarily noncompliant. The current course naming reference accepts earlier names. The supplied assignment-specific path is now used without claiming a guaranteed deduction under the old name.
+- Earlier specification claimed a direct 2023 WHO outcome. Checking the code and saved CSV showed all 171 matched outcomes are derived from 2021 components.
+- Income groups came from the current World Bank country endpoint, not a historical 2023 classification; the spec now discloses this.
+- AI authored analytical prose before the student's first draft, and October 3 work was added to an October 2 filename. Existing text is labeled and retained; a new snapshot and empty student-writing sections were added. This correction does not retrospectively establish compliance.
