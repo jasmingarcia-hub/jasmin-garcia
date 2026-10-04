@@ -27,6 +27,15 @@ Actual extraction: the direct aggregate series did not return usable country cat
 
 Secondary/robustness measure: WHO coverage of the largest government health financing scheme (% of population), interpreted together with whether routine/preventive and essential curative oral-health services are included in that scheme. This will not be used alone as the primary access measure because financing-scheme coverage does not necessarily mean oral-health services are included or actually available.
 
+## Additional Data sources - working draft
+
+| # | Variable / role | Source and exact title | Publisher | Year(s) of data | Countries (n) | Access date | URL | Known limitations | Cited in paper? |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Dentist density (dentists per 10,000 people): explanatory variable | [exact indicator title] | WHO | Observations range [2018-2023]; latest per country | [n] | [date] | [URL] | Observation years differ across countries; some post-date the 2021 outcome; definitions of "dentist" may vary | |
+| 2 | Service availability: outcome (proxy for access) | [exact indicator title] | WHO | 2021 | [n] | [date] | [URL] | Availability is not access; check whether the indicator is partly driven by having dentists at all; self-reported | |
+| 3 | Income level: control / grouping variable | [World Bank classification or GDP per capita title] | World Bank | [current vs. 2021] | [n] | [date] | [URL] | Current classifications mismatch the 2021 outcome; some countries changed groups | |
+| 4 | Background: disease burden and policy context | Global oral health status report: Towards universal health coverage for oral health by 2030 | WHO | 2022 | 194 | [date] | https://www.who.int/publications/i/item/9789240061484 | Motivates the problem; measures burden, not access or workforce supply | Yes |
+
 ## Variables
 
 Dentist workforce density = dentists per 10,000 population
