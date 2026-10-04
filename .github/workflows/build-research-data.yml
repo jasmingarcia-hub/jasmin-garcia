@@ -25,11 +25,14 @@ jobs:
       - name: Build matched research dataset
         run: python data/build_research_dataset.py
 
+      - name: Analyze matched research dataset
+        run: python data/analyze_research_dataset.py
+
       - name: Commit generated data if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/research_dataset.csv data/research_dataset_summary.md
+          git add data/research_dataset.csv data/research_dataset_summary.md data/research_analysis_summary.md figures/dentist-density-by-access.svg figures/dentist-density-by-income.svg
           if git diff --cached --quiet; then
             echo "No generated data changes to commit."
           else
