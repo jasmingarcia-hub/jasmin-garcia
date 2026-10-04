@@ -38,6 +38,7 @@ Supporting access variables = the three 2021 WHO NCD CCS component indicators fo
 - Identify countries that perform better or worse on access than their dentist density and income level might suggest
 - Discuss whether those exceptions may relate to financing, workforce policy, geographic distribution, task sharing, or training capacity
 - Use the government-financing-scheme indicators as a secondary check where country overlap is sufficient
+- Repeat the primary comparison as a sensitivity analysis using only countries with dentist-density observations from 2018–2023
 
 ## Planned Figures
 
