@@ -10,12 +10,9 @@ WHO Dentists (per 10,000 population) — country-level dentist workforce density
 
 World Bank GDP per capita and/or World Bank income classification — for country income comparison.
 
-WHO NCD Country Capacity Survey oral-health indicators — country-level availability of three oral-health services in primary care:
-- oral health screening for early detection of oral diseases
-- urgent treatment for emergency oral care and pain relief
-- basic restorative dental procedures to treat existing dental decay
+WHO Global Oral Health Action Plan Core Indicator 4.1 / GHO indicator `ORALHEALTH_SERVICESPHCFACILITIES` — country-level 2023 classification of whether oral-health care services are generally available in primary health care facilities. WHO classifies countries as Fully achieved, Partially achieved, Not achieved, or No information based on three services: oral-health screening, urgent oral care/pain relief, and basic restorative dental care.
 
-WHO defines a service as "generally available" when it reaches 50% or more of patients in need. These same three components are used in WHO Global Oral Health Action Plan Core Indicator 4.1 for availability of oral-health services in primary health care.
+The three underlying 2021 NCD Country Capacity Survey indicators (`ORALHEALTH_AVAILABILITY_SCREENING`, `ORALHEALTH_AVAILABILITY_URGENTCARE`, and `ORALHEALTH_AVAILABILITY_RESTORATIVE`) will be retained as supporting variables rather than used to construct the primary outcome ourselves.
 
 Secondary/robustness measure: WHO coverage of the largest government health financing scheme (% of population), interpreted together with whether routine/preventive and essential curative oral-health services are included in that scheme. This will not be used alone as the primary access measure because financing-scheme coverage does not necessarily mean oral-health services are included or actually available.
 
@@ -25,22 +22,19 @@ Dentist workforce density = dentists per 10,000 population
 
 Country income level = World Bank income classification, with GDP per capita available for sensitivity analysis
 
-Primary oral-health access measure = service-availability score based on the three WHO NCD CCS indicators:
-- 0 = none of the three services generally available
-- 1 = one service generally available
-- 2 = two services generally available
-- 3 = all three services generally available
+Primary oral-health access measure = WHO 2023 `ORALHEALTH_SERVICESPHCFACILITIES` classification:
+- Not achieved = none of the three services generally available
+- Partially achieved = one or two services generally available
+- Fully achieved = all three services generally available
+- No information = country did not report usable data
 
-For interpretation, WHO's newer monitoring framework groups these as:
-- Not achieved = 0 services
-- Partially achieved = 1–2 services
-- Fully achieved = all 3 services
+Supporting access variables = the three 2021 WHO NCD CCS component indicators for screening, urgent care, and restorative care.
 
 ## Planned Analysis
 
 - Compare dentist workforce density across World Bank income groups
 - Examine whether countries with greater dentist workforce density tend to have greater primary-care oral-health service availability
-- Compare dentist density across the 0–3 access score and WHO-style not achieved / partially achieved / fully achieved categories
+- Compare dentist density across WHO's 2023 not achieved / partially achieved / fully achieved access categories
 - Identify countries that perform better or worse on access than their dentist density and income level might suggest
 - Discuss whether those exceptions may relate to financing, workforce policy, geographic distribution, task sharing, or training capacity
 - Use the government-financing-scheme indicators as a secondary check where country overlap is sufficient
@@ -75,8 +69,8 @@ Project succeeds if it can:
 
 WHO dentist-density observations are not all from the same year, and some countries have missing values.
 
-The primary access measure is based on country-reported service availability and uses a threshold definition (generally available = reaching at least 50% of patients in need). It therefore measures health-system service availability rather than actual utilization, quality, affordability, or individual patient access.
+The primary access measure is WHO's country-reported service-availability classification. It measures health-system service availability rather than actual utilization, quality, affordability, or individual patient access.
 
-The 0–3 access score is an ordered summary created from the three WHO component indicators. It should be interpreted as an ordinal measure rather than a precise continuous quantity.
+The access outcome is ordinal (not achieved / partially achieved / fully achieved), not a precise continuous quantity.
 
 Cross-country associations will not establish causation. Differences in financing, geography, health-system structure, workforce mix, reporting quality, and observation years may affect the results.
