@@ -22,6 +22,11 @@
 
 - Earliest: 2004
 - Latest: 2023
+- 2018–2023 (within 5 years of target year): 159
+- 2013–2023 (within 10 years of target year): 169
+- Before 2013: 2
+
+A sensitivity analysis should repeat the main comparison using only countries with dentist-density observations from 2018–2023.
 
 ## Matching rule
 
