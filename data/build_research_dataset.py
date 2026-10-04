@@ -144,7 +144,32 @@ def normalize_access(value: str | None) -> str | None:
         return "Not achieved"
     if "no information" in low or "no data" in low:
         return None
-    return value
+    return None
+
+
+def availability_binary(value: str | None) -> int | None:
+    """Map a reported WHO component response to 1/0 without treating missing as no."""
+    if not value:
+        return None
+    low = value.strip().lower()
+    if "unavailable" in low or low in {"no", "not available"}:
+        return 0
+    if "available" in low or low in {"yes"}:
+        return 1
+    return None
+
+
+def derive_access_category(*values: str | None) -> str | None:
+    """Apply WHO Core Indicator 4.1 rules when all three components are reported."""
+    binary = [availability_binary(v) for v in values]
+    if any(v is None for v in binary):
+        return None
+    score = sum(binary)
+    if score == 3:
+        return "Fully achieved"
+    if score in (1, 2):
+        return "Partially achieved"
+    return "Not achieved"
 
 
 def main() -> None:
@@ -183,6 +208,19 @@ def main() -> None:
         u = urgent.get(iso3)
         r = restorative.get(iso3)
 
+        screening_value = text_value(s) if s else None
+        urgent_value = text_value(u) if u else None
+        restorative_value = text_value(r) if r else None
+        direct_access = normalize_access(text_value(a)) if a else None
+        derived_access = derive_access_category(
+            screening_value, urgent_value, restorative_value
+        )
+        access_category = direct_access or derived_access
+        component_years = [
+            y for y in (row_year(s) if s else None, row_year(u) if u else None, row_year(r) if r else None)
+            if y is not None
+        ]
+
         rows.append({
             "iso3": iso3,
             "country": meta["country"],
@@ -191,11 +229,16 @@ def main() -> None:
             "gdp_per_capita_2023_usd": gdp.get(iso3),
             "dentists_per_10000": numeric_value(d) if d else None,
             "dentist_data_year": row_year(d) if d else None,
-            "oral_health_access_2023": normalize_access(text_value(a)) if a else None,
-            "access_data_year": row_year(a) if a else None,
-            "screening_available_2021": text_value(s) if s else None,
-            "urgent_care_available_2021": text_value(u) if u else None,
-            "restorative_care_available_2021": text_value(r) if r else None,
+            "oral_health_access_category": access_category,
+            "access_source": "WHO direct 2023 indicator" if direct_access else (
+                "Derived from WHO component indicators" if derived_access else None
+            ),
+            "access_data_year": row_year(a) if direct_access and a else (
+                max(component_years) if derived_access and component_years else None
+            ),
+            "screening_available": screening_value,
+            "urgent_care_available": urgent_value,
+            "restorative_care_available": restorative_value,
         })
 
     fields = list(rows[0].keys())
@@ -208,19 +251,19 @@ def main() -> None:
     matched = [
         row for row in rows
         if row["dentists_per_10000"] is not None
-        and row["oral_health_access_2023"] in {
+        and row["oral_health_access_category"] in {
             "Fully achieved", "Partially achieved", "Not achieved"
         }
         and row["income_group"]
     ]
-    access_counts = Counter(row["oral_health_access_2023"] for row in matched)
+    access_counts = Counter(row["oral_health_access_category"] for row in matched)
     income_counts = Counter(row["income_group"] for row in matched)
     dentist_years = [row["dentist_data_year"] for row in matched if row["dentist_data_year"]]
 
     summary = [
         "# Research Dataset Summary",
         "",
-        f"- Target oral-health access year: {TARGET_YEAR}",
+        f"- Target oral-health access year: {TARGET_YEAR} (with WHO component-data fallback where the direct country series is unavailable)",
         f"- World Bank countries/territories retained: {len(rows)}",
         f"- Countries with complete primary analysis fields: {len(matched)}",
         f"- Countries missing at least one primary field: {len(rows) - len(matched)}",
@@ -248,7 +291,7 @@ def main() -> None:
         "",
         "## Matching rule",
         "",
-        "Primary analysis requires a WHO 2023 access category, a WHO dentist-density observation (latest available on or before 2023), and a World Bank income group. GDP per capita is retained as a continuous supporting variable but is not required for inclusion in the primary categorical analysis.",
+        "Primary analysis requires a WHO oral-health access category, a WHO dentist-density observation (latest available on or before 2023), and a World Bank income group. The script first uses the direct WHO 2023 category if exposed through the API; otherwise it applies WHO Core Indicator 4.1 classification rules to the three reported component services. A category is derived only when all three component responses are present. Missing responses are never coded as unavailable. GDP per capita is retained as a continuous supporting variable but is not required for inclusion in the primary categorical analysis.",
         "",
         "## Important interpretation note",
         "",
