@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="100%" height="100%" fill="white"/>
+<text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">Median Dentist Density by Oral-Health Access</text>
+<text x="400" y="68" text-anchor="middle" font-family="Arial" font-size="14">171-country matched sample</text>
+<line x1="90" y1="420" x2="750" y2="420" stroke="#333"/>
+<line x1="90" y1="100" x2="90" y2="420" stroke="#333"/>
+<text x="25" y="260" transform="rotate(-90 25 260)" text-anchor="middle" font-family="Arial" font-size="16">Dentists per 10,000 population (median)</text>
+<g font-family="Arial" font-size="13" fill="#333">
+<text x="75" y="425" text-anchor="end">0</text><text x="75" y="345" text-anchor="end">1</text><text x="75" y="265" text-anchor="end">2</text><text x="75" y="185" text-anchor="end">3</text><text x="75" y="105" text-anchor="end">4</text>
+</g>
+<g fill="#777">
+<rect x="150" y="359.2" width="130" height="60.8"/><rect x="335" y="362.4" width="130" height="57.6"/><rect x="520" y="182.4" width="130" height="237.6"/>
+</g>
+<g font-family="Arial" font-size="15" text-anchor="middle">
+<text x="215" y="450">Not achieved</text><text x="400" y="450">Partially achieved</text><text x="585" y="450">Fully achieved</text>
+<text x="215" y="350" font-weight="bold">0.76</text><text x="400" y="353" font-weight="bold">0.72</text><text x="585" y="172" font-weight="bold">2.97</text>
+</g>
+<text x="400" y="485" text-anchor="middle" font-family="Arial" font-size="12">Source: WHO GHO/NCD CCS + World Bank; analysis in data/research_dataset.csv</text>
+</svg>
