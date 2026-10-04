@@ -279,12 +279,20 @@ def main() -> None:
         summary.append(f"- {group}: {count}")
 
     if dentist_years:
+        recent_5yr = sum(y >= 2018 for y in dentist_years)
+        recent_10yr = sum(y >= 2013 for y in dentist_years)
+        pre_2013 = sum(y < 2013 for y in dentist_years)
         summary.extend([
             "",
             "## Dentist-density observation years in matched sample",
             "",
             f"- Earliest: {min(dentist_years)}",
             f"- Latest: {max(dentist_years)}",
+            f"- 2018–2023 (within 5 years of target year): {recent_5yr}",
+            f"- 2013–2023 (within 10 years of target year): {recent_10yr}",
+            f"- Before 2013: {pre_2013}",
+            "",
+            "A sensitivity analysis should repeat the main comparison using only countries with dentist-density observations from 2018–2023.",
         ])
 
     summary.extend([
