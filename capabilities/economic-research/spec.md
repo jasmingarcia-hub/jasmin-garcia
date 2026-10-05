@@ -120,3 +120,16 @@ Cross-country associations will not establish causation. Differences in financin
 | Causal interpretation | Within-income descriptive comparisons and outliers do not identify effects of financing, deployment, or task sharing. | Treat these mechanisms as hypotheses for further investigation, not demonstrated explanations or a completed policy recommendation. |
 | Drafts and authorship | AI prose was added to an October 2 file during October 3 work. | Preserve it with provenance labels; create an October 3 snapshot. Student writes the first substantive analysis/recommendation/reflection. |
 | Current visuals | Existing SVGs show group medians, not box/strip plots. | Describe implemented figures accurately; distribution figures may be considered later. |
+
+
+## October 5, 2026 — timing-check build audit
+
+- Added `dentists_per_10000_on_or_before_2021`, `dentist_data_year_on_or_before_2021`, and `gdp_per_capita_2021_usd` to the existing dataset. Original baseline fields were retained unchanged.
+- `python data/build_research_dataset.py --align-existing` appends these fields without rebuilding baseline values. Optional `--dentist-json` and `--gdp-json` accept cached official API responses. A full build also generates the timing fields.
+- Analyst calculations use the latest valid country workforce observation on/before 2021; a second subset requires 2018–2021. Zero density is valid; missing density is excluded.
+- All 171 original matched countries retain usable aligned workforce records. Rho is 0.305 versus baseline 0.306; the 157-country recent aligned subset gives 0.325. The baseline values on those same 157 countries give 0.340, separating observation replacement from exclusions.
+- 167 aligned countries have positive 2021 GDP per capita. Continuous GDP rank comparisons are supporting checks, not substitutes for historical income classifications or estimates of a workforce effect adjusted for income.
+- Correlations were independently verified with SciPy, including tied ranks. Baseline-field preservation and cutoff/subset counts were checked.
+- WHO workforce metadata states source-dependent inclusion of active versus registered dentists and variability in sector coverage, timing, and completeness. Year restriction does not fix reporting comparability.
+- Source retrieval date: October 5, 2026. WHO records can be retrospectively revised. This is an exploratory check on the retrieved data.
+- Prior timing audit entries above describe the October 3 state. The on/before-2021 calculation is now complete. Historical income-group checks, financing analysis, and original-source review of outliers remain pending.

@@ -32,3 +32,33 @@
 | Lower middle income | 16.7% | 40.5% | 42.9% |
 | Upper middle income | 5.7% | 17.0% | 77.4% |
 | High income | 12.7% | 7.3% | 80.0% |
+
+## Exploratory year-alignment checks — October 5, 2026
+
+Baseline values are retained. Additional workforce fields use the latest country observation on/before 2021. Outcomes remain the saved 2021 component categories. Income groups remain current classifications.
+
+| Sample | n | Workforce–availability Spearman rho | None: median | Partial: median | Full: median |
+|---|---:|---:|---:|---:|---:|
+| Original workforce through 2023 | 171 | 0.306 | 0.76 | 0.72 | 2.97 |
+| Workforce on/before 2021 | 171 | 0.305 | 0.76 | 0.57 | 2.93 |
+| Workforce 2018–2021 | 157 | 0.325 | 0.76 | 0.57 | 3.57 |
+
+- Original workforce values on the same 157 countries as the recent aligned subset: rho = 0.340.
+
+### Within-income comparisons using aligned workforce
+
+| Current income group | n | Workforce–availability Spearman rho |
+|---|---:|---:|
+| Low income | 21 | 0.374 |
+| Lower middle income | 42 | 0.098 |
+| Upper middle income | 53 | -0.170 |
+| High income | 55 | 0.179 |
+
+### Continuous 2021 GDP check
+
+- 2021 GDP per capita vs aligned dentist density: n = 167, rho = 0.764.
+- 2021 GDP per capita vs service availability: n = 167, rho = 0.330.
+
+GDP is a continuous supporting measure, not a historical income classification or a causal adjustment. Historical income-group checks, reporting-definition checks, and financing analysis remain pending.
+
+Sources retrieved October 5, 2026: https://ghoapi.azureedge.net/api/HWF_0010?$format=json and https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.CD?format=json&per_page=400&date=2021 . Workforce observations may still be older than 2021; all checks are exploratory.

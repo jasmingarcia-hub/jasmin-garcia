@@ -67,7 +67,46 @@ def pearson(x: list[float], y: list[float]) -> float:
 
 
 def spearman(x: list[float], y: list[float]) -> float:
+    if len(x) < 2 or len(set(x)) < 2 or len(set(y)) < 2:
+        return float("nan")
     return pearson(average_ranks(x), average_ranks(y))
+
+
+def timing_checks(rows: list[dict]) -> list[str]:
+    key = "dentists_per_10000_on_or_before_2021"
+    year_key = "dentist_data_year_on_or_before_2021"
+    aligned = [r for r in rows if r.get(key) not in (None, "")]
+    recent = [r for r in aligned if 2018 <= int(r[year_key]) <= 2021]
+    lines = ["", "## Exploratory year-alignment checks — October 5, 2026", "",
+             "Baseline values are retained. Additional workforce fields use the latest country observation on/before 2021. Outcomes remain the saved 2021 component categories. Income groups remain current classifications.", "",
+             "| Sample | n | Workforce–availability Spearman rho | None: median | Partial: median | Full: median |",
+             "|---|---:|---:|---:|---:|---:|"]
+    for label, sample, field in [("Original workforce through 2023", rows, "dentists_per_10000"),
+                                  ("Workforce on/before 2021", aligned, key),
+                                  ("Workforce 2018–2021", recent, key)]:
+        rho = spearman([float(r[field]) for r in sample], [ACCESS_ORDER[r["oral_health_access_category"]] for r in sample])
+        medians = [median([float(r[field]) for r in sample if r["oral_health_access_category"] == c]) if any(r["oral_health_access_category"] == c for r in sample) else float("nan") for c in ACCESS_CATS]
+        lines.append(f"| {label} | {len(sample)} | {rho:.3f} | " + " | ".join(f"{v:.2f}" for v in medians) + " |")
+    # Same-country baseline separates sample exclusion from observation replacement.
+    if recent:
+        baseline_same = spearman([float(r["dentists_per_10000"]) for r in recent], [ACCESS_ORDER[r["oral_health_access_category"]] for r in recent])
+        lines.extend(["", f"- Original workforce values on the same {len(recent)} countries as the recent aligned subset: rho = {baseline_same:.3f}."])
+    lines.extend(["", "### Within-income comparisons using aligned workforce", "",
+                  "| Current income group | n | Workforce–availability Spearman rho |", "|---|---:|---:|"])
+    for group in INCOME_CATS:
+        sample = [r for r in aligned if r["income_group"] == group]
+        rho = spearman([float(r[key]) for r in sample], [ACCESS_ORDER[r["oral_health_access_category"]] for r in sample])
+        lines.append(f"| {group} | {len(sample)} | {rho:.3f} |")
+    gdp = [r for r in aligned if r.get("gdp_per_capita_2021_usd") not in (None, "") and float(r["gdp_per_capita_2021_usd"]) > 0]
+    lines.extend(["", "### Continuous 2021 GDP check", ""])
+    for label, left, right in [
+        ("2021 GDP per capita vs aligned dentist density", "gdp_per_capita_2021_usd", key),
+        ("2021 GDP per capita vs service availability", "gdp_per_capita_2021_usd", None)]:
+        rho = spearman([float(r[left]) for r in gdp], [float(r[right]) if right else ACCESS_ORDER[r["oral_health_access_category"]] for r in gdp])
+        lines.append(f"- {label}: n = {len(gdp)}, rho = {rho:.3f}.")
+    lines.extend(["", "GDP is a continuous supporting measure, not a historical income classification or a causal adjustment. Historical income-group checks, reporting-definition checks, and financing analysis remain pending.", "",
+                  "Sources retrieved October 5, 2026: https://ghoapi.azureedge.net/api/HWF_0010?$format=json and https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.CD?format=json&per_page=400&date=2021 . Workforce observations may still be older than 2021; all checks are exploratory."])
+    return lines
 
 
 def read_rows() -> list[dict]:
@@ -185,6 +224,7 @@ def main() -> None:
             f"{100*counts['Partially achieved']/n:.1f}% | {100*counts['Fully achieved']/n:.1f}% |"
         )
 
+    lines.extend(timing_checks(rows))
     OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
     FIG_DIR.mkdir(exist_ok=True)
 

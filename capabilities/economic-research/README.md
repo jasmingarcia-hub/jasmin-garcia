@@ -35,3 +35,5 @@ Brief → Spec → Drafts → Log → Deliver
 ## Status
 
 In progress. Topic selected: global dental workforce density and access to oral health care across countries with different income levels.
+
+Latest snapshot: [`drafts/2026-10-05-draft.md`](../../drafts/2026-10-05-draft.md). Exploratory year-alignment calculations are recorded in [`data/research_analysis_summary.md`](../../data/research_analysis_summary.md).

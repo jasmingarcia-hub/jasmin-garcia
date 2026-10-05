@@ -24,6 +24,7 @@ Outputs:
 from __future__ import annotations
 
 import csv
+import argparse
 import json
 import re
 from collections import Counter
@@ -180,10 +181,15 @@ def main() -> None:
 
     wb = world_bank_countries()
     gdp = world_bank_gdp(TARGET_YEAR)
+    gdp_2021 = world_bank_gdp(2021)
 
+    dentist_records = who_records(WHO_INDICATORS["dentist_density"])
     dentist = latest_by_country(
-        who_records(WHO_INDICATORS["dentist_density"]),
+        dentist_records,
         max_year=TARGET_YEAR,
+    )
+    dentist_2021 = latest_by_country(
+        [r for r in dentist_records if r.get("SpatialDimType") == "COUNTRY"], 2021
     )
     access = exact_year_by_country(
         who_records(WHO_INDICATORS["access_category"]),
@@ -205,6 +211,7 @@ def main() -> None:
     rows = []
     for iso3, meta in sorted(wb.items(), key=lambda item: item[1]["country"] or item[0]):
         d = dentist.get(iso3)
+        d21 = dentist_2021.get(iso3)
         a = access.get(iso3)
         s = screening.get(iso3)
         u = urgent.get(iso3)
@@ -231,6 +238,9 @@ def main() -> None:
             "gdp_per_capita_2023_usd": gdp.get(iso3),
             "dentists_per_10000": numeric_value(d) if d else None,
             "dentist_data_year": row_year(d) if d else None,
+            "dentists_per_10000_on_or_before_2021": numeric_value(d21) if d21 else None,
+            "dentist_data_year_on_or_before_2021": row_year(d21) if d21 else None,
+            "gdp_per_capita_2021_usd": gdp_2021.get(iso3),
             "oral_health_access_category": access_category,
             "access_source": "WHO direct 2023 indicator" if direct_access else (
                 "Derived from WHO component indicators" if derived_access else None
@@ -308,7 +318,7 @@ def main() -> None:
         f"- Matched access sources: {dict(Counter(row['access_source'] for row in matched))}",
         f"- Matched access observation years: {dict(Counter(row['access_data_year'] for row in matched))}",
         "- Income groups are current classifications returned by the World Bank country API during extraction, not historical 2023 classifications. GDP is for 2023.",
-        "- Workforce may postdate the component outcome. The 2018–2023 subset tests workforce recency, not alignment with a 2021 outcome. A latest-on/before-2021 sensitivity check remains pending.",
+        "- Workforce may postdate the component outcome. The 2018–2023 subset tests workforce recency, not alignment with a 2021 outcome. See data/research_analysis_summary.md for the latest-on/before-2021 sensitivity check.",
         "- Do not equate a derived 2021 sample with WHO's direct 2023 aggregate benchmark.",
         "",
         "## Important interpretation note",
@@ -325,5 +335,44 @@ def main() -> None:
     print(f"Complete primary-analysis countries: {len(matched)}")
 
 
+def align_existing(dentist_json: str | None = None, gdp_json: str | None = None) -> None:
+    """Append timing-check fields without changing the saved baseline values."""
+    path = Path("data/research_dataset.csv")
+    with path.open(encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        fields = list(reader.fieldnames)
+        rows = list(reader)
+    records = json.loads(Path(dentist_json).read_text())["value"] if dentist_json else who_records("HWF_0010")
+    records = [r for r in records if r.get("SpatialDimType") == "COUNTRY"]
+    aligned = latest_by_country(records, 2021)
+    if gdp_json:
+        response = json.loads(Path(gdp_json).read_text())
+        if response[0]["pages"] != 1:
+            raise ValueError("GDP response is incomplete")
+        gdp = {r["countryiso3code"]: r["value"] for r in response[1] if r.get("countryiso3code")}
+    else:
+        gdp = world_bank_gdp(2021)
+    new_fields = ["dentists_per_10000_on_or_before_2021", "dentist_data_year_on_or_before_2021", "gdp_per_capita_2021_usd"]
+    fields.extend(n for n in new_fields if n not in fields)
+    for row in rows:
+        record = aligned.get(row["iso3"])
+        row[new_fields[0]] = numeric_value(record) if record else None
+        row[new_fields[1]] = row_year(record) if record else None
+        row[new_fields[2]] = gdp.get(row["iso3"])
+    with path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(rows)
+    print("Appended 2021 timing fields; original baseline fields preserved.")
+
+
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--align-existing", action="store_true")
+    parser.add_argument("--dentist-json")
+    parser.add_argument("--gdp-json")
+    args = parser.parse_args()
+    if args.align_existing:
+        align_existing(args.dentist_json, args.gdp_json)
+    else:
+        main()

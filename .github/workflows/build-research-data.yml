@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "data/build_research_dataset.py"
+      - "data/analyze_research_dataset.py"
       - ".github/workflows/build-research-data.yml"
 
 permissions:
@@ -39,3 +40,4 @@ jobs:
             git commit -m "Build matched oral health research dataset"
             git push
           fi
+

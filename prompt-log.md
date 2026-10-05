@@ -252,3 +252,12 @@ Historical entries above are preserved verbatim. New "What I asked" entries para
 - Earlier specification claimed a direct 2023 WHO outcome. Checking the code and saved CSV showed all 171 matched outcomes are derived from 2021 components.
 - Income groups came from the current World Bank country endpoint, not a historical 2023 classification; the spec now discloses this.
 - AI authored analytical prose before the student's first draft, and October 3 work was added to an October 2 filename. Existing text is labeled and retained; a new snapshot and empty student-writing sections were added. This correction does not retrospectively establish compliance.
+
+
+## Research continuation — October 5, 2026
+
+| Date | Tool | What I asked | What I got | What I did with it |
+|---|---|---|---|---|
+| 2026-10-05 | ChatGPT / Codex, GitHub connector, Python, SciPy, WHO and World Bank APIs | Resume the research project from the committed draft and pending checks. | Reproducible on/before-2021 and 2018–2021 workforce comparisons, supporting 2021 GDP correlations, source records for financing, and an October 5 snapshot preserving the student's prose. Removed duplicate October 3 frontmatter. | Results and tooling saved for student review. Original baseline data retained. Student interpretation, source verification, and final policy judgment remain pending. |
+
+Errors/checks: the committed October 3 draft had duplicated YAML metadata, detected on readback and removed mechanically. Timing correlations were independently checked against SciPy. No original prompts were copied or past log entries edited. Year alignment does not eliminate reporting differences, income-vintage differences, or confounding.
