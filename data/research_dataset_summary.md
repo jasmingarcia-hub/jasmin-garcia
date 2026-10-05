@@ -37,7 +37,7 @@ Primary analysis requires a WHO oral-health access category, a WHO dentist-densi
 - Matched access sources: {'Derived from WHO component indicators': 171}
 - Matched access observation years: {2021: 171}
 - Income groups are current classifications returned by the World Bank country API during extraction, not historical 2023 classifications. GDP is for 2023.
-- Workforce may postdate the component outcome. The 2018–2023 subset tests workforce recency, not alignment with a 2021 outcome. A latest-on/before-2021 sensitivity check remains pending.
+- Workforce may postdate the component outcome. The 2018–2023 subset tests workforce recency, not alignment with a 2021 outcome. See data/research_analysis_summary.md for the latest-on/before-2021 sensitivity check.
 - Do not equate a derived 2021 sample with WHO's direct 2023 aggregate benchmark.
 
 ## Important interpretation note
