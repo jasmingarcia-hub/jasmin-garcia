@@ -110,3 +110,35 @@ Broad density bands are exploratory, not matched countries or causal controls. D
 These are descriptive cross-sectional comparisons with incomplete reporting, current income groups, and possible confounding. Do not interpret them as effects of expanding financing or as an explanation for particular countries. Country-profile and policy-effect evidence remain to be checked.
 
 Sources: WHO 2021 Health Technology Assessment and Health Benefit Package Survey, indicators ORALHEALTH_UHC_GOVSCHEME, ORALHEALTH_UHC_PREVENTIVE, ORALHEALTH_UHC_ESSENTIAL_CURATIVE. API records retrieved October 5, 2026; metadata: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/essential-curative-oral-health-care .
+
+## Exploratory financing uncertainty checks — October 5, 2026
+
+The 2x2 table contrasts full availability with partial/no availability among countries reporting essential-curative benefit inclusion. Rows: Yes, No. Columns: full, partial/no. These are unadjusted exploratory comparisons, not policy-effect estimates.
+
+- Observed table: [[49, 29], [9, 12]].
+- Fisher exact test, two-sided: p = 0.134634.
+- Pearson chi-square test, df = 1, without continuity correction: p = 0.099240.
+
+| Benefit included | Full availability | Proportion | 95% Wilson score interval |
+|---|---:|---:|---:|
+| Yes | 49/78 | 62.8% | 51.7–72.7% |
+| No | 9/21 | 42.9% | 24.5–63.5% |
+
+Observed difference: 20.0 percentage points. The intervals above are for individual proportions, not the difference.
+
+### Current-income subgroup intervals
+
+| Current income group | Benefit included | Full availability | Proportion | 95% Wilson score interval |
+|---|---|---:|---:|---:|
+| Low income | Yes | 4/10 | 40.0% | 16.8–68.7% |
+| Low income | No | 0/4 | 0.0% | 0.0–49.0% |
+| Lower middle income | Yes | 7/18 | 38.9% | 20.3–61.4% |
+| Lower middle income | No | 4/9 | 44.4% | 18.9–73.3% |
+| Upper middle income | Yes | 23/27 | 85.2% | 67.5–94.1% |
+| Upper middle income | No | 0/3 | 0.0% | 0.0–56.1% |
+| High income | Yes | 15/23 | 65.2% | 44.9–81.2% |
+| High income | No | 5/5 | 100.0% | 56.6–100.0% |
+
+Intervals use a binomial working model and Wilson score method with 95% nominal coverage, no continuity correction. Neither intervals nor p-values account for nonrandom country reporting, measurement error, shared regional influences, income/workforce confounding, or current-versus-2021 income classifications. Subgroup comparisons are exploratory; no multiple-testing correction or causal adjustment is applied. An interval near 0% or 100% does not make a small subgroup reliable.
+
+Calculation code uses Python's standard library; the current 2x2 results were independently checked against scipy.stats.fisher_exact and scipy.stats.chi2_contingency(correction=False).

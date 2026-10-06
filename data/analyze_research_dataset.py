@@ -7,7 +7,7 @@ import csv
 import math
 from collections import Counter
 from pathlib import Path
-from statistics import mean, median
+from statistics import mean, median, NormalDist
 
 DATA = Path("data/research_dataset.csv")
 OUT = Path("data/research_analysis_summary.md")
@@ -166,6 +166,78 @@ def financing_checks(rows: list[dict]) -> list[str]:
     return lines
 
 
+def wilson_interval(successes: int, total: int, confidence: float = 0.95) -> tuple[float, float]:
+    """Two-sided Wilson score interval without continuity correction."""
+    if not 0 <= successes <= total or total <= 0 or not 0 < confidence < 1:
+        raise ValueError("Invalid binomial counts or confidence level")
+    z = NormalDist().inv_cdf((1 + confidence) / 2)
+    p = successes / total
+    denominator = 1 + z * z / total
+    center = (p + z * z / (2 * total)) / denominator
+    half = z * math.sqrt(p * (1 - p) / total + z * z / (4 * total * total)) / denominator
+    return max(0.0, center - half), min(1.0, center + half)
+
+
+def financing_test_pvalues(table: list[list[int]]) -> tuple[float, float]:
+    """Two-sided Fisher exact and uncorrected Pearson chi-square (df=1)."""
+    if len(table) != 2 or any(len(row) != 2 for row in table):
+        raise ValueError("Expected a 2x2 table")
+    a, b = table[0]
+    c, d = table[1]
+    if any(not isinstance(x, int) or x < 0 for x in (a, b, c, d)):
+        raise ValueError("Expected nonnegative integer counts")
+    total = a + b + c + d
+    first_row, second_row = a + b, c + d
+    first_col, second_col = a + c, b + d
+    if not all((first_row, second_row, first_col, second_col)):
+        return float("nan"), float("nan")
+    denominator = math.comb(total, first_row)
+    def probability(x: int) -> float:
+        return math.comb(first_col, x) * math.comb(second_col, first_row - x) / denominator
+    observed = probability(a)
+    lower, upper = max(0, first_row - second_col), min(first_row, first_col)
+    fisher = min(1.0, sum(probability(x) for x in range(lower, upper + 1) if probability(x) <= observed * (1 + 1e-12)))
+    chi_square = total * (a * d - b * c) ** 2 / (first_row * second_row * first_col * second_col)
+    chi_p = math.erfc(math.sqrt(chi_square / 2))
+    return fisher, chi_p
+
+
+def financing_uncertainty(rows: list[dict]) -> list[str]:
+    field = "essential_curative_in_public_scheme_2021"
+    groups = {flag: [r for r in rows if r.get(field) == flag] for flag in ("Yes", "No")}
+    table = [[sum(r["oral_health_access_category"] == "Fully achieved" for r in groups[flag]),
+              sum(r["oral_health_access_category"] != "Fully achieved" for r in groups[flag])] for flag in ("Yes", "No")]
+    fisher, chi_p = financing_test_pvalues(table)
+    lines = ["", "## Exploratory financing uncertainty checks — October 5, 2026", "",
+             "The 2x2 table contrasts full availability with partial/no availability among countries reporting essential-curative benefit inclusion. Rows: Yes, No. Columns: full, partial/no. These are unadjusted exploratory comparisons, not policy-effect estimates.", "",
+             f"- Observed table: {table}.",
+             f"- Fisher exact test, two-sided: p = {fisher:.6f}.",
+             f"- Pearson chi-square test, df = 1, without continuity correction: p = {chi_p:.6f}.", "",
+             "| Benefit included | Full availability | Proportion | 95% Wilson score interval |", "|---|---:|---:|---:|"]
+    for flag in ("Yes", "No"):
+        n = len(groups[flag])
+        k = sum(r["oral_health_access_category"] == "Fully achieved" for r in groups[flag])
+        if n:
+            low, high = wilson_interval(k, n)
+            lines.append(f"| {flag} | {k}/{n} | {100*k/n:.1f}% | {100*low:.1f}–{100*high:.1f}% |")
+    if all(groups.values()):
+        difference = 100 * (table[0][0] / len(groups['Yes']) - table[1][0] / len(groups['No']))
+        lines.extend(["", f"Observed difference: {difference:.1f} percentage points. The intervals above are for individual proportions, not the difference."])
+    lines.extend(["", "### Current-income subgroup intervals", "",
+                  "| Current income group | Benefit included | Full availability | Proportion | 95% Wilson score interval |", "|---|---|---:|---:|---:|"])
+    for income in INCOME_CATS:
+        for flag in ("Yes", "No"):
+            sample = [r for r in groups[flag] if r["income_group"] == income]
+            n = len(sample)
+            k = sum(r["oral_health_access_category"] == "Fully achieved" for r in sample)
+            if n:
+                low, high = wilson_interval(k, n)
+                lines.append(f"| {income} | {flag} | {k}/{n} | {100*k/n:.1f}% | {100*low:.1f}–{100*high:.1f}% |")
+    lines.extend(["", "Intervals use a binomial working model and Wilson score method with 95% nominal coverage, no continuity correction. Neither intervals nor p-values account for nonrandom country reporting, measurement error, shared regional influences, income/workforce confounding, or current-versus-2021 income classifications. Subgroup comparisons are exploratory; no multiple-testing correction or causal adjustment is applied. An interval near 0% or 100% does not make a small subgroup reliable.", "",
+                  "Calculation code uses Python's standard library; the current 2x2 results were independently checked against scipy.stats.fisher_exact and scipy.stats.chi2_contingency(correction=False)."])
+    return lines
+
+
 def svg_bar(title: str, subtitle: str, labels: list[str], values: list[float], path: Path) -> None:
     width, height = 800, 500
     left, right, top, bottom = 95, 40, 95, 80
@@ -272,6 +344,7 @@ def main() -> None:
 
     lines.extend(timing_checks(rows))
     lines.extend(financing_checks(rows))
+    lines.extend(financing_uncertainty(rows))
     OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
     FIG_DIR.mkdir(exist_ok=True)
 

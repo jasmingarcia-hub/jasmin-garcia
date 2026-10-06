@@ -277,3 +277,12 @@ Errors/checks: the committed October 3 draft had duplicated YAML metadata, detec
 | 2026-10-05 | ChatGPT / Codex, GitHub connector, Python, WHO GHO API and indicator metadata | Continue to the next research step and assess overall project progress. | Added 2021 public-scheme coverage and dental benefit indicators, verified the 99-country overlap, and generated descriptive comparisons by workforce bands and income groups. Recorded limits and sources in the spec and draft. | Reproducible technical outputs committed for student review; no student interpretation, reflection, or final recommendation was authored. |
 
 Checks: original country fields preserved; missing financing responses left blank; subgroup counts and full-availability numerators independently verified. Public-scheme coverage was not treated as effective dental access. The financing pattern varies across income groups and is not causal evidence. No verbatim user prompts included.
+
+
+## Financing uncertainty documentation — October 5, 2026
+
+| Date | Tool | What I asked | What I got | What I did with it |
+|---|---|---|---|---|
+| 2026-10-05 | ChatGPT / Codex, Python, SciPy verification, GitHub connector | Save and commit the verified financing tests, confidence intervals, and necessary methods documentation. | Reproducible two-sided Fisher exact and uncorrected chi-square tests; 95% Wilson intervals for overall and current-income groups; methods and limitations added to the spec. | Technical changes committed at the student's request. The student's draft and policy judgment were not rewritten. |
+
+Checks: the approximate p-value near 0.10 corresponds to uncorrected chi-square; Fisher exact gives approximately 0.135. Named tests and their assumptions are documented. Intervals apply to individual proportions, not the between-group difference. No verbatim user prompts or retrospective edits to prior entries were added.

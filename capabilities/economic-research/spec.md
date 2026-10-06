@@ -149,3 +149,16 @@ Cross-country associations will not establish causation. Differences in financin
 - API responses retrieved October 5, 2026. Counts, original-field preservation, source years, and missing responses verified independently.
 - Source metadata: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/essential-curative-oral-health-care .
 - Financing comparisons are now implemented. Country policy-effect evidence, historical income classifications, and the student's policy interpretation remain pending. Earlier audit entries retain the earlier session state.
+
+
+## October 5, 2026 — financing uncertainty methods
+
+- The exploratory 2x2 table is [[49, 29], [9, 12]]: rows indicate essential-curative benefit inclusion (Yes, No); columns indicate full availability versus partial/no availability. Only the 99 countries reporting inclusion are used.
+- Two-sided Fisher exact p = 0.134634; uncorrected Pearson chi-square (1 degree of freedom) p = 0.099240. These are different named tests; do not report an unspecified p-value of approximately 0.10.
+- Individual proportions: 49/78 = 62.8%, with 95% Wilson interval 51.7–72.7%; 9/21 = 42.9%, with interval 24.5–63.5%. The observed difference is 20.0 percentage points; the reported intervals concern each proportion, not the difference.
+- Wilson score intervals without continuity correction are also calculated for each current-income subgroup, with counts visible. Zero or all-success subgroups still have uncertainty.
+- Binomial/independence assumptions are working statistical models for exploratory description. Nonrandom reporting, country measurement differences, regional dependence, workforce/income confounding, and income-vintage issues are not addressed by these intervals or tests.
+- These checks do not identify causal effects, rank policies, establish a dentist-density threshold, or estimate supply elasticity. Subgroup intervals are descriptive with no multiple-comparison adjustment.
+- Implemented in the existing analysis script using Python standard-library combinatorics, normal quantiles, and the df=1 chi-square survival formula. GitHub Actions requires no additional dependency.
+- Validation: Fisher and chi-square implementations checked against SciPy on the observed table and three additional tables; Wilson headline intervals and zero/all-success boundaries checked; invalid denominators rejected.
+- No new student policy interpretation was drafted. The student may revise the dated draft after reviewing these calculations.
