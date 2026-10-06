@@ -26,7 +26,7 @@ Brief → Spec → Drafts → Log → Deliver
 
 - Brief: [`docs/briefs/research-brief.md`](../../docs/briefs/research-brief.md)
 - Drafts: [`drafts/`](../../drafts/)
-- Paper (pending): `analysis/research-paper.pdf`
+- Paper review proof: [`analysis/research-paper.pdf`](../../analysis/research-paper.pdf) — final Times New Roman export and student review pending
 - October 3 snapshot: [`drafts/2026-10-03-draft.md`](../../drafts/2026-10-03-draft.md)
 - AI research notes (not submitted prose): [`analysis/research-analysis.md`](../../analysis/research-analysis.md)
 - Figures: [`figures/`](../../figures/)
@@ -36,4 +36,4 @@ Brief → Spec → Drafts → Log → Deliver
 
 In progress. Topic selected: global dental workforce density and access to oral health care across countries with different income levels.
 
-Latest snapshot: [`drafts/2026-10-05-draft.md`](../../drafts/2026-10-05-draft.md). Exploratory year-alignment calculations are recorded in [`data/research_analysis_summary.md`](../../data/research_analysis_summary.md).
+Latest snapshot: [`drafts/2026-10-06-draft.md`](../../drafts/2026-10-06-draft.md). The formatted review proof has four main-text pages; its substitute font must be replaced through the required-font Word export before submission. Exploratory year-alignment calculations are recorded in [`data/research_analysis_summary.md`](../../data/research_analysis_summary.md).

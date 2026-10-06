@@ -262,7 +262,7 @@ def svg_bar(title: str, subtitle: str, labels: list[str], values: list[float], p
         parts.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{bar_w:.1f}" height="{h:.1f}" fill="#777"/>')
         parts.append(f'<text x="{x+bar_w/2:.1f}" y="{max(85,y-8):.1f}" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">{value:.2f}</text>')
         parts.append(f'<text x="{x+bar_w/2:.1f}" y="{top+chart_h+28}" text-anchor="middle" font-family="Arial" font-size="13">{label}</text>')
-    parts.append(f'<text x="{width/2}" y="{height-15}" text-anchor="middle" font-family="Arial" font-size="11">Source: WHO GHO/NCD CCS + World Bank; generated from data/research_dataset.csv</text>')
+    parts.append(f'<text x="{width/2}" y="{height-15}" text-anchor="middle" font-family="Arial" font-size="11">Source: WHO GHO/NCD CCS; World Bank. Author\'s calculations.</text>')
     parts.append("</svg>")
     path.write_text("\n".join(parts), encoding="utf-8")
 
@@ -349,7 +349,7 @@ def main() -> None:
     FIG_DIR.mkdir(exist_ok=True)
 
     svg_bar(
-        "Median Dentist Density by Oral-Health Access",
+        "Median Dentist Density by Basic Service Availability",
         f"{len(rows)}-country matched sample",
         ["Not achieved", "Partially achieved", "Fully achieved"],
         [access_stats[c]["median"] for c in ACCESS_CATS],
