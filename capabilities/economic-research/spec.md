@@ -162,3 +162,12 @@ Cross-country associations will not establish causation. Differences in financin
 - Implemented in the existing analysis script using Python standard-library combinatorics, normal quantiles, and the df=1 chi-square survival formula. GitHub Actions requires no additional dependency.
 - Validation: Fisher and chi-square implementations checked against SciPy on the observed table and three additional tables; Wilson headline intervals and zero/all-success boundaries checked; invalid denominators rejected.
 - No new student policy interpretation was drafted. The student may revise the dated draft after reviewing these calculations.
+
+## October 5, 2026 — country-case and outcome-definition clarification
+
+- Original-source check: WHO's Romania profile, p. 2, defines general availability as reaching at least 50% of patients in need in public-sector primary-care facilities. Below that threshold is not general availability. Thus “Not achieved” means none of the three services meets the general-availability criterion; it does not mean a country has no dental care.
+- This clarifies interpretation without changing saved component responses, categories, correlations, or medians. Paper/table labels should retain “generally available” and the public-primary-care scope.
+- Romania's 2021 dental expenditure was only 5% publicly financed (OECD / European Observatory 2023 profile, p. 15). This helps distinguish recorded benefit inclusion from financial protection; it does not measure provider ownership or an intervention effect.
+- Eurostat's 2024 unmet-need figures are later case context, with a denominator of people aged 16+ needing dental care and combined cost/wait/distance reasons. They were not merged into the 2021 global analysis.
+- Source links, page locations, evidence boundaries, and the unverified provider-contract hypothesis are recorded in [research sources](../../data/research-sources.md#romania-case-check--october-5-2026).
+- Country evidence now supports discussion of entitlement versus access. Historical income classification, provider-delivery details, policy-effect evidence, student source verification, and student recommendation remain pending.

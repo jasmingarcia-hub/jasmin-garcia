@@ -43,3 +43,22 @@ Historical income classifications source to inspect: [World Bank income and regi
 [WHO indicator metadata](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/essential-curative-oral-health-care) describes the 2021 Health Technology Assessment and Health Benefit Package Survey. The largest scheme is the government scheme with the greatest eligible population. These are country-reported entitlements, not a policy evaluation.
 
 Country-level overlap: 99 of the 171-country sample report essential-curative inclusion, and 92 report all three fields. Missingness and small subgroups limit interpretation. Romania has benefit inclusion but no reported primary-care service availability; Central African Republic lacks financing responses, preventing a two-country financing test.
+
+## Romania case check — October 5, 2026
+
+AI research support for student verification; these notes are not student-written policy conclusions. Sources were checked separately from the global dataset.
+
+| Source and location | Observation year | Verified evidence | Interpretation limit |
+|---|---:|---|---|
+| WHO, [Romania oral health country profile](https://cdn.who.int/media/docs/default-source/country-profiles/oral-health/oral-health-rou-2022-country-profile.pdf), pp. 1–2 (2022) | 2021 | Preventive and essential-curative benefits included; largest scheme covers 90%; all three public-primary-care services marked unavailable. The definition uses a 50%-of-patients-in-need threshold. | Below threshold does not mean no care anywhere. Scheme eligibility does not measure effective dental coverage. The profile's workforce entry is from 2017, unlike the aligned API record. |
+| OECD / European Observatory, [Romania: Country Health Profile 2023](https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2023pdf/chp-romania.pdf?download=true&sfvrsn=773136b7_5), p. 15, Figure 15 | 2021 | Public funds financed 5% of dental expenditure in Romania, versus 34% across the EU; the text identifies a heavier cost burden on lower-income people. | Spending share is neither population coverage nor treatment received. Private financing does not establish private provider ownership or an exact out-of-pocket share. |
+| WHO Europe, [Romania financial-protection release](https://www.who.int/europe/news/item/29-08-2022-out-of-pocket-payments-for-health-care-in-romania-undermine-progress-towards-universal-health-coverage), August 29, 2022 | Report discusses 2010–2015 trends and later policy context | WHO identifies dental budget constraints and recommends strengthening dental coverage and purchasing for poorer households. | This is country-specific descriptive evidence and policy guidance, not an estimated reform effect. |
+| Eurostat, [6% experience unmet dental care needs in the EU](https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20250829-2), August 29, 2025; dataset `hlth_silc_09b` | 2024 | Romania: 16.2% unmet dental need; 43.5% among people at risk of poverty versus 12.6% among others. Denominator: people aged 16+ who needed dental care. | Self-reported cost, waiting-list, or distance barriers combined; not a cost-only measure. Later contextual evidence, not a 2021 outcome or global-sample variable. |
+
+### Evidence boundaries and remaining checks
+
+- These sources make Romania a useful case for distinguishing benefit entitlement from financial protection. They do not explain causally its WHO service classification or establish which policy would work best.
+- The hypothesis that privately owned dentists contracted by insurance account for the public-facility result remains unverified. The full WHO financial-protection PDF could not be retrieved (access denied); no contract terms, payment caps, or provider-ownership claims were taken from search snippets.
+- Central African Republic still lacks financing responses in the matched fields. This check does not supply those missing observations or resolve its service/workforce contrast.
+- Keep the 2024 unmet-need evidence separate from the 2021 cross-country analysis. Do not infer a time trend by comparing percentages with different denominators.
+- Student task: decide whether this case changes the financing preference, what delivery condition the recommendation requires, and which causal claim remains unsupported.

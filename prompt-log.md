@@ -286,3 +286,11 @@ Checks: original country fields preserved; missing financing responses left blan
 | 2026-10-05 | ChatGPT / Codex, Python, SciPy verification, GitHub connector | Save and commit the verified financing tests, confidence intervals, and necessary methods documentation. | Reproducible two-sided Fisher exact and uncorrected chi-square tests; 95% Wilson intervals for overall and current-income groups; methods and limitations added to the spec. | Technical changes committed at the student's request. The student's draft and policy judgment were not rewritten. |
 
 Checks: the approximate p-value near 0.10 corresponds to uncorrected chi-square; Fisher exact gives approximately 0.135. Named tests and their assumptions are documented. Intervals apply to individual proportions, not the between-group difference. No verbatim user prompts or retrospective edits to prior entries were added.
+
+## Romania case and affordability evidence — October 5, 2026
+
+| Date | Tool | What I asked | What I got | What I did with it |
+|---|---|---|---|---|
+| 2026-10-05 | ChatGPT / Codex, official WHO/OECD/Eurostat sources, GitHub connector | Proceed to the next research step after documenting financing uncertainty. | Source records on Romania's dental funding and unmet need; clarification of WHO's general-availability threshold; documented remaining delivery questions. | Technical research notes and spec clarification committed for student review. No student policy judgment or reflection was written. |
+
+Checks: the WHO threshold shows why unavailable does not mean zero care. Dental spending shares were distinguished from population coverage and provider ownership. Eurostat's later year, denominator, and combined reasons were retained. The full financial-protection PDF was inaccessible; claims about dentist contracts or payment caps remain unverified. Original data, calculations, dated student prose, and prior log entries were preserved. No verbatim user prompts were copied.
