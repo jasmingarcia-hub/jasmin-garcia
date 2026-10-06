@@ -261,3 +261,10 @@ Historical entries above are preserved verbatim. New "What I asked" entries para
 | 2026-10-05 | ChatGPT / Codex, GitHub connector, Python, SciPy, WHO and World Bank APIs | Resume the research project from the committed draft and pending checks. | Reproducible on/before-2021 and 2018–2021 workforce comparisons, supporting 2021 GDP correlations, source records for financing, and an October 5 snapshot preserving the student's prose. Removed duplicate October 3 frontmatter. | Results and tooling saved for student review. Original baseline data retained. Student interpretation, source verification, and final policy judgment remain pending. |
 
 Errors/checks: the committed October 3 draft had duplicated YAML metadata, detected on readback and removed mechanically. Timing correlations were independently checked against SciPy. No original prompts were copied or past log entries edited. Year alignment does not eliminate reporting differences, income-vintage differences, or confounding.
+
+
+## Student year-alignment explanation — October 5, 2026
+
+| Date | Tool | What I asked | What I got | What I did with it |
+|---|---|---|---|---|
+| 2026-10-05 | ChatGPT / Codex and GitHub connector | Correct, format, insert, and commit the student's explanation of the workforce-year check. | Two connected paragraphs under “My interpretation of the evidence”; corrected observation-year wording, median versus mean, and the 2022–2023 typo; qualified the timing conclusion and hypothetical reverse causation. | Inserted the supplied student draft with editing assistance and committed it at the student's explicit request. No new analysis or policy recommendation was added. |
