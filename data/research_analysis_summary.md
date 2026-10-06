@@ -59,6 +59,54 @@ Baseline values are retained. Additional workforce fields use the latest country
 - 2021 GDP per capita vs aligned dentist density: n = 167, rho = 0.764.
 - 2021 GDP per capita vs service availability: n = 167, rho = 0.330.
 
-GDP is a continuous supporting measure, not a historical income classification or a causal adjustment. Historical income-group checks, reporting-definition checks, and financing analysis remain pending.
+GDP is a continuous supporting measure, not a historical income classification or a causal adjustment. Historical income-group checks, reporting-definition checks, and policy-effect evidence remain pending. Financing comparisons are reported below.
 
 Sources retrieved October 5, 2026: https://ghoapi.azureedge.net/api/HWF_0010?$format=json and https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.CD?format=json&per_page=400&date=2021 . Workforce observations may still be older than 2021; all checks are exploratory.
+
+## Exploratory public-benefit-package checks — October 5, 2026
+
+- Primary sample: 171 countries; essential-curative inclusion reported for 99; all three financing fields reported for 92.
+- All added financing observations are from 2021. Missing responses remain missing, never No or zero.
+- Scheme population coverage is not dental coverage. Benefit inclusion is an entitlement measure, not proof of use, affordability, or service delivery.
+
+| Essential-curative dental care in largest public scheme | n | Full service availability: n | Full availability: % | Median aligned dentist density |
+|---|---:|---:|---:|---:|
+| No | 21 | 9 | 42.9% | 0.72 |
+| Yes | 78 | 49 | 62.8% | 2.23 |
+
+### Descriptive stratification by dentist supply
+
+Broad density bands are exploratory, not matched countries or causal controls. Density uses the latest observation on/before 2021. Small subgroup counts must be considered.
+
+| Dentists per 10,000 | Benefit included | n | Full availability: n | Full availability: % |
+|---|---|---:|---:|---:|
+| Below 1 | No | 11 | 3 | 27.3% |
+| Below 1 | Yes | 26 | 10 | 38.5% |
+| 1 to below 5 | No | 4 | 2 | 50.0% |
+| 1 to below 5 | Yes | 27 | 20 | 74.1% |
+| 5 or more | No | 6 | 4 | 66.7% |
+| 5 or more | Yes | 25 | 19 | 76.0% |
+
+### Descriptive stratification by current income group
+
+| Current income group | Benefit included | n | Full availability: n | Full availability: % |
+|---|---|---:|---:|---:|
+| Low income | No | 4 | 0 | 0.0% |
+| Low income | Yes | 10 | 4 | 40.0% |
+| Lower middle income | No | 9 | 4 | 44.4% |
+| Lower middle income | Yes | 18 | 7 | 38.9% |
+| Upper middle income | No | 3 | 0 | 0.0% |
+| Upper middle income | Yes | 27 | 23 | 85.2% |
+| High income | No | 5 | 5 | 100.0% |
+| High income | Yes | 23 | 15 | 65.2% |
+
+### Selected country audit rows
+
+| Country | Aligned dentist density | Service category | Scheme coverage % | Preventive benefit | Essential-curative benefit |
+|---|---:|---|---:|---|---|
+| Central African Republic | 0.0 | Fully achieved | Missing | Missing | Missing |
+| Romania | 10.51 | Not achieved | 90.0 | Yes | Yes |
+
+These are descriptive cross-sectional comparisons with incomplete reporting, current income groups, and possible confounding. Do not interpret them as effects of expanding financing or as an explanation for particular countries. Country-profile and policy-effect evidence remain to be checked.
+
+Sources: WHO 2021 Health Technology Assessment and Health Benefit Package Survey, indicators ORALHEALTH_UHC_GOVSCHEME, ORALHEALTH_UHC_PREVENTIVE, ORALHEALTH_UHC_ESSENTIAL_CURATIVE. API records retrieved October 5, 2026; metadata: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/essential-curative-oral-health-care .

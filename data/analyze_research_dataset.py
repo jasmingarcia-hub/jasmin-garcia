@@ -104,7 +104,7 @@ def timing_checks(rows: list[dict]) -> list[str]:
         ("2021 GDP per capita vs service availability", "gdp_per_capita_2021_usd", None)]:
         rho = spearman([float(r[left]) for r in gdp], [float(r[right]) if right else ACCESS_ORDER[r["oral_health_access_category"]] for r in gdp])
         lines.append(f"- {label}: n = {len(gdp)}, rho = {rho:.3f}.")
-    lines.extend(["", "GDP is a continuous supporting measure, not a historical income classification or a causal adjustment. Historical income-group checks, reporting-definition checks, and financing analysis remain pending.", "",
+    lines.extend(["", "GDP is a continuous supporting measure, not a historical income classification or a causal adjustment. Historical income-group checks, reporting-definition checks, and policy-effect evidence remain pending. Financing comparisons are reported below.", "",
                   "Sources retrieved October 5, 2026: https://ghoapi.azureedge.net/api/HWF_0010?$format=json and https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.CD?format=json&per_page=400&date=2021 . Workforce observations may still be older than 2021; all checks are exploratory."])
     return lines
 
@@ -118,6 +118,52 @@ def read_rows() -> list[dict]:
         and r["oral_health_access_category"] in ACCESS_ORDER
         and r["income_group"] in INCOME_ORDER
     ]
+
+
+def financing_checks(rows: list[dict]) -> list[str]:
+    benefit = "essential_curative_in_public_scheme_2021"
+    coverage = "government_scheme_coverage_pct_2021"
+    density = "dentists_per_10000_on_or_before_2021"
+    available = [r for r in rows if r.get(benefit) in ("Yes", "No")]
+    complete = [r for r in available if r.get(coverage) not in (None, "") and r.get("preventive_in_public_scheme_2021") in ("Yes", "No")]
+    lines = ["", "## Exploratory public-benefit-package checks — October 5, 2026", "",
+             f"- Primary sample: {len(rows)} countries; essential-curative inclusion reported for {len(available)}; all three financing fields reported for {len(complete)}.",
+             "- All added financing observations are from 2021. Missing responses remain missing, never No or zero.",
+             "- Scheme population coverage is not dental coverage. Benefit inclusion is an entitlement measure, not proof of use, affordability, or service delivery.", "",
+             "| Essential-curative dental care in largest public scheme | n | Full service availability: n | Full availability: % | Median aligned dentist density |",
+             "|---|---:|---:|---:|---:|"]
+    for flag in ("No", "Yes"):
+        sample = [r for r in available if r[benefit] == flag]
+        full = sum(r["oral_health_access_category"] == "Fully achieved" for r in sample)
+        vals = [float(r[density]) for r in sample if r.get(density) not in (None, "")]
+        if sample:
+            lines.append(f"| {flag} | {len(sample)} | {full} | {100*full/len(sample):.1f}% | {median(vals):.2f} |")
+    lines.extend(["", "### Descriptive stratification by dentist supply", "",
+                  "Broad density bands are exploratory, not matched countries or causal controls. Density uses the latest observation on/before 2021. Small subgroup counts must be considered.", "",
+                  "| Dentists per 10,000 | Benefit included | n | Full availability: n | Full availability: % |", "|---|---|---:|---:|---:|"])
+    for label, lower, upper in [("Below 1", 0, 1), ("1 to below 5", 1, 5), ("5 or more", 5, float("inf"))]:
+        for flag in ("No", "Yes"):
+            sample = [r for r in available if r.get(density) not in (None, "") and lower <= float(r[density]) < upper and r[benefit] == flag]
+            full = sum(r["oral_health_access_category"] == "Fully achieved" for r in sample)
+            if sample:
+                lines.append(f"| {label} | {flag} | {len(sample)} | {full} | {100*full/len(sample):.1f}% |")
+    lines.extend(["", "### Descriptive stratification by current income group", "",
+                  "| Current income group | Benefit included | n | Full availability: n | Full availability: % |", "|---|---|---:|---:|---:|"])
+    for group in INCOME_CATS:
+        for flag in ("No", "Yes"):
+            sample = [r for r in available if r["income_group"] == group and r[benefit] == flag]
+            full = sum(r["oral_health_access_category"] == "Fully achieved" for r in sample)
+            if sample:
+                lines.append(f"| {group} | {flag} | {len(sample)} | {full} | {100*full/len(sample):.1f}% |")
+    lines.extend(["", "### Selected country audit rows", "",
+                  "| Country | Aligned dentist density | Service category | Scheme coverage % | Preventive benefit | Essential-curative benefit |", "|---|---:|---|---:|---|---|"])
+    for iso in ("CAF", "ROU"):
+        r = next((r for r in rows if r["iso3"] == iso), None)
+        if r:
+            lines.append(f"| {r['country']} | {r.get(density) or 'Missing'} | {r['oral_health_access_category']} | {r.get(coverage) or 'Missing'} | {r.get('preventive_in_public_scheme_2021') or 'Missing'} | {r.get(benefit) or 'Missing'} |")
+    lines.extend(["", "These are descriptive cross-sectional comparisons with incomplete reporting, current income groups, and possible confounding. Do not interpret them as effects of expanding financing or as an explanation for particular countries. Country-profile and policy-effect evidence remain to be checked.", "",
+                  "Sources: WHO 2021 Health Technology Assessment and Health Benefit Package Survey, indicators ORALHEALTH_UHC_GOVSCHEME, ORALHEALTH_UHC_PREVENTIVE, ORALHEALTH_UHC_ESSENTIAL_CURATIVE. API records retrieved October 5, 2026; metadata: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/essential-curative-oral-health-care ."])
+    return lines
 
 
 def svg_bar(title: str, subtitle: str, labels: list[str], values: list[float], path: Path) -> None:
@@ -225,6 +271,7 @@ def main() -> None:
         )
 
     lines.extend(timing_checks(rows))
+    lines.extend(financing_checks(rows))
     OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
     FIG_DIR.mkdir(exist_ok=True)
 

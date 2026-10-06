@@ -30,3 +30,16 @@ These are source records and AI research notes for student verification, not the
 - What workforce or provider-payment barriers limit the benefits of expanding coverage?
 
 Historical income classifications source to inspect: [World Bank income and region classifications](https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html). Fiscal-year classifications require an explicit alignment convention before use.
+
+
+## WHO financing indicators — October 5, 2026 retrieval
+
+| Indicator | Observation year | Use | Limitation |
+|---|---:|---|---|
+| [ORALHEALTH_UHC_GOVSCHEME](https://ghoapi.azureedge.net/api/ORALHEALTH_UHC_GOVSCHEME?$format=json) | 2021 | Population eligible under largest public scheme, percentage | Enrollment/eligibility alone does not measure dental coverage or access. |
+| [ORALHEALTH_UHC_PREVENTIVE](https://ghoapi.azureedge.net/api/ORALHEALTH_UHC_PREVENTIVE?$format=json) | 2021 | Routine/preventive care in benefit package, Yes/No | Inclusion does not establish delivery or affordability. |
+| [ORALHEALTH_UHC_ESSENTIAL_CURATIVE](https://ghoapi.azureedge.net/api/ORALHEALTH_UHC_ESSENTIAL_CURATIVE?$format=json) | 2021 | Essential-curative care in benefit package, Yes/No | Covers essential treatment such as nonsurgical extraction and abscess drainage; do not equate it with all restorative/advanced care. |
+
+[WHO indicator metadata](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/essential-curative-oral-health-care) describes the 2021 Health Technology Assessment and Health Benefit Package Survey. The largest scheme is the government scheme with the greatest eligible population. These are country-reported entitlements, not a policy evaluation.
+
+Country-level overlap: 99 of the 171-country sample report essential-curative inclusion, and 92 report all three fields. Missingness and small subgroups limit interpretation. Romania has benefit inclusion but no reported primary-care service availability; Central African Republic lacks financing responses, preventing a two-country financing test.

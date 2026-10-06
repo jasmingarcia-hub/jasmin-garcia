@@ -133,3 +133,19 @@ Cross-country associations will not establish causation. Differences in financin
 - WHO workforce metadata states source-dependent inclusion of active versus registered dentists and variability in sector coverage, timing, and completeness. Year restriction does not fix reporting comparability.
 - Source retrieval date: October 5, 2026. WHO records can be retrospectively revised. This is an exploratory check on the retrieved data.
 - Prior timing audit entries above describe the October 3 state. The on/before-2021 calculation is now complete. Historical income-group checks, financing analysis, and original-source review of outliers remain pending.
+
+
+## October 5, 2026 — exploratory financing comparison
+
+- Added three WHO 2021 Health Technology Assessment and Health Benefit Package Survey fields to the saved dataset: `government_scheme_coverage_pct_2021`, `preventive_in_public_scheme_2021`, `essential_curative_in_public_scheme_2021`.
+- Indicator codes: `ORALHEALTH_UHC_GOVSCHEME`, `ORALHEALTH_UHC_PREVENTIVE`, and `ORALHEALTH_UHC_ESSENTIAL_CURATIVE`. Only country records with observation year 2021 are used; duplicate country records and unexpected response values fail validation.
+- Reproduce enrichment with `python data/build_research_dataset.py --add-financing`. Optional `--financing-cache-dir` reads saved API JSON files. Existing baseline and year-alignment fields are preserved. Full builds also add financing fields.
+- 99 of 171 primary-analysis countries report essential-curative inclusion: 78 Yes, 21 No. All three financing fields are available for 92 countries. The primary sample remains 171; missing financing responses are not recoded No or zero.
+- Full primary-care service availability: 49/78 (62.8%) when essential-curative care is included; 9/21 (42.9%) when it is not.
+- Descriptive workforce stratification uses exploratory bands below 1, 1–below 5, and 5+ dentists per 10,000, using aligned observations. These are broad bands, not matched comparisons or simultaneous income-and-workforce controls. Counts and proportions are reported in the generated summary.
+- Current-income subgroup comparisons vary in direction and have small No groups. Missing reports, confounding, and reporting differences prevent a causal interpretation.
+- Scheme coverage describes eligible population in the largest government scheme, not the proportion with effective dental coverage. Essential-curative inclusion concerns benefit entitlement, not observed affordability, use, or delivery.
+- Romania reports 90% scheme coverage and inclusion of preventive and essential-curative dental care, despite no reported primary-care availability in the outcome. The Central African Republic has no usable financing fields in these three series, so it cannot provide a financing comparison here.
+- API responses retrieved October 5, 2026. Counts, original-field preservation, source years, and missing responses verified independently.
+- Source metadata: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/essential-curative-oral-health-care .
+- Financing comparisons are now implemented. Country policy-effect evidence, historical income classifications, and the student's policy interpretation remain pending. Earlier audit entries retain the earlier session state.

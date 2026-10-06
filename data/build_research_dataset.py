@@ -25,6 +25,12 @@ from __future__ import annotations
 
 import csv
 import argparse
+
+FINANCING_INDICATORS = {
+    "government_scheme_coverage_pct_2021": "ORALHEALTH_UHC_GOVSCHEME",
+    "preventive_in_public_scheme_2021": "ORALHEALTH_UHC_PREVENTIVE",
+    "essential_curative_in_public_scheme_2021": "ORALHEALTH_UHC_ESSENTIAL_CURATIVE",
+}
 import json
 import re
 from collections import Counter
@@ -333,6 +339,7 @@ def main() -> None:
     print(f"Wrote {csv_path}")
     print("Wrote data/research_dataset_summary.md")
     print(f"Complete primary-analysis countries: {len(matched)}")
+    add_financing()
 
 
 def align_existing(dentist_json: str | None = None, gdp_json: str | None = None) -> None:
@@ -366,13 +373,49 @@ def align_existing(dentist_json: str | None = None, gdp_json: str | None = None)
     print("Appended 2021 timing fields; original baseline fields preserved.")
 
 
+def add_financing(cache_dir: str | None = None) -> None:
+    """Append 2021 benefit-package fields; retain missing values and baseline data."""
+    path = Path("data/research_dataset.csv")
+    with path.open(encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        fields = list(reader.fieldnames)
+        rows = list(reader)
+    sources = {}
+    for field, code in FINANCING_INDICATORS.items():
+        records = json.loads((Path(cache_dir) / (code + ".json")).read_text())["value"] if cache_dir else who_records(code)
+        records = [r for r in records if r.get("SpatialDimType") == "COUNTRY" and row_year(r) == 2021]
+        if len({r["SpatialDim"] for r in records}) != len(records):
+            raise ValueError("Duplicate country financing record: " + code)
+        sources[field] = {r["SpatialDim"]: r for r in records}
+        if field not in fields:
+            fields.append(field)
+    for row in rows:
+        for field in FINANCING_INDICATORS:
+            record = sources[field].get(row["iso3"])
+            value = numeric_value(record) if record and field.startswith("government") else text_value(record) if record else None
+            if field.startswith("government") and value is not None and not 0 <= value <= 100:
+                raise ValueError("Coverage outside 0–100")
+            if not field.startswith("government") and value not in (None, "Yes", "No"):
+                raise ValueError("Unexpected benefit response")
+            row[field] = value
+    with path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(rows)
+    print("Appended WHO 2021 financing fields; existing fields preserved.")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--align-existing", action="store_true")
     parser.add_argument("--dentist-json")
     parser.add_argument("--gdp-json")
+    parser.add_argument("--add-financing", action="store_true")
+    parser.add_argument("--financing-cache-dir")
     args = parser.parse_args()
-    if args.align_existing:
+    if args.add_financing:
+        add_financing(args.financing_cache_dir)
+    elif args.align_existing:
         align_existing(args.dentist_json, args.gdp_json)
     else:
         main()

@@ -1,218 +1,218 @@
-iso3,country,world_bank_region,income_group,gdp_per_capita_2023_usd,dentists_per_10000,dentist_data_year,dentists_per_10000_on_or_before_2021,dentist_data_year_on_or_before_2021,gdp_per_capita_2021_usd,oral_health_access_category,access_source,access_data_year,screening_available,urgent_care_available,restorative_care_available
-AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",Low income,413.757894705303,0.06,2020,0.06,2020,356.496214115892,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-ALB,Albania,Europe & Central Asia,Upper middle income,9740.7023414631,10.27,2018,10.27,2018,7242.45513146613,,,,Available,,
-DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,5370.477235078,3.57,2022,3.58,2020,4160.55926736925,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-ASM,American Samoa,East Asia & Pacific,High income,,,,,,15236.1604875571,,,,,,
-AND,Andorra,Europe & Central Asia,High income,46812.448450114,12.11,2023,11.61,2021,42425.6996761083,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-AGO,Angola,Sub-Saharan Africa ,Lower middle income,2885.51349130806,0.07,2022,0.53,2018,2266.96834861584,,,,Unavailable,Unavailable,
-ATG,Antigua and Barbuda,Latin America & Caribbean ,High income,22012.2625947994,0.45,2014,0.45,2014,17348.6006987182,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-ARG,Argentina,Latin America & Caribbean ,Upper middle income,14261.8465667948,10.84,2023,11.85,2021,10738.0179223384,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-ARM,Armenia,Europe & Central Asia,Upper middle income,8159.08720967996,3.59,2022,2.93,2021,4685.17997128509,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-ABW,Aruba,Latin America & Caribbean ,High income,34897.6183932009,,,,,26827.3447869986,,,,,,
-AUS,Australia,East Asia & Pacific,High income,65058.3773146674,6.52,2023,6.2,2021,60758.9044397144,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-AUT,Austria,Europe & Central Asia,High income,56579.504175468,6.19,2023,6.16,2021,53648.6437976214,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-AZE,Azerbaijan,Europe & Central Asia,Upper middle income,7133.02838048328,3.38,2022,3.22,2021,5408.04535175023,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-BHS,"Bahamas, The",Latin America & Caribbean ,High income,38231.774484278,2.54,2017,2.54,2017,30367.8605757708,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",High income,29290.1284215098,0.8,2020,0.8,2020,27147.8083882286,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-BGD,Bangladesh,South Asia,Lower middle income,2551.01773827307,0.76,2023,0.69,2021,2482.84917843357,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-BRB,Barbados,Latin America & Caribbean ,High income,25583.8722302505,3.12,2023,2.45,2021,21084.4013935998,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-BLR,Belarus,Europe & Central Asia,Upper middle income,7896.75388295584,6.09,2023,5.79,2021,7489.71894713888,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-BEL,Belgium,Europe & Central Asia,High income,55244.68145811,7.24,2023,7.71,2021,51658.238294958,,,,,,
-BLZ,Belize,Latin America & Caribbean ,Upper middle income,7424.75821321022,1.71,2022,1.72,2021,6142.98930557031,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-BEN,Benin,Sub-Saharan Africa ,Lower middle income,1394.17784721831,0.05,2023,0.04,2021,1318.65158075198,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable
-BMU,Bermuda,North America,High income,132961.760796315,,,,,112765.08167306,,,,,,
-BTN,Bhutan,South Asia,Lower middle income,3831.32535564326,0.97,2022,0.97,2021,3570.61257980872,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable
-BOL,Bolivia,Latin America & Caribbean ,Lower middle income,4274.70820547613,2.29,2021,2.29,2021,4010.76053686204,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-BIH,Bosnia and Herzegovina,Europe & Central Asia,Upper middle income,8663.02326458629,2.58,2019,2.58,2019,7295.34378682258,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-BWA,Botswana,Sub-Saharan Africa ,Upper middle income,7827.30027960734,0.36,2023,0.37,2021,7807.88794570471,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-BRA,Brazil,Latin America & Caribbean ,Upper middle income,10377.5892792557,7.45,2023,6.83,2021,7972.5366498646,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-VGB,British Virgin Islands,Latin America & Caribbean ,High income,,,,,,,,,,,,
-BRN,Brunei Darussalam,East Asia & Pacific,High income,32890.5491812019,2.59,2023,2.61,2021,31006.9636289785,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-BGR,Bulgaria,Europe & Central Asia,High income,15854.0192893772,11.29,2023,10.99,2021,12966.8085197381,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-BFA,Burkina Faso,Sub-Saharan Africa ,Low income,873.198061670247,0.06,2023,0.05,2021,895.535288442991,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-BDI,Burundi,Sub-Saharan Africa ,Low income,249.795164039029,0.01,2022,0.01,2021,264.172844085398,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-CPV,Cabo Verde,Sub-Saharan Africa ,Upper middle income,4794.90119772843,2.33,2019,2.33,2019,3971.44409203423,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-KHM,Cambodia,East Asia & Pacific,Lower middle income,2429.74853452838,0.31,2018,0.31,2018,2167.40324198499,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-CMR,Cameroon,Sub-Saharan Africa ,Lower middle income,1720.47510154506,0.12,2022,0.05,2021,1672.32657340872,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-CAN,Canada,North America,High income,54847.5370112652,6.53,2020,6.53,2020,52886.6407813788,,,,,Available,Available
-CYM,Cayman Islands,Latin America & Caribbean ,High income,100065.233841107,,,,,86449.6749037302,,,,,,
-CAF,Central African Republic,Sub-Saharan Africa ,Low income,495.978897288721,0.01,2023,0.0,2021,492.263142830507,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-TCD,Chad,Sub-Saharan Africa ,Low income,949.991054236266,0.01,2023,0.01,2021,946.358500208374,,,,,,
-CHI,Channel Islands,Europe & Central Asia,High income,74585.5224096294,,,,,66915.3963925722,,,,,,
-CHL,Chile,Latin America & Caribbean ,High income,17081.5180740049,16.77,2023,14.83,2021,16216.1840860289,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-CHN,China,East Asia & Pacific,Upper middle income,12951.1782397043,4.51,2017,4.51,2017,12887.4357242941,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Unavailable
-COL,Colombia,Latin America & Caribbean ,Upper middle income,7012.49169137756,8.7,2023,8.4,2021,6222.62164397614,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-COM,Comoros,Sub-Saharan Africa ,Lower middle income,1723.89474946474,0.38,2022,0.4,2020,1587.72988658008,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable
-COD,"Congo, Dem. Rep.",Sub-Saharan Africa ,Low income,660.21205238997,0.04,2022,0.03,2021,595.743074403567,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available
-COG,"Congo, Rep.",Sub-Saharan Africa ,Lower middle income,2477.97845544866,0.02,2022,0.05,2018,2516.16255145432,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available
-CRI,Costa Rica,Latin America & Caribbean ,High income,17140.771430122,10.89,2022,10.73,2021,12962.2716075659,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-CIV,Cote d'Ivoire,Sub-Saharan Africa ,Lower middle income,2591.9659048119,0.14,2023,0.15,2021,2455.98127641148,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-HRV,Croatia,Europe & Central Asia,High income,22183.4982258492,9.56,2023,9.25,2021,17788.7601163765,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-CUB,Cuba,Latin America & Caribbean ,Upper middle income,,15.97,2022,18.79,2021,,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-CUW,Curacao,Latin America & Caribbean ,High income,21217.8109173312,,,,,17795.5826483092,,,,,,
-CYP,Cyprus,Europe & Central Asia,High income,36623.70703125,9.41,2023,7.58,2021,32937.8359375,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-CZE,Czechia,Europe & Central Asia,High income,31761.5944102491,7.52,2023,7.56,2021,27696.4619527544,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-DNK,Denmark,Europe & Central Asia,High income,68043.5466971243,7.73,2023,7.18,2021,69340.7334922138,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-DJI,Djibouti,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,3381.29779710722,0.19,2014,0.19,2014,3025.91126413549,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-DMA,Dominica,Latin America & Caribbean ,Upper middle income,9912.96212766668,1.17,2018,1.17,2018,8376.40414141113,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable
-DOM,Dominican Republic,Latin America & Caribbean ,Upper middle income,10630.431743829,2.69,2023,2.21,2021,8527.0754858205,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-ECU,Ecuador,Latin America & Caribbean ,Upper middle income,6718.1447938811,2.97,2020,2.97,2020,6061.32350181711,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,3456.78965212363,3.09,2021,3.09,2021,3827.35415374308,,,,,,
-SLV,El Salvador,Latin America & Caribbean ,Upper middle income,5319.7195268688,1.57,2023,1.45,2021,4642.60743101342,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-GNQ,Equatorial Guinea,Sub-Saharan Africa ,Upper middle income,6788.35271638376,0.06,2004,0.06,2004,6945.63069794539,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-ERI,Eritrea,Sub-Saharan Africa ,Low income,,0.2,2022,0.18,2021,,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable
-EST,Estonia,Europe & Central Asia,High income,30264.0064885057,10.29,2023,10.11,2021,27951.1659277744,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-SWZ,Eswatini,Sub-Saharan Africa ,Lower middle income,3755.52111232464,0.28,2023,0.18,2020,3984.00229174306,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-ETH,Ethiopia,Sub-Saharan Africa ,Low income,1055.81091593061,0.28,2022,0.16,2020,893.009835441784,,,,Available,Available,
-FRO,Faroe Islands,Europe & Central Asia,High income,72486.6910957957,,,,,69421.6981686515,,,,,,
-FJI,Fiji,East Asia & Pacific,Upper middle income,5926.20586394763,0.83,2023,1.17,2019,4536.73312110335,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-FIN,Finland,Europe & Central Asia,High income,52864.6931581216,6.95,2023,7.19,2021,53099.1351400148,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-FRA,France,Europe & Central Asia,High income,44700.1384177544,7.01,2023,6.79,2021,43725.0999521245,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-PYF,French Polynesia,East Asia & Pacific,High income,21832.2831795569,,,,,21426.3854449835,,,,,,
-GAB,Gabon,Sub-Saharan Africa ,Upper middle income,7802.82433276138,0.18,2022,0.15,2020,8181.40914134398,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-GMB,"Gambia, The",Sub-Saharan Africa ,Low income,883.024111978927,0.03,2022,0.04,2021,781.890925169531,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable
-GEO,Georgia,Europe & Central Asia,Upper middle income,8283.66960652261,7.74,2023,6.5,2021,5083.60695484577,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-DEU,Germany,Europe & Central Asia,High income,54776.7668235491,8.44,2023,8.52,2021,52349.2459994422,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-GHA,Ghana,Sub-Saharan Africa ,Lower middle income,2383.90410476221,0.23,2018,0.23,2018,2445.18662529344,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable
-GIB,Gibraltar,Europe & Central Asia,High income,,,,,,,,,,,,
-GRC,Greece,Europe & Central Asia,High income,23343.7103964562,13.59,2023,13.01,2021,20652.89659591,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-GRL,Greenland,Europe & Central Asia,High income,58498.9707973609,,,,,58135.9939910203,,,,,,
-GRD,Grenada,Latin America & Caribbean ,Upper middle income,11414.4781691181,1.9,2018,1.9,2018,9617.28902905373,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Available
-GUM,Guam,East Asia & Pacific,High income,,,,,,38074.8793745801,,,,,,
-GTM,Guatemala,Latin America & Caribbean ,Upper middle income,5754.42833909847,2.68,2023,2.59,2020,4912.62240414681,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable
-GIN,Guinea,Sub-Saharan Africa ,Lower middle income,1555.49375806861,0.03,2022,0.06,2018,1244.96550477914,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable
-GNB,Guinea-Bissau,Sub-Saharan Africa ,Low income,964.431832665395,0.01,2023,0.01,2021,926.54619187706,,,,,,
-GUY,Guyana,Latin America & Caribbean ,High income,20473.7002190617,0.68,2020,0.68,2020,9860.87014834386,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Unavailable
-HTI,Haiti,Latin America & Caribbean ,Lower middle income,1681.84407667059,0.22,2018,0.22,2018,1824.6798742577,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-HND,Honduras,Latin America & Caribbean ,Lower middle income,3227.45762509776,7.1,2023,0.32,2017,2735.14751503977,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Available
-HKG,"Hong Kong SAR, China",East Asia & Pacific,High income,50525.1119312663,,,,,49770.5642374739,,,,,,
-HUN,Hungary,Europe & Central Asia,High income,22208.6509820466,7.56,2023,7.1,2021,19030.628130329,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-ISL,Iceland,Europe & Central Asia,High income,82201.2908518078,7.84,2023,7.89,2021,70425.4064277273,,,,,,
-IND,India,South Asia,Lower middle income,2434.44826340989,2.23,2023,2.06,2021,2239.61384367482,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-IDN,Indonesia,East Asia & Pacific,Upper middle income,4876.2992959843,1.03,2023,1.23,2021,4287.17313995098,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-IRN,"Iran, Islamic Rep.","Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,5049.29931642754,5.26,2023,4.25,2018,4605.14881318992,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,5965.31835077761,6.8,2023,4.36,2021,4868.49431080783,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-IRL,Ireland,Europe & Central Asia,High income,106818.917130804,4.75,2023,4.63,2021,103783.446284479,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-IMN,Isle of Man,Europe & Central Asia,High income,90015.2074234398,,,,,94299.969348965,,,,,,
-ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",High income,52126.4489280033,8.97,2023,11.56,2021,52258.4693499398,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-ITA,Italy,Europe & Central Asia,High income,39279.699782164,8.16,2023,7.73,2021,36852.5425414951,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-JAM,Jamaica,Latin America & Caribbean ,Upper middle income,7542.39855849054,0.93,2017,0.93,2017,5625.67806271236,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-JPN,Japan,East Asia & Pacific,High income,35215.003535366,8.16,2022,8.25,2020,41580.739040705,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,4906.23543006639,8.2,2023,8.04,2021,4581.71967230365,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available
-KAZ,Kazakhstan,Europe & Central Asia,Upper middle income,12879.4275257974,2.13,2023,2.3,2021,9983.60103576902,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-KEN,Kenya,Sub-Saharan Africa ,Lower middle income,1942.58802756191,0.25,2022,0.05,2020,2061.35622089594,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-KIR,Kiribati,East Asia & Pacific,Lower middle income,2200.68918614289,0.53,2023,0.68,2016,2223.54147866465,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-PRK,"Korea, Dem. People's Rep.",East Asia & Pacific,Low income,,2.17,2017,2.17,2017,,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-KOR,"Korea, Rep.",East Asia & Pacific,High income,35674.095995632,5.49,2023,5.3,2021,37518.4635305697,,,,,,
-XKX,Kosovo,Europe & Central Asia,Upper middle income,6220.33213919344,,,,,5269.69946181439,,,,,,
-KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",High income,34091.9714813002,8.34,2022,9.18,2021,34018.6342592913,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-KGZ,Kyrgyz Republic,Europe & Central Asia,Lower middle income,2138.22210211478,1.56,2023,1.71,2021,1349.99730650542,,,,,,
-LAO,Lao PDR,East Asia & Pacific,Lower middle income,2066.94979776957,0.76,2020,0.76,2020,2526.05105018529,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-LVA,Latvia,Europe & Central Asia,High income,22710.2637544197,7.18,2023,7.15,2021,20261.8887788916,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,3477.72489842684,12.5,2020,12.5,2020,4045.37391066234,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable
-LSO,Lesotho,Sub-Saharan Africa ,Lower middle income,921.435141557056,0.17,2019,0.17,2019,1066.58645143823,,,,,,
-LBR,Liberia,Sub-Saharan Africa ,Low income,799.194470229642,0.02,2022,0.01,2021,667.96610514319,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,6026.51518708812,5.8,2020,5.8,2020,4935.82787349801,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-LIE,Liechtenstein,Europe & Central Asia,High income,206780.590353385,,,,,201944.830335076,,,,,,
-LTU,Lithuania,Europe & Central Asia,High income,27983.3658256887,11.65,2023,10.5,2021,23882.8668916753,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-LUX,Luxembourg,Europe & Central Asia,High income,133230.619178899,9.74,2017,9.74,2017,134965.815442152,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-MAC,"Macao SAR, China",East Asia & Pacific,High income,67216.3631112124,,,,,44884.8961602393,,,,,,
-MDG,Madagascar,Sub-Saharan Africa ,Low income,514.064076551927,0.07,2023,0.08,2018,483.469463351195,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-MWI,Malawi,Sub-Saharan Africa ,Low income,633.214767978695,0.07,2023,0.08,2020,617.446994451007,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-MYS,Malaysia,East Asia & Pacific,Upper middle income,11386.0395636528,4.06,2023,3.67,2021,10903.1037480772,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-MDV,Maldives,South Asia,Upper middle income,12587.6126038651,1.02,2020,1.02,2020,10176.143882547,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-MLI,Mali,Sub-Saharan Africa ,Low income,1042.44223444837,0.01,2022,0.02,2018,1027.27345365357,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-MLT,Malta,"Middle East, North Africa, Afghanistan & Pakistan",High income,40932.5238774461,5.29,2023,5.15,2021,38078.0064279067,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-MHL,Marshall Islands,East Asia & Pacific,Upper middle income,6799.39217554794,1.45,2021,1.45,2021,6315.31172190393,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-MRT,Mauritania,Sub-Saharan Africa ,Lower middle income,2127.9576285973,0.31,2022,0.26,2021,1947.47413907209,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available
-MUS,Mauritius,Sub-Saharan Africa ,Upper middle income,11269.9684462139,3.24,2022,3.2,2019,9177.71195973013,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Available
-MEX,Mexico,Latin America & Caribbean ,Upper middle income,13830.843848864,1.39,2023,1.18,2021,10314.0506733708,,,,Available,,Available
-FSM,"Micronesia, Fed. Sts.",East Asia & Pacific,Upper middle income,3933.01607031874,1.29,2008,1.29,2008,3508.22314197664,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-MDA,Moldova,Europe & Central Asia,Upper middle income,6799.58594644576,4.98,2023,5.09,2021,5274.60582195352,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable
-MCO,Monaco,Europe & Central Asia,High income,256799.911212051,9.19,2020,9.19,2020,223823.327192464,,,,,,
-MNG,Mongolia,East Asia & Pacific,Upper middle income,5838.63108083902,5.93,2023,4.86,2021,4517.61578018785,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-MNE,Montenegro,Europe & Central Asia,Upper middle income,12258.1600477339,0.58,2023,0.6,2021,9315.86435643142,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,3813.72607421875,1.44,2023,1.36,2021,3785.93627929688,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-MOZ,Mozambique,Sub-Saharan Africa ,Low income,622.191133245967,0.11,2023,0.11,2021,509.907829475551,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable
-MMR,Myanmar,East Asia & Pacific,Lower middle income,1233.19666209269,0.72,2019,0.72,2019,1242.72134419599,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Available
-NAM,Namibia,Sub-Saharan Africa ,Lower middle income,4225.99102418102,0.99,2023,0.57,2021,4412.8355693052,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable
-NRU,Naoero,East Asia & Pacific,High income,13602.6372112893,3.45,2019,3.45,2019,12748.1701249353,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-NPL,Nepal,South Asia,Lower middle income,1382.38300895424,1.64,2023,1.39,2021,1252.75076731986,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-NLD,Netherlands,Europe & Central Asia,High income,63515.6030780019,5.6,2023,5.74,2021,60141.9880911492,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-NCL,New Caledonia,East Asia & Pacific,High income,33701.8923322781,,,,,35311.5543551452,,,,,,
-NZL,New Zealand,East Asia & Pacific,High income,49302.341876493,5.08,2023,5.07,2021,49902.154346032,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-NIC,Nicaragua,Latin America & Caribbean ,Lower middle income,2609.44491147975,0.36,2022,0.37,2021,2138.38573878237,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-NER,Niger,Sub-Saharan Africa ,Low income,647.930108509567,0.01,2022,0.01,2018,609.585703670137,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable
-NGA,Nigeria,Sub-Saharan Africa ,Lower middle income,2138.76383718757,0.23,2022,0.22,2021,2787.48779220991,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-MKD,North Macedonia,Europe & Central Asia,Upper middle income,8674.35846327485,9.24,2022,8.77,2020,7620.80296977508,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-MNP,Northern Mariana Islands,East Asia & Pacific,High income,,,,,,19455.50139424,,,,,,
-NOR,Norway,Europe & Central Asia,High income,90984.4087141111,8.79,2023,8.63,2021,96442.5552173002,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",High income,21027.7384572657,3.59,2022,3.61,2021,19403.4600160211,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,1360.32417758419,1.37,2023,1.16,2019,1455.31922370186,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-PLW,Palau,East Asia & Pacific,High income,15578.3497630733,3.96,2023,3.93,2021,13267.4877340719,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-PAN,Panama,Latin America & Caribbean ,High income,18797.1933894611,2.8,2022,2.88,2021,15509.8069109784,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable
-PNG,Papua New Guinea,East Asia & Pacific,Lower middle income,2966.06455045333,0.05,2023,0.05,2021,2607.97769973161,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-PRY,Paraguay,Latin America & Caribbean ,Upper middle income,6303.26495017292,13.41,2022,12.84,2021,5974.9057185863,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Available
-PER,Peru,Latin America & Caribbean ,Upper middle income,7919.04634828547,2.15,2023,2.18,2021,6828.53422535638,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-PHL,Philippines,East Asia & Pacific,Upper middle income,3804.08274131718,2.51,2021,2.51,2021,3484.38593882819,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable
-POL,Poland,Europe & Central Asia,High income,22145.2660647429,9.51,2023,9.17,2021,18635.5104895754,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-PRT,Portugal,Europe & Central Asia,High income,27634.6183139773,12.25,2023,11.7,2021,24711.4510062111,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-PRI,Puerto Rico (US),Latin America & Caribbean ,High income,36980.7653928068,,,,,32618.8705106244,,,,,,
-QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",High income,80195.8746508549,7.39,2023,6.53,2019,71751.8831257169,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-ROU,Romania,Europe & Central Asia,High income,18244.4186876321,11.3,2023,10.51,2021,14908.0412813921,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-RUS,Russian Federation,Europe & Central Asia,High income,13986.9951171875,2.79,2020,2.79,2020,12425.029296875,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-RWA,Rwanda,Sub-Saharan Africa ,Low income,1061.05788154076,0.22,2023,0.21,2021,842.581492947672,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-WSM,Samoa,East Asia & Pacific,Upper middle income,4822.74084650019,0.9,2020,0.9,2020,4021.55934894283,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-SMR,San Marino,Europe & Central Asia,High income,59871.3288101478,7.42,2023,17.39,2018,54168.9744311193,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-STP,Sao Tome and Principe,Sub-Saharan Africa ,Lower middle income,2990.6606143535,0.27,2022,0.28,2019,2362.58827248102,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available
-SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",High income,36156.8562500172,7.81,2023,7.26,2021,31920.7653655643,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-SEN,Senegal,Sub-Saharan Africa ,Lower middle income,1698.03387300843,0.11,2023,0.1,2021,1598.10676952274,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available
-SRB,Serbia,Europe & Central Asia,Upper middle income,12281.707946167,2.56,2023,2.45,2021,9680.52798074468,,,,,,
-SYC,Seychelles,Sub-Saharan Africa ,High income,18130.5297135548,3.51,2022,3.57,2019,14982.9111487767,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-SLE,Sierra Leone,Sub-Saharan Africa ,Low income,758.329137301888,0.02,2022,0.02,2020,885.396401613729,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable
-SGP,Singapore,East Asia & Pacific,High income,86382.5900499252,4.45,2023,4.32,2021,80884.8565369236,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-SXM,Sint Maarten (Dutch part),Latin America & Caribbean ,High income,39451.822911732,,,,,32548.4366854902,,,,,,
-SVK,Slovak Republic,Europe & Central Asia,High income,24614.8734642794,5.37,2023,5.28,2021,22123.3342114545,,,,,,
-SVN,Slovenia,Europe & Central Asia,High income,32660.4753581346,7.66,2023,7.46,2021,29192.8401933019,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-SLB,Solomon Islands,East Asia & Pacific,Lower middle income,1882.64394148042,0.51,2023,0.69,2019,2043.44413170658,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-SOM,"Somalia, Fed. Rep.",Sub-Saharan Africa ,Low income,596.885985135589,0.0,2014,0.0,2014,549.056994756254,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-ZAF,South Africa,Sub-Saharan Africa ,Upper middle income,6034.27208964673,1.06,2023,1.07,2021,6828.75624590017,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-SSD,South Sudan,Sub-Saharan Africa ,Low income,,0.03,2022,0.03,2020,,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-ESP,Spain,Europe & Central Asia,High income,33493.2225409111,6.48,2023,8.47,2021,30799.4775937775,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable
-LKA,Sri Lanka,South Asia,Upper middle income,3815.41531767474,0.96,2023,1.01,2021,3996.96240531688,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-KNA,St. Kitts and Nevis,Latin America & Caribbean ,High income,22576.9248439166,2.55,2018,2.55,2018,18361.1449697886,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-LCA,St. Lucia,Latin America & Caribbean ,Upper middle income,13616.6397593734,1.76,2017,1.76,2017,10481.1233971786,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-MAF,St. Martin (French part),Latin America & Caribbean ,High income,,,,,,21668.3776525323,,,,,,
-VCT,St. Vincent and the Grenadines,Latin America & Caribbean ,Upper middle income,10582.3656725229,2.27,2023,1.85,2021,8641.27904024443,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-SDN,Sudan,Sub-Saharan Africa ,Low income,797.283447265625,2.5,2020,2.5,2020,712.122009277344,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable
-SUR,Suriname,Latin America & Caribbean ,Upper middle income,5521.97602122638,0.7,2021,0.7,2021,5029.84838543953,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-SWE,Sweden,Europe & Central Asia,High income,54950.2834725622,7.79,2022,7.74,2021,60647.5416365347,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-CHE,Switzerland,Europe & Central Asia,High income,104449.75451772,4.06,2019,4.06,2019,96582.8687080693,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",Low income,,11.16,2022,10.22,2021,688.566109726934,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-TJK,Tajikistan,Europe & Central Asia,Lower middle income,1178.47990060249,1.5,2023,1.65,2021,896.748053372182,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-TZA,Tanzania,Sub-Saharan Africa ,Lower middle income,1224.00219726563,0.12,2022,0.12,2018,1159.85656738281,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-THA,Thailand,East Asia & Pacific,Upper middle income,7210.54130832685,1.13,2022,1.13,2021,7055.18760721422,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-TLS,Timor-Leste,East Asia & Pacific,Lower middle income,1502.4114958903,0.02,2020,0.02,2020,2684.92673717299,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-TGO,Togo,Sub-Saharan Africa ,Lower middle income,1182.32951436696,0.02,2022,0.02,2021,1076.29520076949,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable
-TON,Tonga,East Asia & Pacific,Upper middle income,5651.59357939286,1.42,2020,1.42,2020,4922.8015864044,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-TTO,Trinidad and Tobago,Latin America & Caribbean ,High income,18308.4536298575,2.99,2019,2.99,2019,17712.5674104655,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable
-TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,3951.11683376921,3.68,2021,3.68,2021,3906.93926319391,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-TUR,Turkiye,Europe & Central Asia,Upper middle income,13375.0947282864,5.24,2023,4.6,2021,9981.76398411336,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-TKM,Turkmenistan,Europe & Central Asia,Upper middle income,5298.46421949276,1.24,2023,1.24,2021,3713.20113171765,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-TCA,Turks and Caicos Islands,Latin America & Caribbean ,High income,35470.2151608295,,,,,27329.2885087196,,,,,,
-TUV,Tuvalu,East Asia & Pacific,Upper middle income,5143.8397437226,0.96,2020,0.96,2020,6042.51983141155,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-UGA,Uganda,Sub-Saharan Africa ,Low income,1002.30913917142,0.11,2023,0.06,2020,882.791717542504,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable
-UKR,Ukraine,Europe & Central Asia,Upper middle income,5139.59814453125,5.86,2014,5.86,2014,4775.94580078125,,,,,,
-ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",High income,49850.6945082084,8.85,2023,7.64,2021,44118.4936214315,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-GBR,United Kingdom,Europe & Central Asia,High income,49919.6896621586,5.08,2023,5.12,2021,47695.6491523474,,,,,Available,Available
-USA,United States,North America,High income,82586.7847707894,5.89,2023,5.94,2021,71441.2319805947,,,,,,
-URY,Uruguay,Latin America & Caribbean ,High income,23378.6399733516,2.6,2023,2.26,2021,17881.8119616753,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-UZB,Uzbekistan,Europe & Central Asia,Lower middle income,3015.97705069457,1.3,2023,1.42,2021,2370.36480555669,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available
-VUT,Vanuatu,East Asia & Pacific,Lower middle income,3708.18942411253,0.31,2019,0.31,2019,3576.13770954363,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Unavailable
-VEN,"Venezuela, RB",Latin America & Caribbean ,Lower middle income,3617.47038396528,1.35,2017,1.35,2017,2004.93572921136,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
-VNM,Viet Nam,East Asia & Pacific,Upper middle income,4322.82572261566,,,,,3704.1935590038,,,,,,
-VIR,Virgin Islands (U.S.),Latin America & Caribbean ,High income,,,,,,42571.0777368471,,,,,,
-PSE,West Bank and Gaza,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,3607.41611858821,,,,,3678.63565662194,,,,,,
-YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",Low income,,0.19,2022,0.17,2021,,,,,,,
-ZMB,Zambia,Sub-Saharan Africa ,Lower middle income,1330.72780576709,0.11,2023,0.14,2021,1127.16077872857,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Unavailable
-ZWE,Zimbabwe,Sub-Saharan Africa ,Lower middle income,2195.22502010174,0.3,2023,0.3,2021,2613.6167414057,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available
+iso3,country,world_bank_region,income_group,gdp_per_capita_2023_usd,dentists_per_10000,dentist_data_year,dentists_per_10000_on_or_before_2021,dentist_data_year_on_or_before_2021,gdp_per_capita_2021_usd,oral_health_access_category,access_source,access_data_year,screening_available,urgent_care_available,restorative_care_available,government_scheme_coverage_pct_2021,preventive_in_public_scheme_2021,essential_curative_in_public_scheme_2021
+AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",Low income,413.757894705303,0.06,2020,0.06,2020,356.496214115892,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+ALB,Albania,Europe & Central Asia,Upper middle income,9740.7023414631,10.27,2018,10.27,2018,7242.45513146613,,,,Available,,,,,
+DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,5370.477235078,3.57,2022,3.58,2020,4160.55926736925,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,70.0,Yes,Yes
+ASM,American Samoa,East Asia & Pacific,High income,,,,,,15236.1604875571,,,,,,,,,
+AND,Andorra,Europe & Central Asia,High income,46812.448450114,12.11,2023,11.61,2021,42425.6996761083,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+AGO,Angola,Sub-Saharan Africa ,Lower middle income,2885.51349130806,0.07,2022,0.53,2018,2266.96834861584,,,,Unavailable,Unavailable,,,,
+ATG,Antigua and Barbuda,Latin America & Caribbean ,High income,22012.2625947994,0.45,2014,0.45,2014,17348.6006987182,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+ARG,Argentina,Latin America & Caribbean ,Upper middle income,14261.8465667948,10.84,2023,11.85,2021,10738.0179223384,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+ARM,Armenia,Europe & Central Asia,Upper middle income,8159.08720967996,3.59,2022,2.93,2021,4685.17997128509,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+ABW,Aruba,Latin America & Caribbean ,High income,34897.6183932009,,,,,26827.3447869986,,,,,,,,,
+AUS,Australia,East Asia & Pacific,High income,65058.3773146674,6.52,2023,6.2,2021,60758.9044397144,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+AUT,Austria,Europe & Central Asia,High income,56579.504175468,6.19,2023,6.16,2021,53648.6437976214,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,99.0,Yes,Yes
+AZE,Azerbaijan,Europe & Central Asia,Upper middle income,7133.02838048328,3.38,2022,3.22,2021,5408.04535175023,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+BHS,"Bahamas, The",Latin America & Caribbean ,High income,38231.774484278,2.54,2017,2.54,2017,30367.8605757708,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,,,
+BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",High income,29290.1284215098,0.8,2020,0.8,2020,27147.8083882286,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+BGD,Bangladesh,South Asia,Lower middle income,2551.01773827307,0.76,2023,0.69,2021,2482.84917843357,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,1.0,No,No
+BRB,Barbados,Latin America & Caribbean ,High income,25583.8722302505,3.12,2023,2.45,2021,21084.4013935998,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,,,
+BLR,Belarus,Europe & Central Asia,Upper middle income,7896.75388295584,6.09,2023,5.79,2021,7489.71894713888,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+BEL,Belgium,Europe & Central Asia,High income,55244.68145811,7.24,2023,7.71,2021,51658.238294958,,,,,,,99.0,Yes,Yes
+BLZ,Belize,Latin America & Caribbean ,Upper middle income,7424.75821321022,1.71,2022,1.72,2021,6142.98930557031,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,95.0,Yes,Yes
+BEN,Benin,Sub-Saharan Africa ,Lower middle income,1394.17784721831,0.05,2023,0.04,2021,1318.65158075198,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable,60.0,Yes,No
+BMU,Bermuda,North America,High income,132961.760796315,,,,,112765.08167306,,,,,,,,,
+BTN,Bhutan,South Asia,Lower middle income,3831.32535564326,0.97,2022,0.97,2021,3570.61257980872,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable,100.0,Yes,Yes
+BOL,Bolivia,Latin America & Caribbean ,Lower middle income,4274.70820547613,2.29,2021,2.29,2021,4010.76053686204,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,70.0,Yes,Yes
+BIH,Bosnia and Herzegovina,Europe & Central Asia,Upper middle income,8663.02326458629,2.58,2019,2.58,2019,7295.34378682258,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+BWA,Botswana,Sub-Saharan Africa ,Upper middle income,7827.30027960734,0.36,2023,0.37,2021,7807.88794570471,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,,,
+BRA,Brazil,Latin America & Caribbean ,Upper middle income,10377.5892792557,7.45,2023,6.83,2021,7972.5366498646,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,80.0,Yes,Yes
+VGB,British Virgin Islands,Latin America & Caribbean ,High income,,,,,,,,,,,,,,,
+BRN,Brunei Darussalam,East Asia & Pacific,High income,32890.5491812019,2.59,2023,2.61,2021,31006.9636289785,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+BGR,Bulgaria,Europe & Central Asia,High income,15854.0192893772,11.29,2023,10.99,2021,12966.8085197381,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+BFA,Burkina Faso,Sub-Saharan Africa ,Low income,873.198061670247,0.06,2023,0.05,2021,895.535288442991,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,50.0,Yes,Yes
+BDI,Burundi,Sub-Saharan Africa ,Low income,249.795164039029,0.01,2022,0.01,2021,264.172844085398,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,63.0,No,No
+CPV,Cabo Verde,Sub-Saharan Africa ,Upper middle income,4794.90119772843,2.33,2019,2.33,2019,3971.44409203423,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,,Yes,Yes
+KHM,Cambodia,East Asia & Pacific,Lower middle income,2429.74853452838,0.31,2018,0.31,2018,2167.40324198499,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+CMR,Cameroon,Sub-Saharan Africa ,Lower middle income,1720.47510154506,0.12,2022,0.05,2021,1672.32657340872,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+CAN,Canada,North America,High income,54847.5370112652,6.53,2020,6.53,2020,52886.6407813788,,,,,Available,Available,,,
+CYM,Cayman Islands,Latin America & Caribbean ,High income,100065.233841107,,,,,86449.6749037302,,,,,,,,,
+CAF,Central African Republic,Sub-Saharan Africa ,Low income,495.978897288721,0.01,2023,0.0,2021,492.263142830507,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+TCD,Chad,Sub-Saharan Africa ,Low income,949.991054236266,0.01,2023,0.01,2021,946.358500208374,,,,,,,,Yes,Yes
+CHI,Channel Islands,Europe & Central Asia,High income,74585.5224096294,,,,,66915.3963925722,,,,,,,,,
+CHL,Chile,Latin America & Caribbean ,High income,17081.5180740049,16.77,2023,14.83,2021,16216.1840860289,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,80.0,No,Yes
+CHN,China,East Asia & Pacific,Upper middle income,12951.1782397043,4.51,2017,4.51,2017,12887.4357242941,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Unavailable,95.0,Yes,No
+COL,Colombia,Latin America & Caribbean ,Upper middle income,7012.49169137756,8.7,2023,8.4,2021,6222.62164397614,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,96.0,Yes,Yes
+COM,Comoros,Sub-Saharan Africa ,Lower middle income,1723.89474946474,0.38,2022,0.4,2020,1587.72988658008,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable,25.0,Yes,Yes
+COD,"Congo, Dem. Rep.",Sub-Saharan Africa ,Low income,660.21205238997,0.04,2022,0.03,2021,595.743074403567,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available,3.0,Yes,No
+COG,"Congo, Rep.",Sub-Saharan Africa ,Lower middle income,2477.97845544866,0.02,2022,0.05,2018,2516.16255145432,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available,,,
+CRI,Costa Rica,Latin America & Caribbean ,High income,17140.771430122,10.89,2022,10.73,2021,12962.2716075659,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,94.0,Yes,Yes
+CIV,Cote d'Ivoire,Sub-Saharan Africa ,Lower middle income,2591.9659048119,0.14,2023,0.15,2021,2455.98127641148,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,49.0,Yes,Yes
+HRV,Croatia,Europe & Central Asia,High income,22183.4982258492,9.56,2023,9.25,2021,17788.7601163765,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+CUB,Cuba,Latin America & Caribbean ,Upper middle income,,15.97,2022,18.79,2021,,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+CUW,Curacao,Latin America & Caribbean ,High income,21217.8109173312,,,,,17795.5826483092,,,,,,,,,
+CYP,Cyprus,Europe & Central Asia,High income,36623.70703125,9.41,2023,7.58,2021,32937.8359375,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,99.0,No,No
+CZE,Czechia,Europe & Central Asia,High income,31761.5944102491,7.52,2023,7.56,2021,27696.4619527544,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+DNK,Denmark,Europe & Central Asia,High income,68043.5466971243,7.73,2023,7.18,2021,69340.7334922138,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+DJI,Djibouti,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,3381.29779710722,0.19,2014,0.19,2014,3025.91126413549,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+DMA,Dominica,Latin America & Caribbean ,Upper middle income,9912.96212766668,1.17,2018,1.17,2018,8376.40414141113,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable,,,
+DOM,Dominican Republic,Latin America & Caribbean ,Upper middle income,10630.431743829,2.69,2023,2.21,2021,8527.0754858205,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,75.0,Yes,Yes
+ECU,Ecuador,Latin America & Caribbean ,Upper middle income,6718.1447938811,2.97,2020,2.97,2020,6061.32350181711,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,3456.78965212363,3.09,2021,3.09,2021,3827.35415374308,,,,,,,,,
+SLV,El Salvador,Latin America & Caribbean ,Upper middle income,5319.7195268688,1.57,2023,1.45,2021,4642.60743101342,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+GNQ,Equatorial Guinea,Sub-Saharan Africa ,Upper middle income,6788.35271638376,0.06,2004,0.06,2004,6945.63069794539,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+ERI,Eritrea,Sub-Saharan Africa ,Low income,,0.2,2022,0.18,2021,,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable,80.0,Yes,Yes
+EST,Estonia,Europe & Central Asia,High income,30264.0064885057,10.29,2023,10.11,2021,27951.1659277744,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+SWZ,Eswatini,Sub-Saharan Africa ,Lower middle income,3755.52111232464,0.28,2023,0.18,2020,3984.00229174306,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,70.0,No,No
+ETH,Ethiopia,Sub-Saharan Africa ,Low income,1055.81091593061,0.28,2022,0.16,2020,893.009835441784,,,,Available,Available,,66.0,No,No
+FRO,Faroe Islands,Europe & Central Asia,High income,72486.6910957957,,,,,69421.6981686515,,,,,,,,,
+FJI,Fiji,East Asia & Pacific,Upper middle income,5926.20586394763,0.83,2023,1.17,2019,4536.73312110335,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+FIN,Finland,Europe & Central Asia,High income,52864.6931581216,6.95,2023,7.19,2021,53099.1351400148,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+FRA,France,Europe & Central Asia,High income,44700.1384177544,7.01,2023,6.79,2021,43725.0999521245,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+PYF,French Polynesia,East Asia & Pacific,High income,21832.2831795569,,,,,21426.3854449835,,,,,,,,,
+GAB,Gabon,Sub-Saharan Africa ,Upper middle income,7802.82433276138,0.18,2022,0.15,2020,8181.40914134398,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+GMB,"Gambia, The",Sub-Saharan Africa ,Low income,883.024111978927,0.03,2022,0.04,2021,781.890925169531,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable,10.0,No,No
+GEO,Georgia,Europe & Central Asia,Upper middle income,8283.66960652261,7.74,2023,6.5,2021,5083.60695484577,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+DEU,Germany,Europe & Central Asia,High income,54776.7668235491,8.44,2023,8.52,2021,52349.2459994422,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,90.0,Yes,Yes
+GHA,Ghana,Sub-Saharan Africa ,Lower middle income,2383.90410476221,0.23,2018,0.23,2018,2445.18662529344,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable,53.0,Yes,Yes
+GIB,Gibraltar,Europe & Central Asia,High income,,,,,,,,,,,,,,,
+GRC,Greece,Europe & Central Asia,High income,23343.7103964562,13.59,2023,13.01,2021,20652.89659591,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+GRL,Greenland,Europe & Central Asia,High income,58498.9707973609,,,,,58135.9939910203,,,,,,,,,
+GRD,Grenada,Latin America & Caribbean ,Upper middle income,11414.4781691181,1.9,2018,1.9,2018,9617.28902905373,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Available,,,
+GUM,Guam,East Asia & Pacific,High income,,,,,,38074.8793745801,,,,,,,,,
+GTM,Guatemala,Latin America & Caribbean ,Upper middle income,5754.42833909847,2.68,2023,2.59,2020,4912.62240414681,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable,,,
+GIN,Guinea,Sub-Saharan Africa ,Lower middle income,1555.49375806861,0.03,2022,0.06,2018,1244.96550477914,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable,,,
+GNB,Guinea-Bissau,Sub-Saharan Africa ,Low income,964.431832665395,0.01,2023,0.01,2021,926.54619187706,,,,,,,,,
+GUY,Guyana,Latin America & Caribbean ,High income,20473.7002190617,0.68,2020,0.68,2020,9860.87014834386,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Unavailable,82.0,Yes,Yes
+HTI,Haiti,Latin America & Caribbean ,Lower middle income,1681.84407667059,0.22,2018,0.22,2018,1824.6798742577,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,,,
+HND,Honduras,Latin America & Caribbean ,Lower middle income,3227.45762509776,7.1,2023,0.32,2017,2735.14751503977,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Available,80.0,Yes,Yes
+HKG,"Hong Kong SAR, China",East Asia & Pacific,High income,50525.1119312663,,,,,49770.5642374739,,,,,,,,,
+HUN,Hungary,Europe & Central Asia,High income,22208.6509820466,7.56,2023,7.1,2021,19030.628130329,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+ISL,Iceland,Europe & Central Asia,High income,82201.2908518078,7.84,2023,7.89,2021,70425.4064277273,,,,,,,100.0,Yes,Yes
+IND,India,South Asia,Lower middle income,2434.44826340989,2.23,2023,2.06,2021,2239.61384367482,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,30.0,Yes,Yes
+IDN,Indonesia,East Asia & Pacific,Upper middle income,4876.2992959843,1.03,2023,1.23,2021,4287.17313995098,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,84.0,Yes,Yes
+IRN,"Iran, Islamic Rep.","Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,5049.29931642754,5.26,2023,4.25,2018,4605.14881318992,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,95.0,Yes,Yes
+IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,5965.31835077761,6.8,2023,4.36,2021,4868.49431080783,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+IRL,Ireland,Europe & Central Asia,High income,106818.917130804,4.75,2023,4.63,2021,103783.446284479,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,,
+IMN,Isle of Man,Europe & Central Asia,High income,90015.2074234398,,,,,94299.969348965,,,,,,,,,
+ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",High income,52126.4489280033,8.97,2023,11.56,2021,52258.4693499398,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+ITA,Italy,Europe & Central Asia,High income,39279.699782164,8.16,2023,7.73,2021,36852.5425414951,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,99.0,No,No
+JAM,Jamaica,Latin America & Caribbean ,Upper middle income,7542.39855849054,0.93,2017,0.93,2017,5625.67806271236,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,95.0,Yes,Yes
+JPN,Japan,East Asia & Pacific,High income,35215.003535366,8.16,2022,8.25,2020,41580.739040705,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,4906.23543006639,8.2,2023,8.04,2021,4581.71967230365,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available,,,
+KAZ,Kazakhstan,Europe & Central Asia,Upper middle income,12879.4275257974,2.13,2023,2.3,2021,9983.60103576902,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+KEN,Kenya,Sub-Saharan Africa ,Lower middle income,1942.58802756191,0.25,2022,0.05,2020,2061.35622089594,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,17.0,,
+KIR,Kiribati,East Asia & Pacific,Lower middle income,2200.68918614289,0.53,2023,0.68,2016,2223.54147866465,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+PRK,"Korea, Dem. People's Rep.",East Asia & Pacific,Low income,,2.17,2017,2.17,2017,,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+KOR,"Korea, Rep.",East Asia & Pacific,High income,35674.095995632,5.49,2023,5.3,2021,37518.4635305697,,,,,,,,No,Yes
+XKX,Kosovo,Europe & Central Asia,Upper middle income,6220.33213919344,,,,,5269.69946181439,,,,,,,,,
+KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",High income,34091.9714813002,8.34,2022,9.18,2021,34018.6342592913,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,Yes,Yes
+KGZ,Kyrgyz Republic,Europe & Central Asia,Lower middle income,2138.22210211478,1.56,2023,1.71,2021,1349.99730650542,,,,,,,75.0,Yes,No
+LAO,Lao PDR,East Asia & Pacific,Lower middle income,2066.94979776957,0.76,2020,0.76,2020,2526.05105018529,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,94.0,No,Yes
+LVA,Latvia,Europe & Central Asia,High income,22710.2637544197,7.18,2023,7.15,2021,20261.8887788916,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,100.0,Yes,Yes
+LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,3477.72489842684,12.5,2020,12.5,2020,4045.37391066234,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable,50.0,No,No
+LSO,Lesotho,Sub-Saharan Africa ,Lower middle income,921.435141557056,0.17,2019,0.17,2019,1066.58645143823,,,,,,,,,
+LBR,Liberia,Sub-Saharan Africa ,Low income,799.194470229642,0.02,2022,0.01,2021,667.96610514319,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,90.0,Yes,Yes
+LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,6026.51518708812,5.8,2020,5.8,2020,4935.82787349801,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+LIE,Liechtenstein,Europe & Central Asia,High income,206780.590353385,,,,,201944.830335076,,,,,,,,,
+LTU,Lithuania,Europe & Central Asia,High income,27983.3658256887,11.65,2023,10.5,2021,23882.8668916753,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+LUX,Luxembourg,Europe & Central Asia,High income,133230.619178899,9.74,2017,9.74,2017,134965.815442152,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+MAC,"Macao SAR, China",East Asia & Pacific,High income,67216.3631112124,,,,,44884.8961602393,,,,,,,,,
+MDG,Madagascar,Sub-Saharan Africa ,Low income,514.064076551927,0.07,2023,0.08,2018,483.469463351195,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+MWI,Malawi,Sub-Saharan Africa ,Low income,633.214767978695,0.07,2023,0.08,2020,617.446994451007,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,Yes,Yes
+MYS,Malaysia,East Asia & Pacific,Upper middle income,11386.0395636528,4.06,2023,3.67,2021,10903.1037480772,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+MDV,Maldives,South Asia,Upper middle income,12587.6126038651,1.02,2020,1.02,2020,10176.143882547,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+MLI,Mali,Sub-Saharan Africa ,Low income,1042.44223444837,0.01,2022,0.02,2018,1027.27345365357,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,,Yes,Yes
+MLT,Malta,"Middle East, North Africa, Afghanistan & Pakistan",High income,40932.5238774461,5.29,2023,5.15,2021,38078.0064279067,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,100.0,Yes,Yes
+MHL,Marshall Islands,East Asia & Pacific,Upper middle income,6799.39217554794,1.45,2021,1.45,2021,6315.31172190393,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+MRT,Mauritania,Sub-Saharan Africa ,Lower middle income,2127.9576285973,0.31,2022,0.26,2021,1947.47413907209,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available,30.0,No,No
+MUS,Mauritius,Sub-Saharan Africa ,Upper middle income,11269.9684462139,3.24,2022,3.2,2019,9177.71195973013,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Available,100.0,Yes,Yes
+MEX,Mexico,Latin America & Caribbean ,Upper middle income,13830.843848864,1.39,2023,1.18,2021,10314.0506733708,,,,Available,,Available,51.0,Yes,Yes
+FSM,"Micronesia, Fed. Sts.",East Asia & Pacific,Upper middle income,3933.01607031874,1.29,2008,1.29,2008,3508.22314197664,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,65.0,Yes,Yes
+MDA,Moldova,Europe & Central Asia,Upper middle income,6799.58594644576,4.98,2023,5.09,2021,5274.60582195352,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable,,Yes,No
+MCO,Monaco,Europe & Central Asia,High income,256799.911212051,9.19,2020,9.19,2020,223823.327192464,,,,,,,,,
+MNG,Mongolia,East Asia & Pacific,Upper middle income,5838.63108083902,5.93,2023,4.86,2021,4517.61578018785,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,95.0,Yes,Yes
+MNE,Montenegro,Europe & Central Asia,Upper middle income,12258.1600477339,0.58,2023,0.6,2021,9315.86435643142,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,3813.72607421875,1.44,2023,1.36,2021,3785.93627929688,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,60.0,Yes,No
+MOZ,Mozambique,Sub-Saharan Africa ,Low income,622.191133245967,0.11,2023,0.11,2021,509.907829475551,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable,60.0,Yes,Yes
+MMR,Myanmar,East Asia & Pacific,Lower middle income,1233.19666209269,0.72,2019,0.72,2019,1242.72134419599,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Available,97.0,Yes,No
+NAM,Namibia,Sub-Saharan Africa ,Lower middle income,4225.99102418102,0.99,2023,0.57,2021,4412.8355693052,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable,90.0,No,Yes
+NRU,Naoero,East Asia & Pacific,High income,13602.6372112893,3.45,2019,3.45,2019,12748.1701249353,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+NPL,Nepal,South Asia,Lower middle income,1382.38300895424,1.64,2023,1.39,2021,1252.75076731986,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,12.0,Yes,Yes
+NLD,Netherlands,Europe & Central Asia,High income,63515.6030780019,5.6,2023,5.74,2021,60141.9880911492,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+NCL,New Caledonia,East Asia & Pacific,High income,33701.8923322781,,,,,35311.5543551452,,,,,,,,,
+NZL,New Zealand,East Asia & Pacific,High income,49302.341876493,5.08,2023,5.07,2021,49902.154346032,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,,,
+NIC,Nicaragua,Latin America & Caribbean ,Lower middle income,2609.44491147975,0.36,2022,0.37,2021,2138.38573878237,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,75.0,Yes,Yes
+NER,Niger,Sub-Saharan Africa ,Low income,647.930108509567,0.01,2022,0.01,2018,609.585703670137,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable,,,
+NGA,Nigeria,Sub-Saharan Africa ,Lower middle income,2138.76383718757,0.23,2022,0.22,2021,2787.48779220991,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,4.0,Yes,No
+MKD,North Macedonia,Europe & Central Asia,Upper middle income,8674.35846327485,9.24,2022,8.77,2020,7620.80296977508,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,90.0,Yes,Yes
+MNP,Northern Mariana Islands,East Asia & Pacific,High income,,,,,,19455.50139424,,,,,,,,,
+NOR,Norway,Europe & Central Asia,High income,90984.4087141111,8.79,2023,8.63,2021,96442.5552173002,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,No,No
+OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",High income,21027.7384572657,3.59,2022,3.61,2021,19403.4600160211,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,99.0,Yes,Yes
+PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,1360.32417758419,1.37,2023,1.16,2019,1455.31922370186,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+PLW,Palau,East Asia & Pacific,High income,15578.3497630733,3.96,2023,3.93,2021,13267.4877340719,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+PAN,Panama,Latin America & Caribbean ,High income,18797.1933894611,2.8,2022,2.88,2021,15509.8069109784,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable,95.0,Yes,Yes
+PNG,Papua New Guinea,East Asia & Pacific,Lower middle income,2966.06455045333,0.05,2023,0.05,2021,2607.97769973161,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,99.0,Yes,Yes
+PRY,Paraguay,Latin America & Caribbean ,Upper middle income,6303.26495017292,13.41,2022,12.84,2021,5974.9057185863,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Available,78.0,Yes,Yes
+PER,Peru,Latin America & Caribbean ,Upper middle income,7919.04634828547,2.15,2023,2.18,2021,6828.53422535638,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,62.0,Yes,Yes
+PHL,Philippines,East Asia & Pacific,Upper middle income,3804.08274131718,2.51,2021,2.51,2021,3484.38593882819,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable,92.0,No,No
+POL,Poland,Europe & Central Asia,High income,22145.2660647429,9.51,2023,9.17,2021,18635.5104895754,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,95.0,Yes,Yes
+PRT,Portugal,Europe & Central Asia,High income,27634.6183139773,12.25,2023,11.7,2021,24711.4510062111,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,No,No
+PRI,Puerto Rico (US),Latin America & Caribbean ,High income,36980.7653928068,,,,,32618.8705106244,,,,,,,,,
+QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",High income,80195.8746508549,7.39,2023,6.53,2019,71751.8831257169,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+ROU,Romania,Europe & Central Asia,High income,18244.4186876321,11.3,2023,10.51,2021,14908.0412813921,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,90.0,Yes,Yes
+RUS,Russian Federation,Europe & Central Asia,High income,13986.9951171875,2.79,2020,2.79,2020,12425.029296875,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+RWA,Rwanda,Sub-Saharan Africa ,Low income,1061.05788154076,0.22,2023,0.21,2021,842.581492947672,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,85.0,Yes,Yes
+WSM,Samoa,East Asia & Pacific,Upper middle income,4822.74084650019,0.9,2020,0.9,2020,4021.55934894283,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+SMR,San Marino,Europe & Central Asia,High income,59871.3288101478,7.42,2023,17.39,2018,54168.9744311193,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,100.0,Yes,Yes
+STP,Sao Tome and Principe,Sub-Saharan Africa ,Lower middle income,2990.6606143535,0.27,2022,0.28,2019,2362.58827248102,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available,,,
+SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",High income,36156.8562500172,7.81,2023,7.26,2021,31920.7653655643,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+SEN,Senegal,Sub-Saharan Africa ,Lower middle income,1698.03387300843,0.11,2023,0.1,2021,1598.10676952274,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available,50.0,Yes,Yes
+SRB,Serbia,Europe & Central Asia,Upper middle income,12281.707946167,2.56,2023,2.45,2021,9680.52798074468,,,,,,,85.0,Yes,Yes
+SYC,Seychelles,Sub-Saharan Africa ,High income,18130.5297135548,3.51,2022,3.57,2019,14982.9111487767,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+SLE,Sierra Leone,Sub-Saharan Africa ,Low income,758.329137301888,0.02,2022,0.02,2020,885.396401613729,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable,25.0,Yes,Yes
+SGP,Singapore,East Asia & Pacific,High income,86382.5900499252,4.45,2023,4.32,2021,80884.8565369236,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+SXM,Sint Maarten (Dutch part),Latin America & Caribbean ,High income,39451.822911732,,,,,32548.4366854902,,,,,,,,,
+SVK,Slovak Republic,Europe & Central Asia,High income,24614.8734642794,5.37,2023,5.28,2021,22123.3342114545,,,,,,,100.0,Yes,Yes
+SVN,Slovenia,Europe & Central Asia,High income,32660.4753581346,7.66,2023,7.46,2021,29192.8401933019,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+SLB,Solomon Islands,East Asia & Pacific,Lower middle income,1882.64394148042,0.51,2023,0.69,2019,2043.44413170658,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,Yes,Yes
+SOM,"Somalia, Fed. Rep.",Sub-Saharan Africa ,Low income,596.885985135589,0.0,2014,0.0,2014,549.056994756254,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,41.0,Yes,No
+ZAF,South Africa,Sub-Saharan Africa ,Upper middle income,6034.27208964673,1.06,2023,1.07,2021,6828.75624590017,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,85.0,Yes,Yes
+SSD,South Sudan,Sub-Saharan Africa ,Low income,,0.03,2022,0.03,2020,,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,44.0,Yes,Yes
+ESP,Spain,Europe & Central Asia,High income,33493.2225409111,6.48,2023,8.47,2021,30799.4775937775,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable,100.0,Yes,Yes
+LKA,Sri Lanka,South Asia,Upper middle income,3815.41531767474,0.96,2023,1.01,2021,3996.96240531688,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+KNA,St. Kitts and Nevis,Latin America & Caribbean ,High income,22576.9248439166,2.55,2018,2.55,2018,18361.1449697886,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+LCA,St. Lucia,Latin America & Caribbean ,Upper middle income,13616.6397593734,1.76,2017,1.76,2017,10481.1233971786,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+MAF,St. Martin (French part),Latin America & Caribbean ,High income,,,,,,21668.3776525323,,,,,,,,,
+VCT,St. Vincent and the Grenadines,Latin America & Caribbean ,Upper middle income,10582.3656725229,2.27,2023,1.85,2021,8641.27904024443,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+SDN,Sudan,Sub-Saharan Africa ,Low income,797.283447265625,2.5,2020,2.5,2020,712.122009277344,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Unavailable,,,
+SUR,Suriname,Latin America & Caribbean ,Upper middle income,5521.97602122638,0.7,2021,0.7,2021,5029.84838543953,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+SWE,Sweden,Europe & Central Asia,High income,54950.2834725622,7.79,2022,7.74,2021,60647.5416365347,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+CHE,Switzerland,Europe & Central Asia,High income,104449.75451772,4.06,2019,4.06,2019,96582.8687080693,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,No,No
+SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",Low income,,11.16,2022,10.22,2021,688.566109726934,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,99.0,Yes,Yes
+TJK,Tajikistan,Europe & Central Asia,Lower middle income,1178.47990060249,1.5,2023,1.65,2021,896.748053372182,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,80.0,Yes,Yes
+TZA,Tanzania,Sub-Saharan Africa ,Lower middle income,1224.00219726563,0.12,2022,0.12,2018,1159.85656738281,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,No,No
+THA,Thailand,East Asia & Pacific,Upper middle income,7210.54130832685,1.13,2022,1.13,2021,7055.18760721422,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,80.0,Yes,Yes
+TLS,Timor-Leste,East Asia & Pacific,Lower middle income,1502.4114958903,0.02,2020,0.02,2020,2684.92673717299,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+TGO,Togo,Sub-Saharan Africa ,Lower middle income,1182.32951436696,0.02,2022,0.02,2021,1076.29520076949,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable,,,
+TON,Tonga,East Asia & Pacific,Upper middle income,5651.59357939286,1.42,2020,1.42,2020,4922.8015864044,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+TTO,Trinidad and Tobago,Latin America & Caribbean ,High income,18308.4536298575,2.99,2019,2.99,2019,17712.5674104655,Partially achieved,Derived from WHO component indicators,2021,Available,Available,Unavailable,95.0,Yes,Yes
+TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,3951.11683376921,3.68,2021,3.68,2021,3906.93926319391,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,72.0,Yes,Yes
+TUR,Turkiye,Europe & Central Asia,Upper middle income,13375.0947282864,5.24,2023,4.6,2021,9981.76398411336,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+TKM,Turkmenistan,Europe & Central Asia,Upper middle income,5298.46421949276,1.24,2023,1.24,2021,3713.20113171765,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+TCA,Turks and Caicos Islands,Latin America & Caribbean ,High income,35470.2151608295,,,,,27329.2885087196,,,,,,,,,
+TUV,Tuvalu,East Asia & Pacific,Upper middle income,5143.8397437226,0.96,2020,0.96,2020,6042.51983141155,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,100.0,Yes,Yes
+UGA,Uganda,Sub-Saharan Africa ,Low income,1002.30913917142,0.11,2023,0.06,2020,882.791717542504,Not achieved,Derived from WHO component indicators,2021,Unavailable,Unavailable,Unavailable,,,
+UKR,Ukraine,Europe & Central Asia,Upper middle income,5139.59814453125,5.86,2014,5.86,2014,4775.94580078125,,,,,,,100.0,No,Yes
+ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",High income,49850.6945082084,8.85,2023,7.64,2021,44118.4936214315,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,30.0,Yes,Yes
+GBR,United Kingdom,Europe & Central Asia,High income,49919.6896621586,5.08,2023,5.12,2021,47695.6491523474,,,,,Available,Available,100.0,Yes,Yes
+USA,United States,North America,High income,82586.7847707894,5.89,2023,5.94,2021,71441.2319805947,,,,,,,15.0,No,No
+URY,Uruguay,Latin America & Caribbean ,High income,23378.6399733516,2.6,2023,2.26,2021,17881.8119616753,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,95.0,Yes,Yes
+UZB,Uzbekistan,Europe & Central Asia,Lower middle income,3015.97705069457,1.3,2023,1.42,2021,2370.36480555669,Partially achieved,Derived from WHO component indicators,2021,Unavailable,Available,Available,,,
+VUT,Vanuatu,East Asia & Pacific,Lower middle income,3708.18942411253,0.31,2019,0.31,2019,3576.13770954363,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Unavailable,,,
+VEN,"Venezuela, RB",Latin America & Caribbean ,Lower middle income,3617.47038396528,1.35,2017,1.35,2017,2004.93572921136,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
+VNM,Viet Nam,East Asia & Pacific,Upper middle income,4322.82572261566,,,,,3704.1935590038,,,,,,,,,
+VIR,Virgin Islands (U.S.),Latin America & Caribbean ,High income,,,,,,42571.0777368471,,,,,,,,,
+PSE,West Bank and Gaza,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,3607.41611858821,,,,,3678.63565662194,,,,,,,,,
+YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",Low income,,0.19,2022,0.17,2021,,,,,,,,,,
+ZMB,Zambia,Sub-Saharan Africa ,Lower middle income,1330.72780576709,0.11,2023,0.14,2021,1127.16077872857,Partially achieved,Derived from WHO component indicators,2021,Available,Unavailable,Unavailable,86.0,Yes,Yes
+ZWE,Zimbabwe,Sub-Saharan Africa ,Lower middle income,2195.22502010174,0.3,2023,0.3,2021,2613.6167414057,Fully achieved,Derived from WHO component indicators,2021,Available,Available,Available,,,
