@@ -62,3 +62,11 @@ AI research support for student verification; these notes are not student-writte
 - Central African Republic still lacks financing responses in the matched fields. This check does not supply those missing observations or resolve its service/workforce contrast.
 - Keep the 2024 unmet-need evidence separate from the 2021 cross-country analysis. Do not infer a time trend by comparing percentages with different denominators.
 - Student task: decide whether this case changes the financing preference, what delivery condition the recommendation requires, and which causal claim remains unsupported.
+
+## Romania spending-share citation and payer check — October 5, 2026
+
+- Bibliography citation: OECD/European Observatory on Health Systems and Policies. (2023). *Romania: Country Health Profile 2023.* OECD Publishing. https://doi.org/10.1787/f478769b-en .
+- Verified against p. 15, Figure 15 and accompanying text: 5% publicly funded dental spending, observation year 2021; cited underlying dataset is OECD Health Statistics 2023. This is spending, not patient coverage.
+- The remaining approximately 95% is privately financed in the report's framing. The report does not give the dental-specific split between household out-of-pocket payments, voluntary insurance, and other sources. Do not label all 95% out-of-pocket.
+- A later [European Observatory Romania financing chapter](https://eurohealthobservatory.who.int/monitors/health-systems-monitor/countries-hspm/hspm/romania-2026/financing/sources-of-revenue-and-financial-flows), section 3.2, describes household payments as important for dental services, but its 96.6% figure concerns private spending on **all health care in 2022**, not dental spending in 2021. It cannot supply the missing dental payer split.
+- Provider reimbursement and participation are discussed in the student revision as economic reasoning and policy-design considerations, not a demonstrated Romanian mechanism or universally necessary condition.
