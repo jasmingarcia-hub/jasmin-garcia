@@ -171,3 +171,11 @@ Cross-country associations will not establish causation. Differences in financin
 - Eurostat's 2024 unmet-need figures are later case context, with a denominator of people aged 16+ needing dental care and combined cost/wait/distance reasons. They were not merged into the 2021 global analysis.
 - Source links, page locations, evidence boundaries, and the unverified provider-contract hypothesis are recorded in [research sources](../../data/research-sources.md#romania-case-check--october-5-2026).
 - Country evidence now supports discussion of entitlement versus access. Historical income classification, provider-delivery details, policy-effect evidence, student source verification, and student recommendation remain pending.
+
+## October 5, 2026 — pre-PDF completion audit
+
+- The student has supplied the mixed-financing interpretation and recommendation/objection/response. These are now consolidated in the October 5 draft with editing assistance; earlier “student recommendation pending” notes describe prior session states.
+- WHO dataset/metadata and World Bank classification references have been added to the paper candidate. Figure/table source captions avoid repository links. Bibliography year suffixes are consistent.
+- Main text, including financing Table 1 and new citations, still fits four pages in the Times Roman layout test. Exact Times New Roman formatting and full-PDF anonymity remain to be checked.
+- Student review of additional sources and a student-written closing reflection in root `prompt-log.md` remain outstanding. The reflection should explain AI's help, an oversimplification/invention, and an error personally caught and verified.
+- The final PDF at `analysis/research-paper.pdf` has not yet been produced or submitted. The dated draft includes a completion checklist separating paper content from working notes. Historical income alignment and policy-effect gaps remain disclosed limitations.

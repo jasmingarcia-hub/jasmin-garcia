@@ -70,3 +70,11 @@ AI research support for student verification; these notes are not student-writte
 - The remaining approximately 95% is privately financed in the report's framing. The report does not give the dental-specific split between household out-of-pocket payments, voluntary insurance, and other sources. Do not label all 95% out-of-pocket.
 - A later [European Observatory Romania financing chapter](https://eurohealthobservatory.who.int/monitors/health-systems-monitor/countries-hspm/hspm/romania-2026/financing/sources-of-revenue-and-financial-flows), section 3.2, describes household payments as important for dental services, but its 96.6% figure concerns private spending on **all health care in 2022**, not dental spending in 2021. It cannot supply the missing dental payer split.
 - Provider reimbursement and participation are discussed in the student revision as economic reasoning and policy-design considerations, not a demonstrated Romanian mechanism or universally necessary condition.
+
+## Pre-PDF citation audit — October 5, 2026
+
+- Added bibliography entries for WHO's Global Health Observatory dataset, dentist metadata, essential-curative metadata, and World Bank country/lending groups. Official pages checked; dynamic sources have an October 5 retrieval date.
+- WHO benefit metadata confirms a 2021 survey and defines essential-curative treatment separately from advanced/restorative treatment. Do not treat benefit inclusion as the same variable as the three basic-service components.
+- WHO dentist metadata confirms active-versus-registered and source-completeness differences. World Bank classifications use GNI-based categories; current API groups are not historical 2021 groups.
+- APA same-year suffixes now follow title order in the current paper candidate: 2022a global report, 2022b Romania oral-health profile, 2022c WHO news release. Citations and entries were changed together; historical draft snapshots were preserved.
+- Student source review remains pending for added bibliography items. The separate bibliography still needs final ordering and page formatting when the PDF is prepared.
