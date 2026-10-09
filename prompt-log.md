@@ -392,3 +392,12 @@ Checks/corrections: the review's scope concern was resolved by explicitly includ
 | 2026-10-08 | ChatGPT / Codex, Word editing and document rendering, GitHub connector | Shorten the reviewed research amendments to four main-text pages. | Condensed repeated wording while retaining both timing checks, four income correlations, financing counts/missingness, outcome-definition limits, named decision-makers, policy tradeoffs, and objection/response. | Updated the editable review copy and synchronized the current October 8 Markdown draft; original submitted PDF retained. |
 
 Checks/corrections: the first review copy had five main-text pages. The shortened copy has four in the internal render, with bibliography beginning on PDF page 6 after the title and main text. Word settings retain Times New Roman 12-point, double spacing, and one-inch margins; the renderer substitutes Liberation Serif, so exact-font pagination must be confirmed in Word before final export. All ten rendered pages were inspected, chart values and bibliography preserved, and the title-page review label removed. The student reported reviewing the previous amendments; acceptance of the condensed wording, a replacement PDF, and LMS resubmission are not asserted. Original prompt-log entries and reflection are unchanged.
+
+
+## Revised final PDF receipt — October 8, 2026
+
+| Date | Tool | What I asked | What I got | What I did with it |
+|---|---|---|---|---|
+| 2026-10-08 | ChatGPT / Codex, PDF inspection, GitHub connector | Receive the final PDF exported after the shortening pass. | Checked all ten pages, four-page main text, visible Times New Roman text, clear figures, reviewer corrections, and anonymity outside the title. | Replaced the repository final PDF with the exact student-supplied file and updated current status records. |
+
+Checks/corrections: exact-font pagination is now verified from the supplied PDF rather than the substitute-font preview. Calibri spans contain whitespace only. No paper wording or metadata was rewritten. Original PDF remains in Git history. The earlier LMS submission was student-reported; revised LMS upload and peer-review completion are not claimed. Prior log entries and reflection are unchanged.

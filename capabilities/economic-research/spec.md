@@ -219,3 +219,11 @@ The student supplied a three-part closing reflection, now saved with editing ass
 - Financing wording distinguishes 99 usable responses, 78 Yes, 21 No, and 72 missing among the 171 countries. Missing responses are not No.
 - Inherited notes and duplicate older working drafts are removed from the active October 3 and October 5 files after displaying their scope. All preceding paper prose and published history are preserved.
 - Analysis data/code and reported calculations are unchanged. Student review of the amendments and any updated PDF/resubmission remain pending; no new reflection or causal finding is authored.
+
+
+## October 8, 2026 — revised final PDF received
+
+- Student supplied `research-paper-final-revised.pdf` after review and shortening. Replaced `analysis/research-paper.pdf` with the exact uploaded bytes; previous PDF remains in Git history.
+- Verified ten pages: title; four main-text pages; bibliography; two figures; two appendix pages. Visible text uses Times New Roman; Calibri spans contain only whitespace. Clear figure lettering, no review notice, no name outside the title or repository URL, and blank author metadata.
+- Both timing checks, four within-income correlations, high-income outcome limits, 99 financing responses (78 Yes, 21 No, 72 missing), named decision-makers, and conditional recommendation/objection/response are present.
+- GitHub revised deliverable complete. The student reported the earlier PDF submitted to Lamakū; replacement there and assigned peer reviews are not verified. Methodological and source-verification limitations remain disclosed.
