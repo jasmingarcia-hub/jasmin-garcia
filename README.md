@@ -16,4 +16,4 @@ This section will serve as an index of my coursework, analyses, decision memos, 
 
 ### Microeconomics and Macroeconomics
 
-- Global dental workforce and oral-health service availability — repository deliverable finalized October 8, 2026: [final paper](analysis/research-paper.pdf), [brief](docs/briefs/research-brief.md), [spec and source register](capabilities/economic-research/spec.md), [dated drafts](drafts/), [AI log and reflection](prompt-log.md), and [figures](figures/). LMS submission and assigned peer-review participation are not verified.
+- Global dental workforce and oral-health service availability — repository deliverable finalized October 8, 2026: [final paper](analysis/research-paper.pdf), [brief](docs/briefs/research-brief.md), [spec and source register](capabilities/economic-research/spec.md), [dated drafts](drafts/), [AI log and reflection](prompt-log.md), and [figures](figures/). The student reported LMS submission on October 8. [Post-submission review amendments](drafts/2026-10-08-draft.md) await student review and any permitted revised PDF submission; the original PDF is unchanged. Assigned peer-review participation is not verified.

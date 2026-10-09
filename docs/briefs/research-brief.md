@@ -53,3 +53,11 @@ My conclusion could change if:
 ## How I would know I was wrong
 
 I would be wrong if the positive association between dentist density and service availability weakens substantially or disappears when I restrict dentist observations to those on or before 2021, and again when I restrict them to 2018-2021, since that would suggest the original pattern came from mismatched years rather than real differences between countries. I would also be wrong if the countries that look most surprising, such as Romania and the Central African Republic, turn out to reflect differences in definitions or reporting practices rather than real differences in supply, because that would mean the data cannot support the country-level comparisons I intend to draw. Finally, I would be wrong if the association depends on current income classifications and changes when I use classifications appropriate to 2021 or 2021 GDP per capita. This assumption was identified after I had seen preliminary findings, in which dentist observations from 2022-2023 were paired with a 2021 service-availability measure; I therefore treat the year-alignment checks as exploratory sensitivity tests rather than as tests specified before the analysis began
+
+## Policy scope amendment — October 8, 2026
+
+*Added after the analysis and in response to the pre-deadline review; this does not change the original hypothesis or turn later checks into advance predictions.*
+
+The policy question is broadened from workforce policies alone to: **How should national ministries of health consider workforce training, retention, deployment, and public financing for essential dental care when local evidence identifies different barriers to access?** This aligns the brief with the student's existing conditional recommendation, rather than narrowing that recommendation after the fact. The intended decision-makers are national ministries of health, working with public health-care payers and workforce planners.
+
+The primary empirical question remains the association between dentist density and reported basic service availability. The financing comparison is secondary and descriptive. Neither comparison identifies policy effects or establishes which intervention works best. Original brief text above is retained as the historical scope; this dated amendment records the expansion openly.

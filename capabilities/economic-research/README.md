@@ -34,8 +34,8 @@ Brief → Spec → Drafts → Log → Deliver
 
 ## Status
 
-Repository deliverable finalized October 8, 2026 (Hawaiʻi date). The student reviewed the Word manuscript, verified its font, and supplied the final PDF. The committed PDF has four main-text pages and clear embedded figures; it replaces the earlier review proof.
+Original PDF finalized October 8, 2026 (Hawaiʻi date); the student reported submitting it to Lamakū. That PDF is unchanged.
 
-Earlier snapshots remain in [`drafts/`](../../drafts/). Calculations are recorded in [`data/research_analysis_summary.md`](../../data/research_analysis_summary.md), and the source register and evidence limits are in [`spec.md`](spec.md). Root [`prompt-log.md`](../../prompt-log.md) retains the student's closing reflection and session records.
+Review amendments are now pending in [`drafts/2026-10-08-draft.md`](../../drafts/2026-10-08-draft.md): broader policy scope and named audience, complete timing results, precise income-group correlations, public-primary-care measurement limits, and unambiguous financing counts. A dated amendment in the brief records the scope expansion. Earlier duplicate AI notes have been trimmed from the October 3 and October 5 drafts; prior commits preserve them.
 
-LMS submission and assigned peer-review participation are not verified. Additional-source verification and methodological limitations are not represented as resolved.
+Student review, revised page-fit/export checks, and any permitted LMS resubmission remain pending. Assigned peer reviews are not verified. Source-verification and methodological limitations remain disclosed.

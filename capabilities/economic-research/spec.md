@@ -3,7 +3,7 @@ type: spec
 capability: economic-research
 engagement: global-dental-workforce
 date: 2026-10-03
-status: finalized
+status: review-amendments-pending
 built_with: "ChatGPT, Python, WHO GHO and World Bank APIs, GitHub Actions"
 ---
 
@@ -208,3 +208,14 @@ The student supplied a three-part closing reflection, now saved with editing ass
 - The student reported reviewing the Word manuscript and verifying its font, then supplied the final PDF for replacement. This does not claim personal verification of every additional source or resolve methodological limitations.
 - Historical income classification, cross-country reporting comparability, and causal policy evaluation remain limitations, not missing submission artifacts. Student-supplied AI disclosure remains unchanged.
 - GitHub deliverable finalized. LMS upload, deadline compliance, and assigned peer reviews remain outside this verification.
+
+## October 8, 2026 — response to October 5 review
+
+- The student reported submitting the final PDF to Lamakū before supplying this review. The committed final PDF remains unchanged; revised wording is in `drafts/2026-10-08-draft.md` for student review, page-fit checking, and any permitted resubmission.
+- A dated policy-scope amendment in the brief explicitly includes financing alongside workforce policy. National ministries of health, with public payers and workforce planners, are named as intended decision-makers. The original question/hypothesis remains in the historical text.
+- Existing exploratory timing calculations are now reported together: 171-country baseline 0.306; latest workforce on/before 2021 0.305; 2018–2021 subset of 157 countries 0.325; original workforce on those same 157 countries 0.340. The subset is not the same sample as all 171 countries.
+- All four aligned within-income correlations are made explicit: low 0.374 (21), lower-middle 0.098 (42), upper-middle −0.170 (53), high 0.179 (55). The upper-middle result is weak and negative, not described as absent. These are descriptive correlations, not adjusted workforce effects.
+- High-income Not achieved: 7/55 (12.7%); upper-middle: 3/53 (5.7%). The category concerns three public-primary-care availability thresholds, not absence of all dental care. Private delivery is possible but is not established as the explanation by these data.
+- Financing wording distinguishes 99 usable responses, 78 Yes, 21 No, and 72 missing among the 171 countries. Missing responses are not No.
+- Inherited notes and duplicate older working drafts are removed from the active October 3 and October 5 files after displaying their scope. All preceding paper prose and published history are preserved.
+- Analysis data/code and reported calculations are unchanged. Student review of the amendments and any updated PDF/resubmission remain pending; no new reflection or causal finding is authored.
