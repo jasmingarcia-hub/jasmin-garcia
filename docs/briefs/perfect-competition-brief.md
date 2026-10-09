@@ -64,3 +64,11 @@ Claim 1 — carrots and mesclun run to their caps. If the model returns fewer th
 Claim 2 — tomatoes settle at roughly 14 beds because that is where the revenue advantage stops outweighing the compounding labor penalty. If the model returns tomato beds outside the range 9–18, this is falsified. Below 9, I badly overestimated how long tomatoes' revenue advantage holds against their diminishing returns; above 18, I badly underestimated it. I've set this band wider than a point estimate because the diminishing-returns term compounds exponentially, and the labor-costing convention (farmer's hours vs. temp-worker hours) — which I flagged as unresolved in my Stage 1.2 spec — could shift the true crossover meaningfully in either direction.
 
 Claim 3 — all 64 beds get planted. If any bed is left empty in the optimal solution, this is falsified: it means leaving that bed idle beats planting anything in it, a qualitatively different result than a mix among the three crops.
+
+## Retrospective judgment on claim 3 — October 8, 2026
+
+*Added after reviewing the feedback and seeing model results. This clarification was supplied by the student and edited with AI assistance; it is not a test specified before the analysis.*
+
+Looking back, I meant that nearly all 64 beds would be planted, but I did not define “nearly all” clearly enough. I had not specified whether 62 beds would count as supporting or contradicting that intended meaning. Because I have already seen the model results, I should not choose a cutoff now and present it as my original test. I am acknowledging that weakness while preserving the original prediction. Whether planting fewer beds maximizes profit is a separate question that the model must answer; unused beds do not by themselves prove that profit has not been maximized.
+
+The committed wording above is more specific than my recalled intention: it says “all 64 beds” and that any empty bed falsifies claim 3. Under that written test, 62 planted beds would contradict the claim. That test remains unchanged. My retrospective explanation of intending “nearly all” does not replace it or make the original prediction correct after the fact.
