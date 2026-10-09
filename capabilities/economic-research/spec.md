@@ -3,11 +3,11 @@ type: spec
 capability: economic-research
 engagement: global-dental-workforce
 date: 2026-10-03
-status: built
+status: finalized
 built_with: "ChatGPT, Python, WHO GHO and World Bank APIs, GitHub Actions"
 ---
 
-> Metadata and build audit added October 3, 2026. Status remains built: student verification and the remaining timing checks are pending. The earlier pre-build plan remains in Git history.
+> Final PDF received and committed October 8, 2026 (Hawaiʻi date). Repository deliverable is finalized; LMS submission and peer-review participation are not verified. Historical audit entries below retain their original session status. Remaining methodological and source-verification limits are disclosed.
 
 # Economic Research Specification
 
@@ -27,14 +27,20 @@ Actual extraction: the direct aggregate series did not return usable country cat
 
 Secondary/robustness measure: WHO coverage of the largest government health financing scheme (% of population), interpreted together with whether routine/preventive and essential curative oral-health services are included in that scheme. This will not be used alone as the primary access measure because financing-scheme coverage does not necessarily mean oral-health services are included or actually available.
 
-## Additional Data sources - working draft
+## Data source register — finalized October 8, 2026
 
-| # | Variable / role | Source and exact title | Publisher | Year(s) of data | Countries (n) | Access date | URL | Known limitations | Cited in paper? |
+Dates below distinguish documented AI-assisted retrieval/source checks from personal student verification. Original baseline retrieval dates were not separately recorded in this table; they are not reconstructed.
+
+| # | Variable / role | Source title or exact series identifier | Publisher | Year(s) of data | Countries used (n) | Documented retrieval / source check | URL | Known limitations | Cited in final paper? |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | Dentist density (dentists per 10,000 people): explanatory variable | [exact indicator title] | WHO | Observations range [2018-2023]; latest per country | [n] | [date] | [URL] | Observation years differ across countries; some post-date the 2021 outcome; definitions of "dentist" may vary | |
-| 2 | Service availability: outcome (proxy for access) | [exact indicator title] | WHO | 2021 | [n] | [date] | [URL] | Availability is not access; check whether the indicator is partly driven by having dentists at all; self-reported | |
-| 3 | Income level: control / grouping variable | [World Bank classification or GDP per capita title] | World Bank | [current vs. 2021] | [n] | [date] | [URL] | Current classifications mismatch the 2021 outcome; some countries changed groups | |
-| 4 | Background: disease burden and policy context | Global oral health status report: Towards universal health coverage for oral health by 2030 | WHO | 2022 | 194 | [date] | https://www.who.int/publications/i/item/9789240061484 | Motivates the problem; measures burden, not access or workforce supply | Yes |
+| 1 | Dentist density: explanatory variable | Dentists (per 10 000 population); GHO series `HWF_0010` | WHO | Baseline matched observations 2004–2023, latest on/before 2023; alignment check latest on/before 2021 | 171 matched countries; 159 in the 2018–2023 baseline subset | Alignment retrieval and metadata check: 2026-10-05; original baseline retrieval date not separately recorded here | https://www.who.int/data/gho/data/indicators/indicator-details/GHO/dentists-(per-10-000-population) | Active versus registered counts and reporting completeness vary; national averages hide local distribution | Yes: WHO n.d.-a and n.d.-b |
+| 2 | Basic service availability: outcome | Global Health Observatory component series `ORALHEALTH_AVAILABILITY_SCREENING`, `ORALHEALTH_AVAILABILITY_URGENTCARE`, `ORALHEALTH_AVAILABILITY_RESTORATIVE` | WHO | 2021 NCD Country Capacity Survey components | 171, with all three responses; 23 none, 37 one/two, 111 all three | Outcome-definition/source check: 2026-10-05; original component retrieval date not separately recorded here | https://www.who.int/data/gho | Derived category, not direct 2023 aggregate; general availability in public primary-care facilities is not actual access | Yes: WHO n.d.-b; definition supported by WHO 2022b |
+| 3 | Income grouping; supporting GDP comparisons | World Bank country and lending groups; country API classifications; GDP per capita (current US$), `NY.GDP.PCAP.CD` | World Bank | Current API income categories; baseline GDP 2023 and supporting GDP 2021 | 171 with income groups; 167 with usable 2021 GDP in the aligned supporting comparison | Classification source check and 2021 GDP retrieval: 2026-10-05; baseline grouping retrieval date not separately recorded here | https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups | Income groups are current, not historical 2021 classifications; descriptive grouping does not isolate income or workforce effects | Yes: World Bank n.d.; GDP check is supporting analysis, not a headline paper result |
+| 4 | Disease burden and policy background | Global oral health status report: Towards universal health coverage for oral health by 2030 | WHO | Report published 2022; underlying burden estimates have their own observation years | 194 country profiles; not the matched analytic sample | Personal checking was reported in the student draft; exact access date was not supplied | https://www.who.int/publications/i/item/9789240061484 | Background burden, not a measure of access or a workforce-policy effect | Yes: WHO 2022a |
+| 5 | Financing comparison | Oral health care, essential curative; `ORALHEALTH_UHC_ESSENTIAL_CURATIVE`; supporting `ORALHEALTH_UHC_GOVSCHEME` and `ORALHEALTH_UHC_PREVENTIVE` | WHO | 2021 Health Technology Assessment and Health Benefit Package Survey | Essential-curative response: 99/171 (78 Yes, 21 No); all three financing fields: 92/171 | API retrieval and metadata check: 2026-10-05 | https://www.who.int/data/gho/data/indicators/indicator-details/GHO/essential-curative-oral-health-care | Benefit inclusion is entitlement, not delivery; 72 missing essential-curative responses; confounding and small subgroups | Yes: WHO n.d.-b and n.d.-c |
+| 6 | Romania service/benefit case | Oral health Romania 2022 country profile | WHO | Profile 2022; service and financing responses 2021 | One country | AI-assisted original-source check: 2026-10-05 | https://www.who.int/publications/m/item/oral-health-rou-2022-country-profile | Below the public-primary-care availability threshold does not mean no dental care; private treatment may be missed | Yes: WHO 2022b |
+| 7 | Romania dental-spending case | Romania: Country Health Profile 2023, p. 15, Figure 15; underlying OECD Health Statistics 2023 | OECD / European Observatory on Health Systems and Policies | Dental-spending observation 2021; report 2023 | One country | AI-assisted report check: 2026-10-05 | https://doi.org/10.1787/f478769b-en | 5% is public spending share, not patients covered; the remaining private share is not established as entirely out-of-pocket | Yes: OECD/European Observatory 2023 |
+| 8 | Background news release | WHO highlights oral health neglect affecting nearly half of the world's population | WHO | Published 2022-11-18; summarizes the 2022 report | Global background; not a separate analytic sample | Personal checking was reported in the student draft; exact access date was not supplied | https://www.who.int/news/item/18-11-2022-who-highlights-oral-health-neglect-affecting-nearly-half-of-the-world-s-population | Background estimates and policy context, not causal evidence | Yes: WHO 2022c |
 
 ## Variables
 
@@ -106,7 +112,7 @@ Cross-country associations will not establish causation. Differences in financin
 - `data/research_analysis_summary.md`: generated calculations.
 - `figures/dentist-density-by-access.svg` and `figures/dentist-density-by-income.svg`: current median bar charts. The proposed distribution plot is a future improvement, not an implemented output.
 - `drafts/YYYY-MM-DD-draft.md`: dated working snapshots, with student writing distinguished from inherited AI notes.
-- `analysis/research-paper.pdf`: future student-authored finished paper; not yet produced.
+- `analysis/research-paper.pdf`: student-supplied final Word-exported PDF, replacing the October 6 proof on October 8, 2026.
 
 ## Audit findings
 
@@ -192,3 +198,13 @@ The student supplied a three-part closing reflection, now saved with editing ass
 - The proof uses Times Roman, not the required Times New Roman, and is clearly labeled as a review proof. The Word copy specifies the required font, size, spacing, and margins. Final exact-font pagination and the student's review remain pending.
 - Corrected the figure 1 title from access to service availability and removed project paths from both graphic source lines. The existing analysis script reproduces these wording-only changes; bar values and calculations are unchanged.
 - The closing reflection has been supplied; additional-source verification, acceptance of edits, final export, replacement of the proof, and LMS submission are not asserted.
+
+## October 8, 2026 — final PDF and repository closeout
+
+- Replaced the review proof at `analysis/research-paper.pdf` with the exact student-supplied `research-paper_final.pdf`; no PDF content or metadata was rewritten.
+- Checked all ten rendered pages: title; four main-text pages including Table 1; bibliography; two figures; two appendix pages. Visible text uses Times New Roman regular/bold/italic; Calibri entries occur only on whitespace. Body and appendix contain no name or repository URL, and no author metadata is present. The review-proof notice is absent.
+- Final figures have clear raster lettering and retain the original medians. Earlier SVG assets and analysis remain as the numeric evidence trail; the final PDF is the authoritative delivery layout.
+- Source register placeholders are replaced with documented titles/codes, years, counts, links, and dated checks. Unrecorded baseline retrieval dates and personal access dates are labeled explicitly rather than invented. Removed unsupported circular-indicator speculation from the active register; historical discussion remains in the log.
+- The student reported reviewing the Word manuscript and verifying its font, then supplied the final PDF for replacement. This does not claim personal verification of every additional source or resolve methodological limitations.
+- Historical income classification, cross-country reporting comparability, and causal policy evaluation remain limitations, not missing submission artifacts. Student-supplied AI disclosure remains unchanged.
+- GitHub deliverable finalized. LMS upload, deadline compliance, and assigned peer reviews remain outside this verification.

@@ -1,14 +1,8 @@
-## Source 1 (Draft in progress)
+# Research Sources
 
-Title:
-Author:
-Date:
-Source:
+## Current register status — October 8, 2026
 
-Key finding:
-
-How I may use it:
-
+The unused source-note template has been removed. The completed [data source register](../capabilities/economic-research/spec.md#data-source-register--finalized-october-8-2026) records sources used in the final paper, indicator codes, observation years, sample counts, documented check dates, and limitations. Unknown access dates are explicitly labeled; no personal source review is inferred from AI-assisted checks. The dated notes below preserve the research history.
 
 ## Sources retrieved October 5, 2026 — research support
 

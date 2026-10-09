@@ -20,13 +20,13 @@ Brief → Spec → Drafts → Log → Deliver
 
 ## Contents of this folder
 
-- `spec.md`: what the paper must do and the criteria it has to meet, written before the research began
+- `spec.md`: research design, completed source register, implementation notes, and dated audit history; earlier plans remain in Git history
 
 ## Exercised in:
 
 - Brief: [`docs/briefs/research-brief.md`](../../docs/briefs/research-brief.md)
 - Drafts: [`drafts/`](../../drafts/)
-- Paper review proof: [`analysis/research-paper.pdf`](../../analysis/research-paper.pdf) — final Times New Roman export and student review pending
+- Final paper: [`analysis/research-paper.pdf`](../../analysis/research-paper.pdf) — student-supplied final PDF committed October 8, 2026
 - October 3 snapshot: [`drafts/2026-10-03-draft.md`](../../drafts/2026-10-03-draft.md)
 - AI research notes (not submitted prose): [`analysis/research-analysis.md`](../../analysis/research-analysis.md)
 - Figures: [`figures/`](../../figures/)
@@ -34,6 +34,8 @@ Brief → Spec → Drafts → Log → Deliver
 
 ## Status
 
-In progress. Topic selected: global dental workforce density and access to oral health care across countries with different income levels.
+Repository deliverable finalized October 8, 2026 (Hawaiʻi date). The student reviewed the Word manuscript, verified its font, and supplied the final PDF. The committed PDF has four main-text pages and clear embedded figures; it replaces the earlier review proof.
 
-Latest snapshot: [`drafts/2026-10-06-draft.md`](../../drafts/2026-10-06-draft.md). The formatted review proof has four main-text pages; its substitute font must be replaced through the required-font Word export before submission. Exploratory year-alignment calculations are recorded in [`data/research_analysis_summary.md`](../../data/research_analysis_summary.md).
+Earlier snapshots remain in [`drafts/`](../../drafts/). Calculations are recorded in [`data/research_analysis_summary.md`](../../data/research_analysis_summary.md), and the source register and evidence limits are in [`spec.md`](spec.md). Root [`prompt-log.md`](../../prompt-log.md) retains the student's closing reflection and session records.
+
+LMS submission and assigned peer-review participation are not verified. Additional-source verification and methodological limitations are not represented as resolved.

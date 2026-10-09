@@ -16,4 +16,4 @@ This section will serve as an index of my coursework, analyses, decision memos, 
 
 ### Microeconomics and Macroeconomics
 
-- Global dental workforce and oral-health service availability — in progress: [brief](docs/briefs/research-brief.md), [spec](capabilities/economic-research/spec.md), [dated drafts](drafts/), [AI research notes](analysis/research-analysis.md), and [figures](figures/). A [formatted review proof](analysis/research-paper.pdf) is available; final Times New Roman export, student review, and LMS submission remain pending.
+- Global dental workforce and oral-health service availability — repository deliverable finalized October 8, 2026: [final paper](analysis/research-paper.pdf), [brief](docs/briefs/research-brief.md), [spec and source register](capabilities/economic-research/spec.md), [dated drafts](drafts/), [AI log and reflection](prompt-log.md), and [figures](figures/). LMS submission and assigned peer-review participation are not verified.
