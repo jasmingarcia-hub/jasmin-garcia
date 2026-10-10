@@ -227,3 +227,12 @@ The student supplied a three-part closing reflection, now saved with editing ass
 - Verified ten pages: title; four main-text pages; bibliography; two figures; two appendix pages. Visible text uses Times New Roman; Calibri spans contain only whitespace. Clear figure lettering, no review notice, no name outside the title or repository URL, and blank author metadata.
 - Both timing checks, four within-income correlations, high-income outcome limits, 99 financing responses (78 Yes, 21 No, 72 missing), named decision-makers, and conditional recommendation/objection/response are present.
 - GitHub revised deliverable complete. The student reported the earlier PDF submitted to Lamakū; replacement there and assigned peer reviews are not verified. Methodological and source-verification limitations remain disclosed.
+
+
+## October 10, 2026 — final-review disclosure correction
+
+- Responded to the instructor's October 9 final review. The student confirmed personally checking all added bibliography sources on October 10.
+- Removed only the stale pending-verification/methodological-checks clause from the final PDF disclosure. AI assistance remains acknowledged and the policy preference remains provisional. Existing methodological limitations remain disclosed.
+- Saved the corrected manuscript as a new October 10 snapshot, preserving earlier dated drafts. The October 3 and October 5 files already contain no inherited-notes section after the documented October 8 cleanup; no further deletion was needed.
+- PDF retains ten pages and four main-text pages. Text on the first nine pages is unchanged; the revised final page was rendered and inspected. No statistics, references, figures, or student policy judgment changed.
+- The supplied review describes the uploaded Lamakū paper as matching the repository PDF before this correction. Replacement of that uploaded copy is not performed or claimed.

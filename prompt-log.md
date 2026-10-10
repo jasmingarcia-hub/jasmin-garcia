@@ -401,3 +401,12 @@ Checks/corrections: the first review copy had five main-text pages. The shortene
 | 2026-10-08 | ChatGPT / Codex, PDF inspection, GitHub connector | Receive the final PDF exported after the shortening pass. | Checked all ten pages, four-page main text, visible Times New Roman text, clear figures, reviewer corrections, and anonymity outside the title. | Replaced the repository final PDF with the exact student-supplied file and updated current status records. |
 
 Checks/corrections: exact-font pagination is now verified from the supplied PDF rather than the substitute-font preview. Calibri spans contain whitespace only. No paper wording or metadata was rewritten. Original PDF remains in Git history. The earlier LMS submission was student-reported; revised LMS upload and peer-review completion are not claimed. Prior log entries and reflection are unchanged.
+
+
+## Final-review disclosure correction — October 10, 2026
+
+| Date | Tool | What I asked | What I got | What I did with it |
+|---|---|---|---|---|
+| 2026-10-10 | Codex, GitHub connector, PDF inspection/editing tools | Address the October 9 final research review and confirm completion of added-source review. | Corrected disclosure in the PDF and a new dated manuscript snapshot; confirmed inherited notes were already removed from both flagged drafts. | Student reported personally checking all added bibliography sources; repository correction and downloadable PDF prepared. Lamakū replacement is not claimed. |
+
+Checks/corrections: the disclosure retained an outdated blanket statement that source verification and methodological checks were pending. The student's confirmation resolves personal source-review status; existing project records document the completed numerical and methodological checks. Only that stale clause was removed, retaining the AI acknowledgment, provisional judgment, and methodological limitations. All ten pages remain; the first nine pages' extracted text is identical, and the revised final page was visually inspected. The review's inherited-heading concern is already resolved in the October 3 and October 5 drafts by the October 8 cleanup. No past log entry, older snapshot, source value, figure, or substantive student reasoning was rewritten. No reviewer message or LMS resubmission was sent.

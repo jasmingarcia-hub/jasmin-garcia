@@ -72,3 +72,8 @@ AI research support for student verification; these notes are not student-writte
 - WHO dentist metadata confirms active-versus-registered and source-completeness differences. World Bank classifications use GNI-based categories; current API groups are not historical 2021 groups.
 - APA same-year suffixes now follow title order in the current paper candidate: 2022a global report, 2022b Romania oral-health profile, 2022c WHO news release. Citations and entries were changed together; historical draft snapshots were preserved.
 - Student source review remains pending for added bibliography items. The separate bibliography still needs final ordering and page formatting when the PDF is prepared.
+
+
+## Final-review disclosure correction — October 10, 2026
+
+The student confirmed personally checking all added bibliography sources in this session. Earlier pending-personal-review notes describe their dated historical status. The final disclosure no longer says that source verification and methodological checks are pending. Numerical and methodological checks are documented in the specification and analysis summary; measurement comparability, historical income alignment, and lack of causal policy evidence remain limitations. No new source, statistic, or policy finding is added.
